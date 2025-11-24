@@ -23,10 +23,6 @@ Soy Ingeniero en Informática especializado en desarrollo web, automatización y
 ## ⭐ Proyectos destacados
 - **StudentsPoint (Capstone, PWA)** — Hub estudiantil con mapa del campus, recursos, portafolio y notificaciones.  
   *React + PWA · Django REST · PostgreSQL*
-- **Calendario Judicial** — Calculadora de plazos procesales con exportar a PDF/Excel e historial.  
-  *Django · JavaScript · Bootstrap · PostgreSQL*
-- **AutoParts Data Tools** — Scripts para limpiar compatibilidades y generar catálogos CSV masivos.  
-  *Python · Pandas · Regex · Automatización de archivos*
 - **Herramientas TI para Laboratorios** — Optimización de Windows, Veyon, OpenDNS y Clonezilla para salas completas.  
   *PowerShell · Bash · Python*
 - **Despliegue Windows automatizado** — Instalación silenciosa de software, drivers y políticas para equipos nuevos.  
@@ -41,7 +37,7 @@ Soy Ingeniero en Informática especializado en desarrollo web, automatización y
 **DevOps/Infra** · Linux · Windows TI · AWS nivel inicial (EC2/S3) · Automatización de scripts  
 **Testing/QA** · Postman · Pruebas manuales · Scripts automatizados básicos · JMeter · SonarLint  
 **Automatización/TI** · PowerShell · Bash · Veyon · OpenDNS · Clonezilla  
-**Herramientas** · Git/GitHub · VS Code · PyCharm · Trello · Excel avanzado + macros
+**Herramientas** · Git/GitHub · VS Code · PyCharm · Trello
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
@@ -65,7 +61,7 @@ Soy Ingeniero en Informática especializado en desarrollo web, automatización y
 
 ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JackStar6677-1&layout=compact&hide_border=true&theme=tokyonight)
 
-![Streak](https://streak-stats.demolab.com?user=JackStar6677-1&theme=default&locale=es&mode=weekly)
+![Streak](https://streak-stats.demolab.com/?user=JackStar6677-1&theme=tokyonight&hide_border=true&locale=es&mode=weekly)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
@@ -111,12 +107,6 @@ Soy Ingeniero en Informática especializado en desarrollo web, automatización y
 - Configuración de hosting con Django/DRF/React/PostgreSQL, servidores Linux/WSL2, crons, systemd, dominios, SSL, reverse proxies.
 - Administración de servidores Minecraft (DrakesCraft), optimización en Spigot/Paper/Purpur, gestión de plugins, VPS, firewall, proxys y equipos de staff.
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-## 📍 Roadmap 2025
-- Lanzar la beta pública de StudentsPoint.
-- Desarrollar mi primer bot con IA listo para producción.
-- Terminar el sistema de gestión integral para laboratorios.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
@@ -133,6 +123,22 @@ Soy Ingeniero en Informática especializado en desarrollo web, automatización y
 - Especialización en HTML5, CSS3, JavaScript, Django, React, Tailwind y PWAs.
 - Repositorios limpios, reproducibles y documentados.
 - Fuerte capacidad para analizar entornos nuevos, entender la infraestructura y proponer mejoras reales.
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+## 📜 Certificaciones académicas (DUOC UC)
+He completado todas las certificaciones oficiales correspondientes al plan de estudios de Ingeniería en Informática en DUOC UC (Sede Maipú), incluyendo:
+
+- Arquitectura de Software
+- Programación de Software
+- Análisis y Desarrollo de Modelos de Datos
+- Gestión de Proyectos Informáticos
+- Inteligencia de Negocios (BI)
+- Calidad de Software
+- Análisis y Planificación de Requerimientos Informáticos
+- Inglés Internacional – Nivel Intermedio Alto
+
+Estas certificaciones están otorgadas por el Instituto Profesional DUOC UC según las disposiciones reglamentarias vigentes.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
