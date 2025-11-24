@@ -111,7 +111,7 @@ Soy Ingeniero en Informática especializado en desarrollo web, automatización y
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## 🔌 Últimas tecnologías que estoy probando
-`LLMs` · `LangChain` · `Docker Swarm` · `Astro` · `Supabase`
+`ComfyUI Web Texture Generator` · `IA local y modelos de Hugging Face` · `LLMs` · `Python para IA` · `SQL avanzado` · `Linux hardening` · `Ciberseguridad` · `Automatización con scripts`
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
