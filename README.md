@@ -30,7 +30,7 @@ Soy Ingeniero en Informática especializado en desarrollo web, automatización y
 - **Herramientas TI para Laboratorios** — Optimización de Windows, Veyon, OpenDNS y Clonezilla para salas completas.  
   *PowerShell · Bash · Python*
 - **Despliegue Windows automatizado** — Instalación silenciosa de software, drivers y políticas para equipos nuevos.  
-  *Batch · PowerShell · Infra como código ligera*
+  *Batch · PowerShell*
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
@@ -38,16 +38,16 @@ Soy Ingeniero en Informática especializado en desarrollo web, automatización y
 **Back-end** · Python · Django/DRF · FastAPI · Node.js (nivel medio) · JWT/OAuth  
 **Front-end** · JavaScript/TypeScript · React · HTML/CSS · Bootstrap · Tailwind · PWAs  
 **Bases de datos** · PostgreSQL · MySQL · MongoDB · Diseño y optimización básica  
-**DevOps/Infra** · Linux · Windows TI · AWS básico (EC2/S3) · Automatización de scripts  
+**DevOps/Infra** · Linux · Windows TI · AWS nivel inicial (EC2/S3) · Automatización de scripts  
 **Testing/QA** · Postman · Pruebas manuales · Scripts automatizados básicos · JMeter · SonarLint  
-**Automatización/TI** · PowerShell · Bash · Veyon · OpenDNS · Clonezilla · Playbooks de despliegue  
+**Automatización/TI** · PowerShell · Bash · Veyon · OpenDNS · Clonezilla  
 **Herramientas** · Git/GitHub · VS Code · PyCharm · Trello · Excel avanzado + macros
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## 🛠️ Stack visual
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,python,django,fastapi,powershell,azure,aws,docker,postgres,mysql,mongodb,linux,git" alt="Skill icons" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,python,django,fastapi,powershell,linux,git,postgres,mysql,mongodb" alt="Skill icons" />
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
@@ -78,7 +78,8 @@ Soy Ingeniero en Informática especializado en desarrollo web, automatización y
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## ⚙️ Mi setup
-- **Laptop:** Ryzen 5 5500 · RTX 4060 · 32GB RAM
+- **PC principal (IA y proyectos pesados):** Ryzen 5 5500 · RTX 4060 8GB · 32GB DDR4 · SSD NVMe 2TB + HDD 1TB. Uso: modelos ligeros, backend, entornos Docker, compilaciones, audio/vídeo, servidores locales y VMs.
+- **Laptop de trabajo:** Intel Core i7-1165G7 · NVIDIA MX450 · 16GB DDR4 · SSD 1TB. Uso: desarrollo web, scripting, administración TI, emuladores, reuniones y trabajo remoto.
 - **IDE:** VS Code + PyCharm
 - **OS:** Windows + WSL2 (Ubuntu)
 - **Audio:** Setup casero para pruebas de DSP y voces con IA
@@ -92,7 +93,6 @@ Soy Ingeniero en Informática especializado en desarrollo web, automatización y
 ## 🏆 Logros rápidos
 - Scripts internos usados por más de 100 estudiantes en laboratorios.
 - Automatizaciones de respaldos y despliegues corriendo en producción dentro de TI.
-- Playbooks que permiten reinstalar laboratorios completos en pocas horas.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
@@ -107,13 +107,15 @@ Soy Ingeniero en Informática especializado en desarrollo web, automatización y
 - Repos limpios, issues claras y ramas ordenadas.
 - Scripts reproducibles para desarrollo y despliegue.
 - Documentación breve y funcional para que cualquiera continúe el trabajo.
+- Experiencia en redes (DHCP, DNS, NAT, VLAN básicas, monitoreo, herramientas como WakeMeOnLan, OpenDNS, Veyon) y en hardware de laboratorios (racks, patch panels, clonado con Clonezilla, despliegues Windows).
+- Configuración de hosting con Django/DRF/React/PostgreSQL, servidores Linux/WSL2, crons, systemd, dominios, SSL, reverse proxies.
+- Administración de servidores Minecraft (DrakesCraft), optimización en Spigot/Paper/Purpur, gestión de plugins, VPS, firewall, proxys y equipos de staff.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## 📍 Roadmap 2025
 - Lanzar la beta pública de StudentsPoint.
 - Desarrollar mi primer bot con IA listo para producción.
-- Obtener certificación en AWS o Azure.
 - Terminar el sistema de gestión integral para laboratorios.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
@@ -128,6 +130,9 @@ Soy Ingeniero en Informática especializado en desarrollo web, automatización y
 - Hago streams cuando puedo (juegos, dev, música).
 - Experimento con audio, frecuencias y producción con IA.
 - Sueño con crear herramientas que ayuden a estudiantes y equipos TI.
+- Especialización en HTML5, CSS3, JavaScript, Django, React, Tailwind y PWAs.
+- Repositorios limpios, reproducibles y documentados.
+- Fuerte capacidad para analizar entornos nuevos, entender la infraestructura y proponer mejoras reales.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
