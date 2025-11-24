@@ -1,25 +1,15 @@
 # Pablo Elías Avendaño Miranda
 
-Ingeniero en Informática a punto de titularme. Me enfoco en crear herramientas para laboratorios de computación y equipos educativos: automatización, scripts para TI y aplicaciones web que conectan datos con usuarios.
+**Jack · Ingeniero en Informática | Full-Stack Junior | TI & Automatización**
 
----
+Desarrollo web, automatización para laboratorios, scripts de TI y PWAs orientadas a estudiantes y equipos pequeños.
 
-## Qué hago
-- Diseño soluciones pragmáticas para laboratorios académicos: despliegues reproducibles, dashboards y flujos de soporte.
-- Construyo automatizaciones en PowerShell y Python para estandarizar instalaciones, respaldos y tareas de TI.
-- Desarrollo frontends accesibles con React/Next.js y backends livianos en Node.js o Python FastAPI.
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-## Actualmente
-- Afinando mi proyecto de titulación y empaquetando experiencias en un portafolio abierto.
-- Experimentando con infra como código en Azure y AWS para entornos docentes.
-- Buscando colaborar en proyectos que necesiten documentación clara y scripts mantenibles.
+## Sobre mí
+Soy Ingeniero en Informática especializado en desarrollo web, automatización y soporte TI. Creo herramientas útiles para estudiantes, laboratorios de computación y negocios que necesitan ordenar datos o automatizar tareas repetitivas. Trabajo con Python/Django, React, PostgreSQL y scripts para despliegues Windows. Todo lo que hago nace de una necesidad real y mantiene repos limpios, reproducibles y documentados. Fuera del código hago streams, música con IA y experimentos audiovisuales.
 
-## Cómo puedo ayudarte
-- Levantamiento rápido de requisitos para nuevos flujos en laboratorios o aulas.
-- Auditoría ligera de pipelines y automatizaciones existentes.
-- Mentorías express para estudiantes que comienzan con desarrollo web o scripting.
-
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## Contacto directo
 [![Email](https://img.shields.io/badge/-Correo_institucional-0f172a?style=for-the-badge&logo=gmail)](mailto:pablo.elias.miranda.292003@gmail.com)
@@ -28,44 +18,46 @@ Ingeniero en Informática a punto de titularme. Me enfoco en crear herramientas 
 [![X](https://img.shields.io/badge/-JackStar6677-0c0c0d?style=for-the-badge&logo=x)](https://twitter.com/JackStar6677)
 [![Twitch](https://img.shields.io/badge/-jackstar6677-121212?style=for-the-badge&logo=twitch)](https://twitch.tv/jackstar6677)
 
----
-
-## Stack de trabajo
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,python,powershell,azure,aws,docker,postgres,mysql,linux,git" alt="Skill icons" />
-</div>
-
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## ⭐ Proyectos destacados
-- **StudentsPoint (PWA)** — Hub estudiantil con mapa, recursos, portafolio y notificaciones en tiempo real.  
-  *Django · JavaScript · PWA · PostgreSQL*
+- **StudentsPoint (Capstone, PWA)** — Hub estudiantil con mapa del campus, recursos, portafolio y notificaciones.  
+  *React + PWA · Django REST · PostgreSQL*
+- **Calendario Judicial** — Calculadora de plazos procesales con exportar a PDF/Excel e historial.  
+  *Django · JavaScript · Bootstrap · PostgreSQL*
+- **AutoParts Data Tools** — Scripts para limpiar compatibilidades y generar catálogos CSV masivos.  
+  *Python · Pandas · Regex · Automatización de archivos*
+- **Herramientas TI para Laboratorios** — Optimización de Windows, Veyon, OpenDNS y Clonezilla para salas completas.  
+  *PowerShell · Bash · Python*
+- **Despliegue Windows automatizado** — Instalación silenciosa de software, drivers y políticas para equipos nuevos.  
+  *Batch · PowerShell · Infra como código ligera*
 
-- **Calendario Judicial** — Calculadora de plazos procesales con exportación a PDF/Excel y buscador automático.  
-  *Python · FastAPI · Excel automation*
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-- **AutoParts Data Cleaner** — Scripts para generar CSV masivos y depurar compatibilidades de autopartes.  
-  *Python · Pandas · Automatización de catálogos*
+## Categorías de habilidades
+**Back-end** · Python · Django/DRF · FastAPI · Node.js (nivel medio) · JWT/OAuth  
+**Front-end** · JavaScript/TypeScript · React · HTML/CSS · Bootstrap · Tailwind · PWAs  
+**Bases de datos** · PostgreSQL · MySQL · MongoDB · Diseño y optimización básica  
+**DevOps/Infra** · Linux · Windows TI · AWS básico (EC2/S3) · Automatización de scripts  
+**Testing/QA** · Postman · Pruebas manuales · Scripts automatizados básicos · JMeter · SonarLint  
+**Automatización/TI** · PowerShell · Bash · Veyon · OpenDNS · Clonezilla · Playbooks de despliegue  
+**Herramientas** · Git/GitHub · VS Code · PyCharm · Trello · Excel avanzado + macros
 
-- **Herramientas TI para Labs** — Scripts de despliegue en Windows, copias masivas, Veyon, OpenDNS y Clonezilla.  
-  *Batch · PowerShell · Python*
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
----
+## 🛠️ Stack visual
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,python,django,fastapi,powershell,azure,aws,docker,postgres,mysql,mongodb,linux,git" alt="Skill icons" />
+</div>
 
-## Proyectos y líneas recurrentes
-- **Apps para estudiantes:** asistentes web que integran rúbricas, colas de atención y métricas de laboratorio.
-- **Automatización TI:** scripts PowerShell para clonar entornos, estandarizar PCs y generar reportes diarios.
-- **Observabilidad ligera:** dashboards con Grafana/Prometheus para monitorear laboratorios universitarios.
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
----
+## Cómo puedo ayudarte
+- Diagnóstico rápido para nuevos flujos en laboratorios o aulas.
+- Automatización de despliegues, respaldos y scripts de TI.
+- Documentación y mentoría para estudiantes que parten en web o scripting.
 
-## Recursos que mantengo cerca
-[![Badge](https://img.shields.io/badge/-Documentación%20clara-0f172a?style=flat-square)](#)
-[![Badge](https://img.shields.io/badge/-Scripts%20versionados-1d1d1f?style=flat-square)](#)
-[![Badge](https://img.shields.io/badge/-Infra%20como%20c%C3%B3digo-18181b?style=flat-square)](#)
-[![Badge](https://img.shields.io/badge/-Playbooks%20para%20labs-0c0c0d?style=flat-square)](#)
-
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## Estadísticas
 
@@ -75,7 +67,7 @@ Ingeniero en Informática a punto de titularme. Me enfoco en crear herramientas 
 
 ![Streak](https://streak-stats.demolab.com?user=JackStar6677-1&theme=default&locale=es&mode=weekly)
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## 🎯 Mejorando en
 - Arquitectura de software (DDD, patrones)
@@ -83,7 +75,7 @@ Ingeniero en Informática a punto de titularme. Me enfoco en crear herramientas 
 - WebSockets y sistemas en tiempo real
 - Bots con IA y automatización con LLMs
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## ⚙️ Mi setup
 - **Laptop:** Ryzen 5 5500 · RTX 4060 · 32GB RAM
@@ -91,25 +83,32 @@ Ingeniero en Informática a punto de titularme. Me enfoco en crear herramientas 
 - **OS:** Windows + WSL2 (Ubuntu)
 - **Audio:** Setup casero para pruebas de DSP y voces con IA
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 > “Me gusta convertir caos en herramientas útiles. Si resuelve un problema real, vale la pena construirlo.”
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## 🏆 Logros rápidos
-- Scripts internos usados por más de 100 estudiantes en los laboratorios de computación.
+- Scripts internos usados por más de 100 estudiantes en laboratorios.
 - Automatizaciones de respaldos y despliegues corriendo en producción dentro de TI.
 - Playbooks que permiten reinstalar laboratorios completos en pocas horas.
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## 🧪 Filosofía de desarrollo
 - Hago código práctico, no adornado para tutoriales.
 - Prefiero automatizar diez veces antes que repetir un clic.
 - Todo lo que construyo nace de una necesidad real.
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+## 🛤️ Cómo trabajo
+- Repos limpios, issues claras y ramas ordenadas.
+- Scripts reproducibles para desarrollo y despliegue.
+- Documentación breve y funcional para que cualquiera continúe el trabajo.
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## 📍 Roadmap 2025
 - Lanzar la beta pública de StudentsPoint.
@@ -117,14 +116,22 @@ Ingeniero en Informática a punto de titularme. Me enfoco en crear herramientas 
 - Obtener certificación en AWS o Azure.
 - Terminar el sistema de gestión integral para laboratorios.
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## 🔌 Últimas tecnologías que estoy probando
 `LLMs` · `LangChain` · `Docker Swarm` · `Astro` · `Supabase`
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+## 🎮 Extras
+- Me interesa la física cuántica, la filosofía y la exploración de ideas.
+- Hago streams cuando puedo (juegos, dev, música).
+- Experimento con audio, frecuencias y producción con IA.
+- Sueño con crear herramientas que ayuden a estudiantes y equipos TI.
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## Inspiración del perfil
-Este README se apoya en ideas de colecciones como rxaviers (badges), skillicons.dev, awesome-badges y la galería de plantillas de durgeshsamariya. Ajusté cada elemento para reflejar proyectos de automatización, scripting y soporte académico que forman parte de mi día a día.
+Este README se apoya en ideas de rxaviers (badges), skillicons.dev, awesome-badges y la galería de plantillas de durgeshsamariya. Cada bloque refleja proyectos de automatización, scripting y soporte académico que forman parte de mi día a día.
 
 
