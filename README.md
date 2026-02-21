@@ -37,12 +37,13 @@
 
 ## Stack principal
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,django,fastapi,react,ts,js,postgres,mysql,mongodb,powershell,bash,linux,git,docker,vscode&perline=8" alt="Stack" />
+  <img src="https://skillicons.dev/icons?i=java,maven,py,django,fastapi,react,ts,js,postgres,mysql,mongodb,powershell,bash,linux,git,docker,vscode&perline=8" alt="Stack" />
 </div>
 
-- Backend: Python, Django, Django REST Framework, FastAPI.
+- Backend: Java (aprendizaje activo), Python, Django, Django REST Framework, FastAPI.
 - Frontend: React, TypeScript/JavaScript, HTML/CSS, Bootstrap, Tailwind.
 - Datos: PostgreSQL, MySQL, MongoDB, analitica y mineria de datos.
+- Minecraft dev: Paper/Spigot API, Maven, arquitectura modular de plugins.
 - TI y automatizacion: PowerShell, Bash, Linux, administracion Windows.
 - Calidad: Postman, JMeter, SonarLint y pruebas funcionales.
 
@@ -58,6 +59,7 @@
 - DrakesCraft ecosystem: plugins con enfoque DDD, configuracion y escalabilidad.
 
 ## Ahora mismo
+- Aprendiendo Java en profundidad mientras construyo plugins contigo.
 - Disenando un sistema tipo tech-tree progresivo para `DrakesTech`.
 - Fortaleciendo CI/CD, Docker y pipelines de build para plugins Java.
 - Mejorando arquitectura de red, storage y energia para automatizacion in-game.
