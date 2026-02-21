@@ -65,7 +65,6 @@
 
 ## Proyectos destacados
 - `StudentsPoint` (Capstone PWA): React + Django REST + PostgreSQL.
-- `Calendario Judicial`: gestion de plazos con trazabilidad y exportacion.
 - Tooling TI para laboratorios: despliegue y estandarizacion automatizada.
 - DrakesCraft ecosystem: plugins con enfoque DDD, configuracion y escalabilidad.
 
