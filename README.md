@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=JackStar%20%7C%20Pablo%20Elias%20Avendano&fontAlign=50&fontAlignY=40&color=0:0f172a,50:1e293b,100:0a66c2&fontColor=ffffff&desc=Full-Stack%20%7C%20Java%20Plugins%20%7C%20Automation%20%7C%20AI%20Tooling&descAlign=50&descAlignY=62" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=JackStar&fontAlign=50&fontAlignY=40&fontSize=68&color=0:0f172a,50:1e293b,100:0a66c2&fontColor=ffffff&desc=Java%20Plugins%20%7C%20Automation%20%7C%20AI%20Tooling&descAlign=50&descAlignY=62" width="100%" alt="header" />
+
+<h2>Pablo Elias Avendano Miranda</h2>
 
 <p>
   <a href="https://github.com/JackStar6677-1"><img src="https://img.shields.io/badge/GitHub-JackStar6677--1-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
@@ -44,6 +46,8 @@
   <a href="https://github.com/DrakesCraft-Labs"><img src="https://img.shields.io/badge/dynamic/json?color=111827&label=Repos%20publicos&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Forgs%2FDrakesCraft-Labs&style=for-the-badge" alt="Repos org" /></a>
   <a href="https://github.com/DrakesCraft-Labs"><img src="https://img.shields.io/badge/dynamic/json?color=1f2937&label=Seguidores%20Org&query=followers&url=https%3A%2F%2Fapi.github.com%2Forgs%2FDrakesCraft-Labs&style=for-the-badge" alt="Followers org" /></a>
 </div>
+
+- Team base: JackStar + [Chagui](https://github.com/Chagui68) (plugin development partner).
 
 | Repositorio | Link |
 |---|---|
