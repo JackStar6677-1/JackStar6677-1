@@ -54,6 +54,15 @@
 - Linea activa: `DrakesTech`, `DrakesCrates`, `DrakesRanks`, `DrakesTab`, `DrakesMotd`, `DrakesCore`.
 - Objetivo: progresion tecnica completa, economia propia y arquitectura extensible por addons.
 
+### Links directos
+- Organizacion: [DrakesCraft-Labs](https://github.com/DrakesCraft-Labs)
+- [DrakesCore](https://github.com/DrakesCraft-Labs/DrakesCore)
+- [DrakesTech](https://github.com/DrakesCraft-Labs/DrakesTech)
+- [DrakesCrates](https://github.com/DrakesCraft-Labs/DrakesCrates)
+- [DrakesRanks](https://github.com/DrakesCraft-Labs/DrakesRanks)
+- [DrakesTab](https://github.com/DrakesCraft-Labs/DrakesTab)
+- [DrakesMotd](https://github.com/DrakesCraft-Labs/DrakesMotd)
+
 ## Proyectos destacados
 - `StudentsPoint` (Capstone PWA): React + Django REST + PostgreSQL.
 - `Calendario Judicial`: gestion de plazos con trazabilidad y exportacion.
