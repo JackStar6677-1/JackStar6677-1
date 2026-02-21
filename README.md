@@ -44,6 +44,8 @@
 - Frontend: React, TypeScript/JavaScript, HTML/CSS, Bootstrap, Tailwind.
 - Datos: PostgreSQL, MySQL, MongoDB, analitica y mineria de datos.
 - Minecraft dev: Paper/Spigot API, Maven, arquitectura modular de plugins.
+- IA tooling: Ollama, Codex (GPT), Gemini, AntiGravity, OpenClaw.
+- Astro tooling: Astropy, pipelines de analisis astronomico y radioastronomia.
 - TI y automatizacion: PowerShell, Bash, Linux, administracion Windows.
 - Calidad: Postman, JMeter, SonarLint y pruebas funcionales.
 
@@ -60,6 +62,8 @@
 
 ## Ahora mismo
 - Aprendiendo Java en profundidad mientras construyo plugins contigo.
+- Integrando flujos IA locales y cloud (Ollama, Codex y Gemini) para acelerar desarrollo.
+- Explorando herramientas para astronomia y radioastronomia con Python/Astropy.
 - Disenando un sistema tipo tech-tree progresivo para `DrakesTech`.
 - Fortaleciendo CI/CD, Docker y pipelines de build para plugins Java.
 - Mejorando arquitectura de red, storage y energia para automatizacion in-game.
