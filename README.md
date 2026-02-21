@@ -48,6 +48,7 @@
 </div>
 
 - Team base: JackStar + [Chagui](https://github.com/Chagui68) (plugin development partner).
+- Estado actual: todos los modulos Drakes (`Core`, `Tech`, `Crates`, `Ranks`, `Tab`, `Motd`) estan publicos.
 
 | Repositorio | Link |
 |---|---|
