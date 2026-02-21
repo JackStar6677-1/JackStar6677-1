@@ -70,7 +70,7 @@
 - DrakesCraft ecosystem: plugins con enfoque DDD, configuracion y escalabilidad.
 
 ## Ahora mismo
-- Aprendiendo Java en profundidad mientras construyo plugins contigo.
+- Profundizando en Java para construir plugins escalables de Minecraft.
 - Integrando flujos IA locales y cloud (Ollama, Codex y Gemini) para acelerar desarrollo.
 - Explorando herramientas para astronomia y radioastronomia con Python/Astropy.
 - Disenando un sistema tipo tech-tree progresivo para `DrakesTech`.
