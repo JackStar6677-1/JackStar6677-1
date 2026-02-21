@@ -76,12 +76,21 @@
 - Fortaleciendo CI/CD, Docker y pipelines de build para plugins Java.
 - Mejorando arquitectura de red, storage y energia para automatizacion in-game.
 
-## GitHub Stats
+## GitHub Stats (Personal)
 <div align="center">
 
 | Estadisticas | Lenguajes |
 |---|---|
 | ![Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=JackStar6677-1&show_icons=true&hide_border=true&theme=tokyonight) | ![Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=JackStar6677-1&layout=compact&hide_border=true&theme=tokyonight) |
+
+</div>
+
+## DrakesCraft-Labs Stats (Org)
+<div align="center">
+
+| Organizacion | Lenguajes Org |
+|---|---|
+| ![Org Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=DrakesCraft-Labs&show_icons=true&hide_border=true&theme=tokyonight) | ![Org Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DrakesCraft-Labs&layout=compact&hide_border=true&theme=tokyonight) |
 
 </div>
 
