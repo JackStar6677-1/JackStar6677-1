@@ -1,60 +1,83 @@
-# JackStar (Pablo Elias Avendano Miranda)
+<div align="center">
 
-Ingeniero en Informatica (DUOC UC, Maipu) | Full-Stack Developer | TI Automation
+<h1>JackStar | Pablo Elias Avendano Miranda</h1>
 
-Convierto procesos desordenados en soluciones claras: APIs, apps web, PWAs y automatizaciones para equipos TI, laboratorios y proyectos reales.
+<p>
+  <a href="https://github.com/JackStar6677-1"><img src="https://img.shields.io/badge/GitHub-JackStar6677--1-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/pablo-el%C3%ADas-avenda%C3%B1o-miranda-b4b93b39a/"><img src="https://img.shields.io/badge/LinkedIn-Pablo%20Elias%20Avendano-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
+  <a href="mailto:pablo.elias.miranda.292003@gmail.com"><img src="https://img.shields.io/badge/Correo-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo" /></a>
+</p>
 
-## Sobre mi
-- Perfil tecnico: full-stack junior con enfoque de arquitectura y automatizacion.
-- Fortaleza principal: diseno de sistemas, integracion de componentes y ejecucion en contexto real.
-- Intereses de trabajo: backend, datos, tooling interno, DevOps inicial y plataformas escalables.
+<p>
+  <img src="https://img.shields.io/badge/Ingeniero%20en%20Informatica-DUOC%20UC-0b1320?style=flat-square" alt="DUOC" />
+  <img src="https://img.shields.io/badge/Full--Stack-Junior%20alto-111827?style=flat-square" alt="Fullstack" />
+  <img src="https://img.shields.io/badge/Enfoque-Arquitectura%20%26%20Automatizacion-1f2937?style=flat-square" alt="Enfoque" />
+</p>
+
+<p>
+  Convierto procesos caoticos en soluciones claras: APIs, apps web, PWAs y automatizaciones TI.
+</p>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+## Perfil
+- Rol: Integrador tecnico con mentalidad de arquitectura.
+- Fortaleza: estructurar sistemas, conectar modulos y llevar ideas a produccion.
+- Diferencial: rendimiento alto en contexto real (practicas y proyectos aplicados).
+
+## Trayectoria resumida
+| Etapa | Foco | Resultado |
+|---|---|---|
+| 2022 | Bases de programacion y BD | Curva de aprendizaje desde cero tecnico |
+| 2023 | Arquitectura, calidad y web | Consolidacion de pensamiento estructural |
+| 2024 | Gestion, BPM y proyectos | Vision sistemica y estrategia tecnica |
+| 2025 | Datos, ML y practica real | Capstone 6.9, Practica laboral 7.0, Practica profesional 7.0 |
 
 ## Stack principal
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=py,django,fastapi,react,ts,js,postgres,mysql,mongodb,powershell,bash,linux,git,docker,vscode&perline=8" alt="Stack" />
+</div>
+
 - Backend: Python, Django, Django REST Framework, FastAPI.
-- Frontend: React, JavaScript/TypeScript, HTML/CSS, Bootstrap, Tailwind.
-- Datos: PostgreSQL, MySQL, MongoDB.
-- TI y automatizacion: PowerShell, Bash, Python scripting, Linux, Windows administration.
-- Calidad: Postman, JMeter, SonarLint, testing funcional/manual.
-- Herramientas: Git/GitHub, VS Code, PyCharm, Trello.
+- Frontend: React, TypeScript/JavaScript, HTML/CSS, Bootstrap, Tailwind.
+- Datos: PostgreSQL, MySQL, MongoDB, analitica y mineria de datos.
+- TI y automatizacion: PowerShell, Bash, Linux, administracion Windows.
+- Calidad: Postman, JMeter, SonarLint y pruebas funcionales.
+
+## Ecosistema DrakesCraft
+- Proyecto central: crear un stack propio de plugins modulares para Minecraft.
+- Linea activa: `DrakesTech`, `DrakesCrates`, `DrakesRanks`, `DrakesTab`, `DrakesMotd`, `DrakesCore`.
+- Objetivo: progresion tecnica completa, economia propia y arquitectura extensible por addons.
 
 ## Proyectos destacados
-- StudentsPoint (Capstone, PWA)
-  - Plataforma estudiantil con recursos, mapa de campus y flujo web + mobile-friendly.
-  - Stack: React, Django REST, PostgreSQL.
-- Calendario Judicial
-  - Calculo de plazos procesales con exportacion y trazabilidad.
-  - Stack: Django, JavaScript, Bootstrap, PostgreSQL.
-- Tooling TI para laboratorios
-  - Estandarizacion de equipos, automatizacion de despliegues y optimizacion operativa.
-  - Stack: PowerShell, Bash, Python.
-- DrakesCraft / Ecosistema de plugins
-  - Desarrollo y arquitectura de plugins Minecraft (DrakesTech, Crates, Ranks, Tab, MOTD).
-  - Enfoque: modularidad, configuracion YAML y extensibilidad por addons.
+- `StudentsPoint` (Capstone PWA): React + Django REST + PostgreSQL.
+- `Calendario Judicial`: gestion de plazos con trazabilidad y exportacion.
+- Tooling TI para laboratorios: despliegue y estandarizacion automatizada.
+- DrakesCraft ecosystem: plugins con enfoque DDD, configuracion y escalabilidad.
 
-## Logros academicos (resumen)
-- Titulo: Ingeniero en Informatica (DUOC UC).
-- Nota de titulacion: 5.8/7.0.
-- Capstone: 6.9.
-- Practica laboral: 7.0.
-- Practica profesional: 7.0.
+## Ahora mismo
+- Disenando un sistema tipo tech-tree progresivo para `DrakesTech`.
+- Fortaleciendo CI/CD, Docker y pipelines de build para plugins Java.
+- Mejorando arquitectura de red, storage y energia para automatizacion in-game.
 
-## En que estoy enfocado ahora
-- Arquitectura de software (DDD, modulos extensibles).
-- Docker + CI/CD para entornos de desarrollo y release.
-- Automatizacion avanzada de pipelines y tooling.
-- Integracion de IA aplicada a productividad y operaciones.
+## GitHub Stats
+<div align="center">
 
-## Contacto
-- Email: pablo.elias.miranda.292003@gmail.com
-- LinkedIn: (agregar enlace)
-- Instagram: https://instagram.com/jackstar6677
-- YouTube: https://www.youtube.com/@JackStar6677
-- X/Twitter: https://twitter.com/JackStar6677
-- Twitch: https://twitch.tv/jackstar6677
+| Estadisticas | Lenguajes |
+|---|---|
+| ![Stats](https://github-readme-stats.vercel.app/api?username=JackStar6677-1&show_icons=true&hide_border=true&theme=tokyonight) | ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JackStar6677-1&layout=compact&hide_border=true&theme=tokyonight) |
 
-## GitHub stats
-![Stats](https://github-readme-stats.vercel.app/api?username=JackStar6677-1&show_icons=true&hide_border=true&theme=tokyonight)
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JackStar6677-1&layout=compact&hide_border=true&theme=tokyonight)
+</div>
 
----
-Si quieres ver la version extendida con mas contexto tecnico, revisa [README.extendido.md](README.extendido.md).
+<div align="center">
+  <a href="https://instagram.com/jackstar6677"><img src="https://img.shields.io/badge/Instagram-@jackstar6677-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://www.youtube.com/@JackStar6677"><img src="https://img.shields.io/badge/YouTube-@JackStar6677-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
+  <a href="https://twitter.com/JackStar6677"><img src="https://img.shields.io/badge/X-@JackStar6677-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://twitch.tv/jackstar6677"><img src="https://img.shields.io/badge/Twitch-@jackstar6677-9146FF?style=for-the-badge&logo=twitch&logoColor=white" alt="Twitch" /></a>
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+Si quieres ver una version mas extensa con contexto tecnico y estrategia: [README.extendido.md](README.extendido.md)
