@@ -81,7 +81,7 @@
 
 | Estadisticas | Lenguajes |
 |---|---|
-| ![Stats](https://github-readme-stats.vercel.app/api?username=JackStar6677-1&show_icons=true&hide_border=true&theme=tokyonight) | ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JackStar6677-1&layout=compact&hide_border=true&theme=tokyonight) |
+| ![Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=JackStar6677-1&show_icons=true&hide_border=true&theme=tokyonight) | ![Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=JackStar6677-1&layout=compact&hide_border=true&theme=tokyonight) |
 
 </div>
 
