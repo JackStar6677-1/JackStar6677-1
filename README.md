@@ -48,11 +48,12 @@
 </div>
 
 - Team base: JackStar + [Chagui](https://github.com/Chagui68) (plugin development partner).
-- Estado actual: todos los modulos Drakes (`Core`, `Tech`, `Crates`, `Ranks`, `Tab`, `Motd`) estan publicos.
+- Estado actual: todos los modulos Drakes (`Core`, `Worlds`, `Tech`, `Crates`, `Ranks`, `Tab`, `Motd`) estan publicos.
 
 | Repositorio | Link |
 |---|---|
 | DrakesCore | [github.com/DrakesCraft-Labs/DrakesCore](https://github.com/DrakesCraft-Labs/DrakesCore) |
+| DrakesWorlds | [github.com/DrakesCraft-Labs/DrakesWorlds](https://github.com/DrakesCraft-Labs/DrakesWorlds) |
 | DrakesTech | [github.com/DrakesCraft-Labs/DrakesTech](https://github.com/DrakesCraft-Labs/DrakesTech) |
 | DrakesCrates | [github.com/DrakesCraft-Labs/DrakesCrates](https://github.com/DrakesCraft-Labs/DrakesCrates) |
 | DrakesRanks | [github.com/DrakesCraft-Labs/DrakesRanks](https://github.com/DrakesCraft-Labs/DrakesRanks) |
