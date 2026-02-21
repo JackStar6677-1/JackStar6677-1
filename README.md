@@ -88,9 +88,21 @@
 ## DrakesCraft-Labs Stats (Org)
 <div align="center">
 
-| Organizacion | Lenguajes Org |
-|---|---|
-| ![Org Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=DrakesCraft-Labs&show_icons=true&hide_border=true&theme=tokyonight) | ![Org Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DrakesCraft-Labs&layout=compact&hide_border=true&theme=tokyonight) |
+<a href="https://github.com/DrakesCraft-Labs">
+  <img src="https://img.shields.io/badge/dynamic/json?color=0A66C2&label=Repos%20publicos&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Forgs%2FDrakesCraft-Labs&style=for-the-badge" alt="Repos publicos" />
+</a>
+<a href="https://github.com/DrakesCraft-Labs">
+  <img src="https://img.shields.io/badge/dynamic/json?color=1f2937&label=Seguidores%20Org&query=followers&url=https%3A%2F%2Fapi.github.com%2Forgs%2FDrakesCraft-Labs&style=for-the-badge" alt="Seguidores org" />
+</a>
+<a href="https://github.com/DrakesCraft-Labs/DrakesTech">
+  <img src="https://img.shields.io/github/stars/DrakesCraft-Labs/DrakesTech?style=for-the-badge&color=111827" alt="Stars DrakesTech" />
+</a>
+<a href="https://github.com/DrakesCraft-Labs/DrakesCore">
+  <img src="https://img.shields.io/github/stars/DrakesCraft-Labs/DrakesCore?style=for-the-badge&color=111827" alt="Stars DrakesCore" />
+</a>
+<a href="https://github.com/DrakesCraft-Labs/DrakesCrates">
+  <img src="https://img.shields.io/github/stars/DrakesCraft-Labs/DrakesCrates?style=for-the-badge&color=111827" alt="Stars DrakesCrates" />
+</a>
 
 </div>
 
