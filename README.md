@@ -38,7 +38,17 @@
 
 ## IA y ciencia aplicada
 - IA tooling: Ollama, Codex (GPT), Gemini, AntiGravity, OpenClaw.
-- Astronomia y radioastronomia: Astropy, pipelines de analisis y procesamiento.
+- Astronomía y radioastronomía: Astropy, simulación de interferometría y procesamiento de señales complejas.
+
+## 🛰️ Proyecto Destacado: Jackstar Observatory
+<div align="center">
+  <a href="https://github.com/JackStar6677-1/AstroControlSim"><img src="https://img.shields.io/badge/Project-Jackstar%20Observatory-blue?style=for-the-badge&logo=astronomy" alt="Jackstar" /></a>
+</div>
+
+**Jackstar Observatory** es un ecosistema de simulación astronómica de alto rendimiento.
+- **Núcleo C++**: Sistema de control PID para 50 antenas con simulación de fase de 1mm.
+- **IA Predictiva**: Monitoreo de salud mediante Z-Scores para predecir fallas de motor.
+- **Web Control**: Dashboard de alta fidelidad para gestión de misiones en tiempo real.
 
 ## Ecosistema DrakesCraft
 <div align="center">
@@ -52,6 +62,7 @@
 
 | Repositorio | Link |
 |---|---|
+| JackstarObs | [github.com/JackStar6677-1/AstroControlSim](https://github.com/JackStar6677-1/AstroControlSim) |
 | DrakesCore | [github.com/DrakesCraft-Labs/DrakesCore](https://github.com/DrakesCraft-Labs/DrakesCore) |
 | DrakesWorlds | [github.com/DrakesCraft-Labs/DrakesWorlds](https://github.com/DrakesCraft-Labs/DrakesWorlds) |
 | DrakesTech | [github.com/DrakesCraft-Labs/DrakesTech](https://github.com/DrakesCraft-Labs/DrakesTech) |
@@ -61,9 +72,9 @@
 | DrakesMotd | [github.com/DrakesCraft-Labs/DrakesMotd](https://github.com/DrakesCraft-Labs/DrakesMotd) |
 
 ## Ahora mismo
+- Expandiendo la red de interferometría del **Jackstar Observatory**.
 - Construyendo un sistema tech-tree progresivo para `DrakesTech`.
-- Mejorando arquitectura de energia, red y almacenamiento para automatizacion in-game.
-- Subiendo el estandar de build, calidad y release en todo el ecosistema.
+- Mejorando arquitectura de energía, red y almacenamiento para automatización in-game.
 
 ## GitHub Stats (Personal)
 <div align="center">
