@@ -29,10 +29,6 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="separator" />
 
-<table>
-<tr>
-<td width="62%" valign="top">
-
 ## Sobre mi
 
 Soy alguien a quien le gusta entrar en sistemas distintos, entender rapido el problema y convertirlo en una solucion usable.
@@ -51,14 +47,9 @@ Me atraen especialmente los proyectos donde hay que unir varias capas a la vez:
 - interfaces con identidad propia
 - sistemas grandes a los que aspiro llegar algun dia
 
-</td>
-<td width="38%" valign="top" align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/216656980-ef584e23-480a-4d1c-8c3f-7d045910ddc9.gif" width="100%" alt="Futuristic coding gif" />
-
-</td>
-</tr>
-</table>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/216656980-ef584e23-480a-4d1c-8c3f-7d045910ddc9.gif" width="72%" alt="Futuristic coding gif" />
+</div>
 
 ## Lo que me mueve
 
