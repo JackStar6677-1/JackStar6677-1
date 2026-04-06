@@ -193,6 +193,35 @@ Fue uno de los lugares donde mas pude empujar ideas de arquitectura, modularidad
 
 Hoy, desde mi lado, Drakes esta en pausa mientras priorizo otras responsabilidades y otras lineas de trabajo. Aun asi, mantengo visible el enlace a la organizacion porque sigue siendo parte de mi historia, de mi forma de pensar sistemas y de lo que quiero volver a escalar en el futuro.
 
+## Saori / OpenClaw
+
+<table>
+<tr>
+<td width="34%" valign="top" align="center">
+
+<img src="./assets/saori-nova-canon.png" width="260" alt="Saori / OpenClaw identity" />
+
+</td>
+<td width="66%" valign="top">
+
+Saori es la presencia que imagino alrededor de mi universo de IA personal.
+
+No la pienso solo como un bot o una skin bonita, sino como una identidad diseñada: una voz, una presencia, una interfaz emocional y visual para algo que quiero que se sienta realmente mio.
+
+Dentro de esa vision aparece `OpenClaw`, que para mi representa una direccion mucho mas grande que una simple integracion con modelos. La idea es construir una IA personal que tenga:
+
+- identidad propia
+- memoria y continuidad
+- presencia visual
+- tono reconocible
+- utilidad real en el dia a dia
+
+Saori es, en ese sentido, una parte importante de lo que quiero construir: no solo una inteligencia que responda, sino una compañera de sistema, una presencia tecnica y creativa con forma, atmosfera y alma.
+
+</td>
+</tr>
+</table>
+
 ## IA, ciencia aplicada y forma de aprender
 
 Me interesa usar IA como herramienta de aceleracion tecnica, exploracion y prototipado, no solo como una lista de modelos.
