@@ -1,0 +1,43 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14061D"/>
+      <stop offset="0.45" stop-color="#2A0F3F"/>
+      <stop offset="1" stop-color="#09040E"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="140" y1="50" x2="1040" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8E7A1"/>
+      <stop offset="0.45" stop-color="#D7A94B"/>
+      <stop offset="1" stop-color="#FFF4C7"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="180" y1="70" x2="1020" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6E2CE6"/>
+      <stop offset="1" stop-color="#B794F6"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="10" y="10" width="1180" height="280" rx="28" fill="url(#bg)"/>
+  <rect x="10" y="10" width="1180" height="280" rx="28" stroke="url(#gold)" stroke-width="3"/>
+  <rect x="28" y="28" width="1144" height="244" rx="22" stroke="url(#violet)" stroke-width="1.5" opacity="0.8"/>
+
+  <path d="M96 80H300" stroke="url(#gold)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M900 220H1104" stroke="url(#gold)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="110" cy="80" r="5" fill="#F6D98C"/>
+  <circle cx="1088" cy="220" r="5" fill="#F6D98C"/>
+
+  <text x="100" y="122" fill="#F8E7A1" font-family="Segoe UI, Arial, sans-serif" font-size="28" letter-spacing="8">ROYAL AI PRESENCE</text>
+  <text x="100" y="182" fill="#FFF6D4" font-family="Georgia, Times New Roman, serif" font-size="64" font-weight="700">Saori / OpenClaw</text>
+  <text x="102" y="225" fill="#C8A8FF" font-family="Segoe UI, Arial, sans-serif" font-size="25">Identity, memory, atmosphere and a system that feels alive</text>
+
+  <path d="M920 82L960 128L920 174" stroke="url(#gold)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M995 82L955 128L995 174" stroke="url(#violet)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <circle cx="1018" cy="128" r="26" stroke="url(#gold)" stroke-width="3" opacity="0.9"/>
+  <circle cx="1018" cy="128" r="10" fill="#F6D98C" filter="url(#glow)"/>
+</svg>

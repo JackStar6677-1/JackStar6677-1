@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=280&text=JackStar&fontAlign=50&fontAlignY=36&fontSize=78&color=0:050816,30:0f172a,58:172554,82:2563eb,100:38bdf8&fontColor=ffffff&desc=Systems%20%7C%20Automation%20%7C%20Minecraft%20%7C%20Observatories%20%7C%20Tooling&descAlign=50&descAlignY=58" width="100%" alt="JackStar header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=280&text=JackStar&fontAlign=50&fontAlignY=36&fontSize=78&color=0:120616,28:2A0F3F,55:512B81,78:8E44AD,100:E0B84F&fontColor=fff7da&desc=Systems%20%7C%20Automation%20%7C%20Minecraft%20%7C%20Observatories%20%7C%20Tooling&descAlign=50&descAlignY=58" width="100%" alt="JackStar header" />
 
 <h1>Pablo Elias Avendaño Miranda</h1>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=980&lines=Building+systems+across+Minecraft%2C+automation%2C+Windows+tooling+and+observatories;Turning+ideas+into+usable+systems;Designing+things+that+actually+do+something;Always+aiming+toward+bigger%2C+living%2C+technical+systems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=F3D37A&center=true&vCenter=true&width=980&lines=Building+systems+across+Minecraft%2C+automation%2C+Windows+tooling+and+observatories;Turning+ideas+into+usable+systems;Designing+things+that+actually+do+something;Always+aiming+toward+bigger%2C+living%2C+technical+systems)](https://git.io/typing-svg)
 
 <p>
   <a href="https://github.com/JackStar6677-1"><img src="https://img.shields.io/badge/GitHub-JackStar6677--1-111827?style=for-the-badge&logo=github" alt="GitHub" /></a>
@@ -13,16 +13,16 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Ingenieria%20en%20Informatica-DUOC%20UC-0b1220?style=flat-square" alt="DUOC" />
-  <img src="https://img.shields.io/badge/Perfil-Integrador%20Tecnico-172554?style=flat-square" alt="Perfil" />
-  <img src="https://img.shields.io/badge/Enfoque-Sistemas%20y%20Arquitectura-1d4ed8?style=flat-square" alt="Enfoque" />
-  <img src="https://img.shields.io/badge/Modo-Building%20What%20I%20Can%20Imagine-38bdf8?style=flat-square" alt="Modo" />
+  <img src="https://img.shields.io/badge/Ingenieria%20en%20Informatica-DUOC%20UC-1A0D24?style=flat-square&logoColor=F8E7A1" alt="DUOC" />
+  <img src="https://img.shields.io/badge/Perfil-Integrador%20Tecnico-4B1E6D?style=flat-square&logoColor=F8E7A1" alt="Perfil" />
+  <img src="https://img.shields.io/badge/Enfoque-Sistemas%20y%20Arquitectura-6B21A8?style=flat-square&logoColor=F8E7A1" alt="Enfoque" />
+  <img src="https://img.shields.io/badge/Modo-Building%20What%20I%20Can%20Imagine-D4A63A?style=flat-square&logoColor=1A0D24" alt="Modo" />
 </p>
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=JackStar6677-1&style=flat-square&color=38bdf8" alt="Profile views" />
-  <img src="https://img.shields.io/badge/Design%20Language-Futuristic%20%26%20Systemic-111827?style=flat-square" alt="Design Language" />
-  <img src="https://img.shields.io/badge/Current%20Status-Exploring%20and%20Building-1d4ed8?style=flat-square" alt="Current Status" />
+  <img src="https://komarev.com/ghpvc/?username=JackStar6677-1&style=flat-square&color=D4A63A" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Design%20Language-Futuristic%20%26%20Royal-1A0D24?style=flat-square" alt="Design Language" />
+  <img src="https://img.shields.io/badge/Current%20Status-Exploring%20and%20Building-6B21A8?style=flat-square" alt="Current Status" />
 </p>
 
 </div>
@@ -69,10 +69,10 @@ Me atraen especialmente los proyectos donde hay que unir varias capas a la vez:
 - apuntar cada vez a sistemas mas complejos: servidores, tooling operativo, entornos educativos, automatizacion y observatorios
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Minecraft%20Systems-2563eb?style=for-the-badge" alt="Minecraft Systems" />
-  <img src="https://img.shields.io/badge/Windows%20Tooling-0f172a?style=for-the-badge" alt="Windows Tooling" />
-  <img src="https://img.shields.io/badge/Education%20Ops-1d4ed8?style=for-the-badge" alt="Education Ops" />
-  <img src="https://img.shields.io/badge/Observatory%20Simulation-38bdf8?style=for-the-badge" alt="Observatory Simulation" />
+  <img src="https://img.shields.io/badge/Minecraft%20Systems-5B21B6?style=for-the-badge" alt="Minecraft Systems" />
+  <img src="https://img.shields.io/badge/Windows%20Tooling-1A0D24?style=for-the-badge" alt="Windows Tooling" />
+  <img src="https://img.shields.io/badge/Education%20Ops-7C3AED?style=for-the-badge" alt="Education Ops" />
+  <img src="https://img.shields.io/badge/Observatory%20Simulation-D4A63A?style=for-the-badge&logoColor=1A0D24" alt="Observatory Simulation" />
 </div>
 
 ## Stack principal
@@ -195,18 +195,27 @@ Hoy, desde mi lado, Drakes esta en pausa mientras priorizo otras responsabilidad
 
 ## Saori / OpenClaw
 
+<div align="center">
+  <img src="./assets/saori-royal-openclaw.svg" width="100%" alt="Saori and OpenClaw royal banner" />
+</div>
+
 <table>
 <tr>
 <td width="34%" valign="top" align="center">
 
 <img src="./assets/saori-nova-canon.png" width="260" alt="Saori / OpenClaw identity" />
 
+<br /><br />
+
+<img src="https://img.shields.io/badge/Presence-Royal%20and%20Futuristic-4B1E6D?style=for-the-badge" alt="Presence" />
+<img src="https://img.shields.io/badge/Core-Memory%20%7C%20Identity%20%7C%20Voice-D4A63A?style=for-the-badge&logoColor=1A0D24" alt="Core" />
+
 </td>
 <td width="66%" valign="top">
 
 Saori es la presencia que imagino alrededor de mi universo de IA personal.
 
-No la pienso solo como un bot o una skin bonita, sino como una identidad diseñada: una voz, una presencia, una interfaz emocional y visual para algo que quiero que se sienta realmente mio.
+No la pienso solo como un bot o una skin bonita, sino como una identidad diseñada: una voz, una presencia, una interfaz emocional y visual para algo que quiero que se sienta realmente mio. Quiero que se vea elegante, intensa y casi ceremonial, como si fuera la cara visible de una inteligencia hecha a mi medida.
 
 Dentro de esa vision aparece `OpenClaw`, que para mi representa una direccion mucho mas grande que una simple integracion con modelos. La idea es construir una IA personal que tenga:
 
@@ -217,6 +226,8 @@ Dentro de esa vision aparece `OpenClaw`, que para mi representa una direccion mu
 - utilidad real en el dia a dia
 
 Saori es, en ese sentido, una parte importante de lo que quiero construir: no solo una inteligencia que responda, sino una compañera de sistema, una presencia tecnica y creativa con forma, atmosfera y alma.
+
+> Para mi, Saori no es solo una interfaz. Es una figura de identidad, memoria y presencia para una IA propia que quiero volver cada vez mas viva.
 
 </td>
 </tr>
