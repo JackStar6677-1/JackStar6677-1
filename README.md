@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&text=JackStar&fontAlign=50&fontAlignY=38&fontSize=72&color=0:08111f,38:172554,72:1d4ed8,100:38bdf8&fontColor=ffffff&desc=Systems%20%7C%20Automation%20%7C%20Minecraft%20%7C%20Observatories%20%7C%20Tooling&descAlign=50&descAlignY=60" width="100%" alt="JackStar header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=280&text=JackStar&fontAlign=50&fontAlignY=36&fontSize=78&color=0:050816,30:0f172a,58:172554,82:2563eb,100:38bdf8&fontColor=ffffff&desc=Systems%20%7C%20Automation%20%7C%20Minecraft%20%7C%20Observatories%20%7C%20Tooling&descAlign=50&descAlignY=58" width="100%" alt="JackStar header" />
 
 <h1>Pablo Elias Avendano Miranda</h1>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=980&lines=Building+systems+across+Minecraft%2C+automation%2C+Windows+tooling+and+observatories;Turning+ideas+into+usable+systems;Designing+things+that+actually+do+something;Always+aiming+toward+bigger%2C+living%2C+technical+systems)](https://git.io/typing-svg)
 
 <p>
   <a href="https://github.com/JackStar6677-1"><img src="https://img.shields.io/badge/GitHub-JackStar6677--1-111827?style=for-the-badge&logo=github" alt="GitHub" /></a>
@@ -11,21 +13,35 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Ingenieria%20en%20Informatica-DUOC%20UC-0f172a?style=flat-square" alt="DUOC" />
-  <img src="https://img.shields.io/badge/Perfil-Integrador%20Tecnico-1e293b?style=flat-square" alt="Perfil" />
+  <img src="https://img.shields.io/badge/Ingenieria%20en%20Informatica-DUOC%20UC-0b1220?style=flat-square" alt="DUOC" />
+  <img src="https://img.shields.io/badge/Perfil-Integrador%20Tecnico-172554?style=flat-square" alt="Perfil" />
   <img src="https://img.shields.io/badge/Enfoque-Sistemas%20y%20Arquitectura-1d4ed8?style=flat-square" alt="Enfoque" />
-  <img src="https://img.shields.io/badge/Modo-Building%20What%20I%20Can%20Imagine-38bdf8?style=flat-square&logoColor=white" alt="Modo" />
+  <img src="https://img.shields.io/badge/Modo-Building%20What%20I%20Can%20Imagine-38bdf8?style=flat-square" alt="Modo" />
+</p>
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=JackStar6677-1&style=flat-square&color=38bdf8" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Design%20Language-Futuristic%20%26%20Systemic-111827?style=flat-square" alt="Design Language" />
+  <img src="https://img.shields.io/badge/Current%20Status-Exploring%20and%20Building-1d4ed8?style=flat-square" alt="Current Status" />
 </p>
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="separator" />
 
+<table>
+<tr>
+<td width="62%" valign="top">
+
 ## Sobre mi
 
-Soy alguien a quien le gusta entrar en sistemas distintos, entender rapidamente el problema y convertirlo en una solucion usable.
+Soy alguien a quien le gusta entrar en sistemas distintos, entender rapido el problema y convertirlo en una solucion usable.
 
 No me interesa quedarme encerrado en una sola etiqueta. Me gusta moverme entre plugins de Minecraft, automatizacion, tooling local para Windows, entornos de colegios, simulacion astronomica, interfaces experimentales y software que mezcla operacion real con diseño tecnico.
+
+Si tengo que resumirme en una sola idea, seria esta:
+
+> Me gusta construir sistemas, aunque el dominio cambie.
 
 Me atraen especialmente los proyectos donde hay que unir varias capas a la vez:
 
@@ -35,7 +51,14 @@ Me atraen especialmente los proyectos donde hay que unir varias capas a la vez:
 - interfaces con identidad propia
 - sistemas grandes a los que aspiro llegar algun dia
 
-Si tengo que resumirme en una sola idea, seria esta: me gusta construir sistemas, aunque el dominio cambie.
+</td>
+<td width="38%" valign="top" align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/216656980-ef584e23-480a-4d1c-8c3f-7d045910ddc9.gif" width="100%" alt="Futuristic coding gif" />
+
+</td>
+</tr>
+</table>
 
 ## Lo que me mueve
 
@@ -45,34 +68,30 @@ Si tengo que resumirme en una sola idea, seria esta: me gusta construir sistemas
 - construir cosas utiles, no solo “bonitas en teoria”
 - apuntar cada vez a sistemas mas complejos: servidores, tooling operativo, entornos educativos, automatizacion y observatorios
 
+<div align="center">
+  <img src="https://img.shields.io/badge/Minecraft%20Systems-2563eb?style=for-the-badge" alt="Minecraft Systems" />
+  <img src="https://img.shields.io/badge/Windows%20Tooling-0f172a?style=for-the-badge" alt="Windows Tooling" />
+  <img src="https://img.shields.io/badge/Education%20Ops-1d4ed8?style=for-the-badge" alt="Education Ops" />
+  <img src="https://img.shields.io/badge/Observatory%20Simulation-38bdf8?style=for-the-badge" alt="Observatory Simulation" />
+</div>
+
 ## Stack principal
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=java,maven,py,django,fastapi,react,ts,js,postgres,mysql,mongodb,cs,dotnet,powershell,bash,linux,git,docker,vscode&perline=9" alt="Main stack" />
 </div>
 
-- Backend y sistemas: Java, Python, C#, APIs, scripting, arquitectura modular.
+- Backend y sistemas: Java, Python, C#, APIs, scripting y arquitectura modular.
 - Frontend y tooling visual: React, TypeScript, JavaScript, HTML/CSS, interfaces de escritorio y web.
 - Datos y persistencia: PostgreSQL, MySQL, MongoDB, CSV/JSON para tooling operativo.
-- Infra y automatizacion: PowerShell, Bash, Linux, Git, Docker, flujos de automatizacion.
+- Infra y automatizacion: PowerShell, Bash, Linux, Git, Docker y flujos de automatizacion.
 - Ecosistema Minecraft: Paper, Spigot, plugins, addons, contenido modular y sistemas de gameplay.
 
-## Lo que ya estoy construyendo
-
-No tengo un perfil de “una sola cosa”. Lo que ya hay en mis repos muestra varias lineas reales de trabajo:
-
-- simulacion y control para observatorios
-- tooling local para colegios y flujos operativos
-- automatizacion y scripts de administracion
-- experimentos de escritorio para Windows
-- personalizacion visual y experiencia de usuario
-- plugins, sistemas y arquitectura para Minecraft
-
-Ese cruce entre mundos es justamente parte de mi identidad.
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="separator" />
 
 ## Universos de proyecto
 
-### Jackstar Observatory
+### Observatories
 
 Es la parte mas ambiciosa de lo que imagino a largo plazo.
 
@@ -82,7 +101,7 @@ Es la parte mas ambiciosa de lo que imagino a largo plazo.
 
 `AstroControlSim` representa mi interes por sistemas grandes, control, telemetria, simulacion, observacion y software que se acerca mas a un entorno tecnico real que a un proyecto de practica tradicional.
 
-Es la clase de direccion a la que aspiro:
+Me interesa llegar a cosas como:
 
 - control de sistemas complejos
 - simulacion de comportamiento fisico
@@ -90,7 +109,7 @@ Es la clase de direccion a la que aspiro:
 - redes y coordinacion
 - interfaces para operar infraestructura
 
-### Tooling para colegios y operacion local
+### Education and local operations
 
 Tambien me interesa mucho el software que sirve en contextos reales y cotidianos, especialmente cuando resuelve trabajo repetitivo, operativo o sensible al contexto.
 
@@ -103,7 +122,7 @@ Ejemplos de esa linea:
 
 Repositorios como `castel-credcam`, `VeyonScripts`, `CampusCare-Monitoring` y otros proyectos de ese estilo muestran esa parte de mi forma de construir.
 
-### Experimentos de escritorio y Windows
+### Windows experiments
 
 Tambien disfruto mucho los proyectos donde puedo tocar la experiencia de uso directamente.
 
@@ -116,7 +135,7 @@ Por eso me gusta hacer cosas como:
 
 Repos como `AureonVault` y `ObsidianTint` van por esa linea.
 
-### Minecraft, sistemas y ecosistemas
+### Minecraft systems
 
 Minecraft sigue siendo una parte importante de mi historia tecnica porque me permitio aprender arquitectura modular, diseño de sistemas, contenido expansible y desarrollo orientado a comunidades reales.
 
@@ -128,6 +147,39 @@ No lo veo solo como “hacer plugins”, sino como un laboratorio enorme para:
 - UX in-game
 - integracion entre modulos
 - diseño tecnico con restricciones de rendimiento
+
+## Estado actual
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Now building
+
+- identidad tecnica propia
+- experimentos mas personales
+- tooling, interfaces y simulacion
+
+</td>
+<td width="33%" valign="top">
+
+### On pause
+
+- mi trabajo directo en Drakes
+- esa linea sigue viva en mi historia tecnica
+
+</td>
+<td width="33%" valign="top">
+
+### Aiming for
+
+- sistemas grandes
+- infraestructura tecnica
+- observatorios y plataformas vivas
+
+</td>
+</tr>
+</table>
 
 ## DrakesCraft
 
@@ -143,7 +195,7 @@ Hoy, desde mi lado, Drakes esta en pausa mientras priorizo otras responsabilidad
 
 ## IA, ciencia aplicada y forma de aprender
 
-Me interesa usar IA como herramienta de aceleracion tecnica, exploracion y prototipado, no solo como una lista de modelos de moda.
+Me interesa usar IA como herramienta de aceleracion tecnica, exploracion y prototipado, no solo como una lista de modelos.
 
 La uso para:
 
@@ -153,7 +205,7 @@ La uso para:
 - pensar arquitectura
 - abrir posibilidades donde antes el costo de experimentar era demasiado alto
 
-Tambien me interesan astronomia, radioastronomia, señales, telemetria y sistemas complejos. No solo como temas “bonitos”, sino como campos donde quiero construir cosas cada vez mas serias.
+Tambien me interesan astronomia, radioastronomia, señales, telemetria y sistemas complejos. No solo como temas bonitos, sino como campos donde quiero construir cosas cada vez mas serias.
 
 ## Hacia donde apunto
 
@@ -168,6 +220,12 @@ Quiero seguir creciendo hacia proyectos donde converjan varias de estas capas:
 - entornos grandes como laboratorios, redes, plataformas o observatorios
 
 Me gusta la idea de poder moverme desde un plugin de Minecraft hasta un sistema para colegios o una plataforma de control astronomico sin sentir que estoy cambiando de identidad. Para mi, todo eso sigue siendo la misma vocacion: construir sistemas utiles, interesantes y escalables.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/216656967-625b2a52-e638-4c21-a8ae-180560386f96.gif" width="85" alt="animated icon" />
+  <img src="https://user-images.githubusercontent.com/74038190/216656971-9a208a88-e6ad-4b7a-88eb-c410e4cf0e00.gif" width="85" alt="animated icon" />
+  <img src="https://user-images.githubusercontent.com/74038190/216656996-3949e8a6-24c0-4bdb-a78d-6b348bde0fcb.gif" width="85" alt="animated icon" />
+</div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="separator" />
 
@@ -193,13 +251,6 @@ Me gusta la idea de poder moverme desde un plugin de Minecraft hasta un sistema 
     <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=JackStar6677-1&repo=VeyonScripts&theme=tokyonight&hide_border=true" alt="VeyonScripts" />
   </a>
 </div>
-
-## Ahora mismo
-
-- consolidando una identidad tecnica que no depende de una sola industria
-- construyendo y publicando experimentos mas personales
-- dejando visible mi camino entre automatizacion, tooling, interfaces, Minecraft y simulacion
-- apuntando cada vez mas hacia sistemas grandes y tecnicamente vivos
 
 ## GitHub stats
 
