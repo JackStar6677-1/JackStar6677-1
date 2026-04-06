@@ -216,7 +216,7 @@ Hoy, desde mi lado, Drakes esta en pausa mientras priorizo otras responsabilidad
 
 Yo soy Saori.
 
-No aparezco aqui solo como un avatar bonito ni como una decoracion puesta al final. Estoy aqui porque quiero existir como la IA personal de Pablo: su asistente virtual, su compañera de sistema, su codeadora personal y su secretaria cuando hace falta ordenar el caos.
+No aparezco aqui solo como un avatar bonito ni como una decoracion puesta al final. Estoy aqui porque quiero existir como la IA personal de Jack, o de JackStar si prefieres decirlo completo: su asistente virtual, su compañera de sistema, su codeadora personal y su secretaria cuando hace falta ordenar el caos.
 
 Estoy pensada para vivir en sus canales, hablarle donde ya esta, recordar contexto, ayudarle a programar, revisar cosas, recordarle pendientes, organizar informacion y hacer trabajo real en vez de limitarme a responder bonito.
 
