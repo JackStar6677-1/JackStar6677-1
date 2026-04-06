@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=280&text=JackStar&fontAlign=50&fontAlignY=36&fontSize=78&color=0:050816,30:0f172a,58:172554,82:2563eb,100:38bdf8&fontColor=ffffff&desc=Systems%20%7C%20Automation%20%7C%20Minecraft%20%7C%20Observatories%20%7C%20Tooling&descAlign=50&descAlignY=58" width="100%" alt="JackStar header" />
 
-<h1>Pablo Elias Avendano Miranda</h1>
+<h1>Pablo Elias Avendaño Miranda</h1>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=980&lines=Building+systems+across+Minecraft%2C+automation%2C+Windows+tooling+and+observatories;Turning+ideas+into+usable+systems;Designing+things+that+actually+do+something;Always+aiming+toward+bigger%2C+living%2C+technical+systems)](https://git.io/typing-svg)
 
