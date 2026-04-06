@@ -3,6 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=280&text=JackStar&fontAlign=50&fontAlignY=36&fontSize=78&color=0:120616,28:2A0F3F,55:512B81,78:8E44AD,100:E0B84F&fontColor=fff7da&desc=Systems%20%7C%20Automation%20%7C%20Minecraft%20%7C%20Observatories%20%7C%20Tooling&descAlign=50&descAlignY=58" width="100%" alt="JackStar header" />
 
 <h1>JackStar</h1>
+<h3>Pablo Elías Avendaño Miranda</h3>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=F3D37A&center=true&vCenter=true&width=980&lines=Building+systems+across+Minecraft%2C+automation%2C+Windows+tooling+and+observatories;Turning+ideas+into+usable+systems;Designing+things+that+actually+do+something;Always+aiming+toward+bigger%2C+living%2C+technical+systems)](https://git.io/typing-svg)
 
@@ -110,6 +111,10 @@ Ejemplos de esa linea:
 - monitoreo y tooling para entornos educativos
 - herramientas locales para captura, gestion y organizacion de datos
 - software que puede vivir en un PC real y ayudar de inmediato
+
+Una parte importante de esa linea la vivo en [Colegio Castelgandolfo](https://www.colegiocastelgandolfo.cl/), donde realizo soporte tecnico integral: mantencion de equipos, operacion local, resolucion de problemas cotidianos, automatizacion y mantencion del sitio web institucional.
+
+Esa relacion tambien queda reflejada en la propia pagina del colegio, donde el footer me referencia como administrador del sitio.
 
 Repositorios como `castel-credcam`, `VeyonScripts`, `CampusCare-Monitoring` y otros proyectos de ese estilo muestran esa parte de mi forma de construir.
 
