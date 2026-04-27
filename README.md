@@ -15,6 +15,24 @@
 
 Ingeniería en Informática (**DUOC**). Me mueve **pasar de problema a sistema usable**: backend, scripts, datos, UI cuando suma, y automatización que quite trabajo repetitivo. Mismo criterio en plugins, colegios, PCs reales o experimentos personales.
 
+## Lo que hago hoy (roles)
+
+### DrakesCraft
+
+**Dueño, mantenedor, programador y configurador** del servidor **[DrakesCraft](https://drakescraft.cl)** (Minecraft, Paper, Slimefun, Geyser/Bedrock, identidad *Odisea*). Llevo la parte técnica de punta a punta: plugins y parches, permisos, TAB y scoreboard, integración con Discord, MOTD, backups y lo que haga falta para que el mundo siga estable y evolucione con la comunidad.
+
+- Sitio público del proyecto: **[drakescraft-web](https://github.com/JackStar6677-1/drakescraft-web)** → [drakescraft.cl](https://drakescraft.cl)
+
+### Colegio Castelgandolfo
+
+**Creador y mantenedor** de la aplicación web institucional **[colegiocastelgandolfo.cl/app](https://www.colegiocastelgandolfo.cl/app/)**: diseño, despliegue, correcciones y mejoras continuas.
+
+**Soporte de TI completo** para el colegio: incidencias, estaciones de trabajo, credenciales, cámaras y automatización operativa (por ejemplo **[castel-credcam](https://github.com/JackStar6677-1/castel-credcam)** en el ecosistema del establecimiento).
+
+### Otras capacidades
+
+Arquitectura ligera de servicios, APIs, bases de datos (PostgreSQL / MySQL), **Python** y **Java** (Maven), **React / TypeScript** cuando el front lo merece, **PowerShell / Bash**, contenedores (**Docker**) cuando encaja, y **Linux** en servidores reales. Documentación clara y criterio de producción: lo que sube tiene dueño y plan de rollback.
+
 ## Stack (resumen)
 
 <img src="https://skillicons.dev/icons?i=java,maven,py,postgres,mysql,react,ts,powershell,bash,linux,git,docker&perline=12" alt="Stack" />
@@ -34,7 +52,8 @@ La uso como **acelerador** (investigar, prototipar, documentar), no como sustitu
 | | |
 |---|---|
 | [AstroControlSim](https://github.com/JackStar6677-1/AstroControlSim) | Simulación / control (línea largo plazo) |
-| [castel-credcam](https://github.com/JackStar6677-1/castel-credcam) | Ops en [Colegio Castelgandolfo](https://www.colegiocastelgandolfo.cl/) |
+| [castel-credcam](https://github.com/JackStar6677-1/castel-credcam) | Ops y credenciales en [Colegio Castelgandolfo](https://www.colegiocastelgandolfo.cl/) |
+| [drakescraft-web](https://github.com/JackStar6677-1/drakescraft-web) | Web del servidor [DrakesCraft](https://drakescraft.cl) |
 | [AureonVault](https://github.com/JackStar6677-1/AureonVault) | Experimentos Windows / UX |
 
 El resto está en los repos públicos del perfil.
