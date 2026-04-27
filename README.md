@@ -1,13 +1,25 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c1d95,50:7c3aed,100:d4a24a&height=160&section=header&text=JackStar&fontSize=52&fontAlignY=38&desc=Pablo%20El%C3%ADas%20Avenda%C3%B1o%20Miranda&descAlignY=65&descAlign=50&fontColor=fff" width="100%" alt="banner" />
+
 <div align="center">
 
 # JackStar · Pablo Elías Avendaño Miranda
 
 **Sistemas · automatización · Minecraft (Paper / Slimefun) · tooling Windows · ops en entornos reales**
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1200&color=D4A24A&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=DrakesCraft+%C2%B7+Paper+%2F+Slimefun+%2F+Geyser;Castelgandolfo.cl%2Fapp+%C2%B7+TI+completo;Backend+%2B+scripts+%2B+producci%C3%B3n+real" alt="Typing SVG" />
+
+<br />
+
+<img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width="380" alt="Coding" />
+
+<br />
+
 [![GitHub](https://img.shields.io/badge/GitHub-JackStar6677--1-181717?style=flat-square&logo=github)](https://github.com/JackStar6677-1)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-perfil-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/pablo-el%C3%ADas-avenda%C3%B1o-miranda-b4b93b39a/)
 [![Gmail](https://img.shields.io/badge/Email-contacto-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:pablo.elias.miranda.292003@gmail.com)
 <img src="https://komarev.com/ghpvc/?username=JackStar6677-1&style=flat-square&color=D4A63A" alt="vistas" />
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="" />
 
 </div>
 
@@ -58,14 +70,49 @@ La uso como **acelerador** (investigar, prototipar, documentar), no como sustitu
 
 El resto está en los repos públicos del perfil.
 
-## Stats
+## Métricas GitHub · racha · actividad
 
 <div align="center">
 
-![stats](https://github-readme-stats-sigma-five.vercel.app/api?username=JackStar6677-1&show_icons=true&hide_border=true&theme=tokyonight)
-![langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=JackStar6677-1&layout=compact&hide_border=true&theme=tokyonight)
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=JackStar6677-1&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true" alt="GitHub stats" />
+<img height="165" src="https://streak-stats.demolab.com/?user=JackStar6677-1&theme=tokyonight&hide_border=true&locale=es" alt="GitHub streak" />
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=JackStar6677-1&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="Top languages" />
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=JackStar6677-1&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribuciones%20%28commits%20por%20periodo%29" alt="Activity graph" />
 
 </div>
+
+### Trofeos
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=JackStar6677-1&theme=discord&no-frame=true&row=2&column=4&margin-w=8&margin-h=8" alt="Trophies" />
+
+</div>
+
+### Por repositorio (tarjetas)
+
+<div align="center">
+
+<a href="https://github.com/JackStar6677-1/drakescraft-web"><img src="https://github-readme-stats.vercel.app/api/pin/?username=JackStar6677-1&repo=drakescraft-web&theme=tokyonight&hide_border=true&show_owner=true" alt="drakescraft-web" /></a>
+<a href="https://github.com/JackStar6677-1/castel-credcam"><img src="https://github-readme-stats.vercel.app/api/pin/?username=JackStar6677-1&repo=castel-credcam&theme=tokyonight&hide_border=true&show_owner=true" alt="castel-credcam" /></a>
+
+<a href="https://github.com/JackStar6677-1/AstroControlSim"><img src="https://github-readme-stats.vercel.app/api/pin/?username=JackStar6677-1&repo=AstroControlSim&theme=tokyonight&hide_border=true&show_owner=true" alt="AstroControlSim" /></a>
+<a href="https://github.com/JackStar6677-1/AureonVault"><img src="https://github-readme-stats.vercel.app/api/pin/?username=JackStar6677-1&repo=AureonVault&theme=tokyonight&hide_border=true&show_owner=true" alt="AureonVault" /></a>
+
+</div>
+
+### Commits e idiomas por repo (resumen)
+
+<div align="center">
+
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JackStar6677-1&theme=tokyonight" alt="Repos por lenguaje" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=JackStar6677-1&theme=tokyonight" alt="Lenguaje con más commits" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=JackStar6677-1&theme=tokyonight&utcOffset=-3" alt="Hora productiva (UTC-3)" />
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:d4a24a,50:7c3aed,100:1e1b4b&height=100&section=footer" width="100%" alt="" />
 
 ---
 
