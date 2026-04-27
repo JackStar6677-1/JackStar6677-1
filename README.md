@@ -74,19 +74,11 @@ El resto está en los repos públicos del perfil.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=JackStar6677-1&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=JackStar6677-1&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&rank_icon=github" alt="GitHub stats" />
 <img height="165" src="https://streak-stats.demolab.com/?user=JackStar6677-1&theme=tokyonight&hide_border=true&locale=es" alt="GitHub streak" />
 <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=JackStar6677-1&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="Top languages" />
 
 <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=JackStar6677-1&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribuciones%20%28commits%20por%20periodo%29" alt="Activity graph" />
-
-</div>
-
-### Trofeos
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=JackStar6677-1&theme=discord&no-frame=true&row=2&column=4&margin-w=8&margin-h=8" alt="Trophies" />
 
 </div>
 
