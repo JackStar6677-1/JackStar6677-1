@@ -100,7 +100,7 @@ El resto está en los repos públicos del perfil.
 
 <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JackStar6677-1&theme=tokyonight" alt="Repos por lenguaje" />
 <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=JackStar6677-1&theme=tokyonight" alt="Lenguaje con más commits" />
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=JackStar6677-1&theme=tokyonight&utcOffset=-3" alt="Hora productiva (UTC-3)" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JackStar6677-1&theme=tokyonight" alt="Resumen de contribuciones" />
 
 </div>
 
