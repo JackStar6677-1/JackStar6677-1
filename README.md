@@ -6,12 +6,13 @@
 
 # JackStar · Pablo Elias Avendano Miranda
 
-**Sistemas reales, automatizacion, servidores Minecraft, tooling Windows y web institucional.**
+**Ingeniero en Informatica · arquitectura de software · infraestructura digital · automatizacion y sistemas reales.**
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=D4A24A&center=true&vCenter=true&width=850&height=84&lines=No+colecciono+repos%3A+mantengo+sistemas+vivos.;Castel+%C2%B7+DrakesCraft+%C2%B7+CCAACalendar+%C2%B7+StellarDaybook;Backend%2C+automatizacion%2C+ops+y+rollback+cuando+importa." alt="Typing SVG" />
 
 [![GitHub](https://img.shields.io/badge/GitHub-JackStar6677--1-181717?style=for-the-badge&logo=github)](https://github.com/JackStar6677-1)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Pablo%20Elias-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/pablo-el%C3%ADas-avenda%C3%B1o-miranda-b4b93b39a/)
+[![DUOC UC](https://img.shields.io/badge/DUOC%20UC-Ingeniero%20en%20Informatica-D4A24A?style=for-the-badge)](https://www.duoc.cl/)
 [![Email](https://img.shields.io/badge/Email-contacto-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pablo.elias.miranda.292003@gmail.com)
 <img src="https://komarev.com/ghpvc/?username=JackStar6677-1&style=for-the-badge&color=8B5CF6" alt="visitas" />
 
@@ -21,9 +22,16 @@
 
 ## Quien soy ahora
 
-Soy estudiante de Ingenieria en Informatica en DUOC y trabajo como una mezcla bastante real de desarrollador, sysadmin practico y operador de sistemas que no viven solo en local. Me gusta convertir problemas sueltos en herramientas que alguien pueda usar: calendarios, paneles, scripts, automatizaciones, sitios publicos, plugins y utilidades para Windows.
+Soy **Ingeniero en Informatica titulado por DUOC UC** y trabajo como una mezcla bastante real de arquitecto de software, sysadmin practico y operador de sistemas que no viven solo en local. Me gusta convertir problemas sueltos en herramientas que alguien pueda usar: calendarios, paneles, scripts, automatizaciones, sitios publicos, plugins y utilidades para Windows.
 
-Mi foco actual esta menos en "tener muchos repos" y mas en dejar proyectos con dueño, proposito y mantenimiento posible. Si algo esta publico aca, idealmente tiene una razon para existir.
+Mi forma natural de pensar es sistemica: detectar dependencias, ordenar caos, abstraer el problema y dejar una estructura mantenible. Mi foco actual esta menos en "tener muchos repos" y mas en dejar proyectos con dueño, proposito y continuidad posible. Si algo esta publico aca, idealmente tiene una razon para existir.
+
+## Credenciales base
+
+- **Ingeniero en Informatica** con titulo profesional otorgado por DUOC UC.
+- Curriculum completo de la carrera al cierre del segundo semestre 2025.
+- Certificaciones academicas en arquitectura de software, programacion, modelos de datos, gestion de proyectos informaticos, inteligencia de negocios, calidad de software, requerimientos e ingles intermedio alto.
+- Experiencia practica administrando infraestructura en entornos reales: salas de computacion, servidores, despliegues, mantencion, soporte tecnico y automatizacion operativa.
 
 ## Mapa operativo
 
@@ -33,6 +41,7 @@ flowchart LR
   Jack --> Drakes["DrakesCraft"]
   Jack --> Local["Windows tooling"]
   Jack --> Labs["Experimentos utiles"]
+  Jack --> Base["DUOC UC<br/>Ingeniero en Informatica"]
 
   Castel --> CRK["CastelRoomKeeper<br/>calendario y reservas"]
   Castel --> CredCam["castel-credcam<br/>credenciales escolares"]
@@ -81,6 +90,7 @@ flowchart LR
 
 - **Primero entiendo el sistema vivo.** Si hay servidor, usuarios, FTP, VPS o datos reales, la prioridad es no romperlo.
 - **Automatizo lo repetitivo.** Python y PowerShell son mis herramientas de confianza cuando el problema es operativo.
+- **Pienso en arquitectura antes de sumar piezas.** Dependencias, continuidad, escalabilidad y mantenimiento importan mas que el brillo inicial.
 - **Documento lo que va a doler despues.** Prefiero un README util, una nota de rollback o un script claro antes que magia imposible de repetir.
 - **Limpio sin borrar identidad.** Repos archivados, movidos o separados cuando corresponde; lo que queda visible tiene que contar algo verdadero.
 - **Uso IA como copiloto tecnico.** Acelera investigacion, prototipos y mantenimiento, pero el criterio final sigue siendo humano.
