@@ -26,6 +26,16 @@ Soy **Ingeniero en Informatica titulado por DUOC UC**, tengo **22 años** y naci
 
 Mi forma natural de pensar es sistemica: detectar dependencias, ordenar caos, abstraer el problema y dejar una estructura mantenible. Mi foco actual esta menos en "tener muchos repos" y mas en dejar proyectos con dueño, proposito y continuidad posible. Si algo esta publico aca, idealmente tiene una razon para existir.
 
+<div align="center">
+
+<img src="./assets/coffee-workloop.gif" width="520" alt="Cafe, terminal y trabajo intenso" />
+
+<br />
+
+<sub><strong>Modo trabajo:</strong> cafe, terminal, backups, deploys y demasiadas horas ordenando cosas que nadie queria ordenar.</sub>
+
+</div>
+
 ## Credenciales base
 
 - **Ingeniero en Informatica** con titulo profesional otorgado por DUOC UC.
@@ -88,12 +98,16 @@ flowchart LR
 
 ## Como trabajo
 
+<img align="right" src="./assets/terminal-coffee.gif" width="260" alt="Terminal y cafe" />
+
 - **Primero entiendo el sistema vivo.** Si hay servidor, usuarios, FTP, VPS o datos reales, la prioridad es no romperlo.
 - **Automatizo lo repetitivo.** Python y PowerShell son mis herramientas de confianza cuando el problema es operativo.
 - **Pienso en arquitectura antes de sumar piezas.** Dependencias, continuidad, escalabilidad y mantenimiento importan mas que el brillo inicial.
 - **Documento lo que va a doler despues.** Prefiero un README util, una nota de rollback o un script claro antes que magia imposible de repetir.
 - **Limpio sin borrar identidad.** Repos archivados, movidos o separados cuando corresponde; lo que queda visible tiene que contar algo verdadero.
 - **Uso IA como copiloto tecnico.** Acelera investigacion, prototipos y mantenimiento, pero el criterio final sigue siendo humano.
+
+<br clear="right" />
 
 ## Constelacion actual
 

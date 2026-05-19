@@ -1,86 +1,168 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">JackStar profile orbit</title>
-  <desc id="desc">Purple and gold animated profile banner with system, web and ops nodes.</desc>
+<svg width="1400" height="480" viewBox="0 0 1400 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">JackStar profile command center</title>
+  <desc id="desc">Animated purple and gold command center banner with coffee, terminal, constellations and project nodes.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#12051F"/>
-      <stop offset="0.48" stop-color="#2B0E4E"/>
-      <stop offset="1" stop-color="#0E1028"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#090111"/>
+      <stop offset="0.32" stop-color="#24083F"/>
+      <stop offset="0.62" stop-color="#130D31"/>
+      <stop offset="1" stop-color="#060A1D"/>
     </linearGradient>
-    <linearGradient id="gold" x1="221" y1="42" x2="974" y2="328" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFE6A3"/>
-      <stop offset="0.45" stop-color="#D4A24A"/>
-      <stop offset="1" stop-color="#8B5CF6"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 180) rotate(90) scale(205 460)">
-      <stop stop-color="#7C3AED" stop-opacity="0.62"/>
-      <stop offset="0.58" stop-color="#D4A24A" stop-opacity="0.14"/>
-      <stop offset="1" stop-color="#12051F" stop-opacity="0"/>
+    <radialGradient id="nebulaA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(470 230) rotate(12) scale(420 250)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.62"/>
+      <stop offset="0.55" stop-color="#D4A24A" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#090111" stop-opacity="0"/>
     </radialGradient>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+    <radialGradient id="nebulaB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 175) rotate(90) scale(230 360)">
+      <stop stop-color="#D4A24A" stop-opacity="0.24"/>
+      <stop offset="0.55" stop-color="#7C3AED" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#060A1D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldLine" x1="185" y1="91" x2="1210" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE7A1"/>
+      <stop offset="0.36" stop-color="#D4A24A"/>
+      <stop offset="0.72" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#19122B"/>
+      <stop offset="1" stop-color="#0A1026"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="333" y1="210" x2="752" y2="416" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101827"/>
+      <stop offset="0.64" stop-color="#1B1231"/>
+      <stop offset="1" stop-color="#2A1342"/>
+    </linearGradient>
+    <filter id="blur18" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
       <feGaussianBlur stdDeviation="18"/>
     </filter>
-    <filter id="textGlow" x="-20%" y="-40%" width="140%" height="180%" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#D4A24A" flood-opacity="0.42"/>
+    <filter id="goldGlow" x="-40%" y="-60%" width="180%" height="220%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#D4A24A" flood-opacity="0.56"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#8B5CF6" flood-opacity="0.25"/>
+    </filter>
+    <filter id="cardShadow" x="-12%" y="-18%" width="124%" height="146%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000000" flood-opacity="0.32"/>
     </filter>
     <style>
       .mono { font-family: "Fira Code", "Cascadia Code", Consolas, monospace; }
       .sans { font-family: Inter, Segoe UI, Arial, sans-serif; }
-      .orbit { transform-origin: 600px 180px; animation: spin 22s linear infinite; }
-      .orbit-slow { transform-origin: 600px 180px; animation: spinReverse 32s linear infinite; }
-      .pulse { animation: pulse 2.8s ease-in-out infinite; }
+      .spin { transform-origin: 700px 240px; animation: spin 36s linear infinite; }
+      .spin2 { transform-origin: 700px 240px; animation: spinBack 52s linear infinite; }
+      .float { animation: float 4.2s ease-in-out infinite; }
+      .float2 { animation: float 5.4s ease-in-out infinite reverse; }
+      .pulse { animation: pulse 2.7s ease-in-out infinite; }
       .blink { animation: blink 1.4s ease-in-out infinite; }
+      .steam { animation: steam 3.2s ease-in-out infinite; }
+      .dash { stroke-dasharray: 12 16; animation: dash 10s linear infinite; }
+      .type1 { animation: typeA 5.5s steps(16) infinite; }
+      .type2 { animation: typeB 6.5s steps(18) infinite; }
       @keyframes spin { to { transform: rotate(360deg); } }
-      @keyframes spinReverse { to { transform: rotate(-360deg); } }
-      @keyframes pulse { 0%,100% { opacity: .55; r: 4; } 50% { opacity: 1; r: 7; } }
-      @keyframes blink { 0%,42%,100% { opacity: 1; } 50%,88% { opacity: .25; } }
+      @keyframes spinBack { to { transform: rotate(-360deg); } }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+      @keyframes pulse { 0%,100% { opacity: .42; } 50% { opacity: 1; } }
+      @keyframes blink { 0%,45%,100% { opacity: 1; } 55%,82% { opacity: .22; } }
+      @keyframes steam { 0% { opacity: 0; transform: translateY(10px); } 35% { opacity: .9; } 100% { opacity: 0; transform: translateY(-26px); } }
+      @keyframes dash { to { stroke-dashoffset: -110; } }
+      @keyframes typeA { 0%,16% { opacity: .25; } 28%,86% { opacity: 1; } 100% { opacity: .25; } }
+      @keyframes typeB { 0%,32% { opacity: .25; } 44%,90% { opacity: 1; } 100% { opacity: .25; } }
     </style>
   </defs>
 
-  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <ellipse cx="600" cy="180" rx="470" ry="205" fill="url(#glow)" filter="url(#soft)"/>
+  <rect width="1400" height="480" rx="36" fill="url(#bg)"/>
+  <ellipse cx="470" cy="230" rx="480" ry="270" fill="url(#nebulaA)" filter="url(#blur18)"/>
+  <ellipse cx="1010" cy="175" rx="360" ry="230" fill="url(#nebulaB)" filter="url(#blur18)"/>
 
-  <g opacity="0.32">
-    <path d="M86 72H1114" stroke="#D4A24A" stroke-opacity="0.28"/>
-    <path d="M86 288H1114" stroke="#8B5CF6" stroke-opacity="0.24"/>
-    <path d="M152 36V324" stroke="#FFFFFF" stroke-opacity="0.08"/>
-    <path d="M1048 36V324" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <g opacity="0.16">
+    <path d="M90 86H1310M90 184H1310M90 282H1310M90 380H1310" stroke="#FFFFFF"/>
+    <path d="M198 56V420M364 56V420M530 56V420M696 56V420M862 56V420M1028 56V420M1194 56V420" stroke="#FFFFFF"/>
   </g>
 
-  <g class="orbit-slow" opacity="0.78">
-    <ellipse cx="600" cy="180" rx="400" ry="116" stroke="url(#gold)" stroke-width="1.5" stroke-dasharray="9 12"/>
-    <circle class="pulse" cx="1000" cy="180" r="5" fill="#FFE6A3"/>
-    <circle cx="200" cy="180" r="4" fill="#8B5CF6"/>
+  <g class="spin2" opacity="0.7">
+    <ellipse cx="700" cy="240" rx="520" ry="144" stroke="url(#goldLine)" stroke-width="1.25" stroke-opacity="0.62" class="dash"/>
+    <circle class="pulse" cx="1220" cy="240" r="5" fill="#FDE68A"/>
+    <circle cx="180" cy="240" r="4" fill="#A78BFA"/>
+  </g>
+  <g class="spin" opacity="0.72">
+    <ellipse cx="700" cy="240" rx="390" ry="105" stroke="#D4A24A" stroke-width="1.4" stroke-opacity="0.7"/>
+    <circle class="pulse" cx="1090" cy="240" r="5" fill="#D4A24A"/>
+    <circle cx="310" cy="240" r="4" fill="#C084FC"/>
   </g>
 
-  <g class="orbit" opacity="0.9">
-    <ellipse cx="600" cy="180" rx="314" ry="88" stroke="#D4A24A" stroke-width="1.4" stroke-opacity="0.72"/>
-    <circle class="pulse" cx="914" cy="180" r="5" fill="#D4A24A"/>
-    <circle cx="286" cy="180" r="4" fill="#C084FC"/>
+  <g opacity="0.75">
+    <path d="M245 110L384 153L455 96L570 142L667 93L809 134L928 86L1086 140" stroke="#C4B5FD" stroke-opacity="0.33"/>
+    <path d="M960 318L1054 262L1146 295L1240 214" stroke="#D4A24A" stroke-opacity="0.36"/>
+    <circle cx="245" cy="110" r="4" fill="#FDE68A"/>
+    <circle cx="384" cy="153" r="3.5" fill="#A78BFA"/>
+    <circle cx="455" cy="96" r="3.5" fill="#FDE68A"/>
+    <circle cx="570" cy="142" r="3" fill="#C084FC"/>
+    <circle cx="667" cy="93" r="4" fill="#FDE68A"/>
+    <circle cx="809" cy="134" r="3.5" fill="#A78BFA"/>
+    <circle cx="928" cy="86" r="3.5" fill="#FDE68A"/>
+    <circle cx="1086" cy="140" r="4" fill="#C084FC"/>
+    <circle cx="1054" cy="262" r="4" fill="#FDE68A"/>
+    <circle cx="1240" cy="214" r="4" fill="#FDE68A"/>
   </g>
 
-  <g transform="translate(96 84)">
-    <rect x="0" y="0" width="218" height="42" rx="10" fill="#FFFFFF" fill-opacity="0.08" stroke="#D4A24A" stroke-opacity="0.35"/>
-    <text class="mono" x="18" y="27" fill="#FDE68A" font-size="16">systems online</text>
-    <circle class="blink" cx="194" cy="21" r="5" fill="#22C55E"/>
+  <g transform="translate(102 88)" filter="url(#cardShadow)">
+    <rect width="260" height="62" rx="14" fill="#FFFFFF" fill-opacity="0.075" stroke="#D4A24A" stroke-opacity="0.35"/>
+    <text class="mono" x="22" y="38" fill="#FDE68A" font-size="17" font-weight="700">systems online</text>
+    <circle class="blink" cx="224" cy="31" r="6" fill="#22C55E"/>
   </g>
 
-  <g transform="translate(896 234)">
-    <rect x="0" y="0" width="214" height="42" rx="10" fill="#FFFFFF" fill-opacity="0.08" stroke="#8B5CF6" stroke-opacity="0.45"/>
-    <text class="mono" x="18" y="27" fill="#E9D5FF" font-size="16">ops with rollback</text>
+  <g class="float" transform="translate(278 205)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="466" height="224" rx="22" fill="url(#screen)" stroke="#8B5CF6" stroke-opacity="0.38"/>
+    <rect x="22" y="22" width="422" height="34" rx="10" fill="#FFFFFF" fill-opacity="0.08"/>
+    <circle cx="45" cy="39" r="5" fill="#EF4444"/>
+    <circle cx="64" cy="39" r="5" fill="#F59E0B"/>
+    <circle cx="83" cy="39" r="5" fill="#22C55E"/>
+    <text class="mono" x="110" y="45" fill="#E9D5FF" font-size="14">jack@star:~/ops</text>
+    <text class="mono" x="34" y="88" fill="#D4A24A" font-size="16">$ sync --prod castel --safe</text>
+    <text class="mono type1" x="34" y="122" fill="#A7F3D0" font-size="15">[ok] backup staged</text>
+    <text class="mono type2" x="34" y="154" fill="#E9D5FF" font-size="15">[ok] deploy with rollback</text>
+    <path d="M300 94H420M300 120H398M300 146H430M300 172H370" stroke="#D4A24A" stroke-opacity="0.32" stroke-width="8" stroke-linecap="round"/>
+    <path d="M30 190H436" stroke="#FFFFFF" stroke-opacity="0.08"/>
   </g>
 
-  <g transform="translate(600 177)" text-anchor="middle" filter="url(#textGlow)">
-    <text class="sans" y="-28" fill="#FFF7D6" font-size="62" font-weight="800" letter-spacing="0">JackStar</text>
-    <text class="mono" y="20" fill="#D4A24A" font-size="18">web institucional · Minecraft ops · automatizacion local</text>
-    <text class="mono" y="54" fill="#D8B4FE" font-size="15">Castel · DrakesCraft · CCAACalendar · tooling real</text>
+  <g class="float2" transform="translate(815 204)" filter="url(#cardShadow)">
+    <rect x="0" y="0" width="250" height="168" rx="20" fill="#FFFFFF" fill-opacity="0.075" stroke="#D4A24A" stroke-opacity="0.38"/>
+    <text class="mono" x="24" y="36" fill="#FDE68A" font-size="15">project constellation</text>
+    <g class="mono" font-size="13" font-weight="700">
+      <rect x="24" y="58" width="86" height="28" rx="14" fill="#2B0E4E" stroke="#8B5CF6" stroke-opacity="0.45"/>
+      <text x="42" y="77" fill="#E9D5FF">Castel</text>
+      <rect x="126" y="58" width="94" height="28" rx="14" fill="#201632" stroke="#D4A24A" stroke-opacity="0.5"/>
+      <text x="146" y="77" fill="#FDE68A">Drakes</text>
+      <rect x="24" y="102" width="92" height="28" rx="14" fill="#201632" stroke="#D4A24A" stroke-opacity="0.5"/>
+      <text x="42" y="121" fill="#FDE68A">CCAA</text>
+      <rect x="132" y="102" width="88" height="28" rx="14" fill="#2B0E4E" stroke="#8B5CF6" stroke-opacity="0.45"/>
+      <text x="148" y="121" fill="#E9D5FF">Tools</text>
+    </g>
   </g>
 
-  <g opacity="0.78">
-    <circle cx="390" cy="92" r="3" fill="#FDE68A"/>
-    <circle cx="802" cy="78" r="3" fill="#C084FC"/>
-    <circle cx="1008" cy="112" r="2.5" fill="#FDE68A"/>
-    <circle cx="228" cy="268" r="2.5" fill="#C084FC"/>
-    <circle cx="774" cy="298" r="3" fill="#FDE68A"/>
+  <g class="float" transform="translate(1118 286)">
+    <ellipse cx="56" cy="82" rx="78" ry="18" fill="#000000" fill-opacity="0.28"/>
+    <rect x="16" y="28" width="86" height="70" rx="16" fill="#2B1934" stroke="#D4A24A" stroke-opacity="0.55"/>
+    <path d="M102 44h20c23 0 23 38 0 38h-20" stroke="#D4A24A" stroke-width="9" stroke-linecap="round"/>
+    <path d="M28 42h60" stroke="#FDE68A" stroke-opacity="0.28" stroke-width="7" stroke-linecap="round"/>
+    <path class="steam" d="M40 16c-12-20 18-20 6-40" stroke="#FDE68A" stroke-width="5" stroke-linecap="round" opacity="0"/>
+    <path class="steam" d="M64 14c-12-22 20-24 7-45" stroke="#C084FC" stroke-width="5" stroke-linecap="round" opacity="0" style="animation-delay:.45s"/>
+    <path class="steam" d="M86 16c-10-18 16-22 6-39" stroke="#FDE68A" stroke-width="5" stroke-linecap="round" opacity="0" style="animation-delay:.9s"/>
+  </g>
+
+  <g transform="translate(700 160)" text-anchor="middle" filter="url(#goldGlow)">
+    <text class="sans" y="0" fill="#FFF7D6" font-size="70" font-weight="850">JackStar</text>
+    <text class="mono" y="42" fill="#D4A24A" font-size="18" font-weight="700">ingenieria · sistemas vivos · automatizacion · infraestructura</text>
+  </g>
+
+  <g transform="translate(900 88)" class="mono" filter="url(#cardShadow)">
+    <rect width="300" height="54" rx="14" fill="#FFFFFF" fill-opacity="0.075" stroke="#8B5CF6" stroke-opacity="0.45"/>
+    <text x="22" y="35" fill="#E9D5FF" font-size="15" font-weight="700">coffee driven operations</text>
+  </g>
+
+  <g opacity="0.88">
+    <circle cx="506" cy="79" r="3" fill="#FDE68A"/>
+    <circle cx="1180" cy="78" r="3" fill="#FDE68A"/>
+    <circle cx="203" cy="310" r="3" fill="#C084FC"/>
+    <circle cx="758" cy="338" r="3" fill="#FDE68A"/>
+    <circle cx="1287" cy="360" r="2.5" fill="#C084FC"/>
   </g>
 </svg>
