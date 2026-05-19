@@ -125,9 +125,7 @@ mindmap
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=JackStar6677-1&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&border_radius=10&title_color=D4A24A&icon_color=D4A24A" alt="GitHub stats" />
 <img height="165" src="https://streak-stats.demolab.com/?user=JackStar6677-1&theme=tokyonight&hide_border=true&locale=es&border_radius=10&card_width=500&ring=D4A24A&fire=D4A24A&currStreakLabel=D4A24A" alt="GitHub streak" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JackStar6677-1&layout=compact&hide_border=true&theme=tokyonight&langs_count=8&border_radius=10&title_color=D4A24A" alt="Top languages" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=JackStar6677-1&theme=react-dark&hide_border=true&radius=10&area=true&color=D4A24A&line=8B5CF6&point=FDE68A" width="96%" alt="Actividad" />
 
@@ -135,28 +133,14 @@ mindmap
 
 ## Repos destacados
 
-<div align="center">
-
-<a href="https://github.com/JackStar6677-1/CCAACalendar">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JackStar6677-1&repo=CCAACalendar&theme=tokyonight&hide_border=true&border_radius=10&title_color=D4A24A&icon_color=D4A24A" alt="CCAACalendar" />
-</a>
-<a href="https://github.com/JackStar6677-1/CastelRoomKeeper">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JackStar6677-1&repo=CastelRoomKeeper&theme=tokyonight&hide_border=true&border_radius=10&title_color=D4A24A&icon_color=D4A24A" alt="CastelRoomKeeper" />
-</a>
-<a href="https://github.com/JackStar6677-1/castel-credcam">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JackStar6677-1&repo=castel-credcam&theme=tokyonight&hide_border=true&border_radius=10&title_color=D4A24A&icon_color=D4A24A" alt="castel-credcam" />
-</a>
-<a href="https://github.com/JackStar6677-1/drakescraft-web">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JackStar6677-1&repo=drakescraft-web&theme=tokyonight&hide_border=true&border_radius=10&title_color=D4A24A&icon_color=D4A24A" alt="drakescraft-web" />
-</a>
-<a href="https://github.com/JackStar6677-1/StellarDaybook">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JackStar6677-1&repo=StellarDaybook&theme=tokyonight&hide_border=true&border_radius=10&title_color=D4A24A&icon_color=D4A24A" alt="StellarDaybook" />
-</a>
-<a href="https://github.com/JackStar6677-1/AstroControlSim">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JackStar6677-1&repo=AstroControlSim&theme=tokyonight&hide_border=true&border_radius=10&title_color=D4A24A&icon_color=D4A24A" alt="AstroControlSim" />
-</a>
-
-</div>
+| Repo | Estado / foco |
+|---|---|
+| [CCAACalendar](https://github.com/JackStar6677-1/CCAACalendar) | Calendario academico separado de CastelRoomKeeper, pensado como producto mas amplio. |
+| [CastelRoomKeeper](https://github.com/JackStar6677-1/CastelRoomKeeper) | Snapshot versionable del calendario privado del Castel. |
+| [castel-credcam](https://github.com/JackStar6677-1/castel-credcam) | Herramienta practica para credenciales escolares. |
+| [drakescraft-web](https://github.com/JackStar6677-1/drakescraft-web) | Sitio publico de DrakesCraft. |
+| [StellarDaybook](https://github.com/JackStar6677-1/StellarDaybook) | Bitacora automatizada y memoria tecnica diaria. |
+| [AstroControlSim](https://github.com/JackStar6677-1/AstroControlSim) | Simulacion/control, exploracion tecnica de largo plazo. |
 
 ## Mas contexto
 
