@@ -22,7 +22,7 @@
 
 ## Quien soy ahora
 
-Soy **Ingeniero en Informatica titulado por DUOC UC** y trabajo como una mezcla bastante real de arquitecto de software, sysadmin practico y operador de sistemas que no viven solo en local. Me gusta convertir problemas sueltos en herramientas que alguien pueda usar: calendarios, paneles, scripts, automatizaciones, sitios publicos, plugins y utilidades para Windows.
+Soy **Ingeniero en Informatica titulado por DUOC UC**, tengo **22 años** y naci el **29 de noviembre de 2003**. Trabajo como una mezcla bastante real de arquitecto de software, sysadmin practico y operador de sistemas que no viven solo en local. Me gusta convertir problemas sueltos en herramientas que alguien pueda usar: calendarios, paneles, scripts, automatizaciones, sitios publicos, plugins y utilidades para Windows.
 
 Mi forma natural de pensar es sistemica: detectar dependencias, ordenar caos, abstraer el problema y dejar una estructura mantenible. Mi foco actual esta menos en "tener muchos repos" y mas en dejar proyectos con dueño, proposito y continuidad posible. Si algo esta publico aca, idealmente tiene una razon para existir.
 

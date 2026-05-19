@@ -6,7 +6,7 @@ Este archivo complementa el README principal y reune contexto tecnico mas establ
 
 ## Perfil base
 
-Soy Ingeniero en Informatica titulado por DUOC UC. Mi trabajo se mueve entre arquitectura de software, infraestructura digital, administracion de sistemas, automatizacion y resolucion de problemas complejos en entornos reales.
+Soy Ingeniero en Informatica titulado por DUOC UC. Tengo 22 años y naci el 29 de noviembre de 2003. Mi trabajo se mueve entre arquitectura de software, infraestructura digital, administracion de sistemas, automatizacion y resolucion de problemas complejos en entornos reales.
 
 Tiendo a pensar como arquitecto de sistemas: entiendo dependencias, detecto patrones rapido, separo capas, documento lo necesario y busco continuidad operacional. Me interesa menos acumular tecnologia y mas construir cosas que tengan sentido, dueño, mantenimiento y rollback.
 
