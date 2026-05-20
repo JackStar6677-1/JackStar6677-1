@@ -135,10 +135,6 @@ mindmap
 
 </div>
 
-<p align="center">
-  <img src="./assets/coffee-workloop.gif" width="460" alt="Cafe y trabajo" />
-</p>
-
 ## Repos destacados
 
 | Repo | Estado / foco |
