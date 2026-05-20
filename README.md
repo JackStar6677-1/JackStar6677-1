@@ -95,6 +95,10 @@ flowchart LR
 - **Limpio sin borrar identidad.** Repos archivados, movidos o separados cuando corresponde; lo que queda visible tiene que contar algo verdadero.
 - **Uso IA como copiloto tecnico.** Acelera investigacion, prototipos y mantenimiento, pero el criterio final sigue siendo humano.
 
+<p align="center">
+  <img src="./assets/terminal-workloop.gif" width="360" alt="Terminal de trabajo" />
+</p>
+
 ## Constelacion actual
 
 ```mermaid
@@ -130,6 +134,10 @@ mindmap
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=JackStar6677-1&theme=react-dark&hide_border=true&radius=10&area=true&color=D4A24A&line=8B5CF6&point=FDE68A" width="96%" alt="Actividad" />
 
 </div>
+
+<p align="center">
+  <img src="./assets/coffee-workloop.gif" width="460" alt="Cafe y trabajo" />
+</p>
 
 ## Repos destacados
 
