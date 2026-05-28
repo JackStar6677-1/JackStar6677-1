@@ -8,7 +8,7 @@
 
 **Ingeniero en Informatica · arquitectura de software · infraestructura digital · automatizacion y sistemas reales.**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=D4A24A&center=true&vCenter=true&width=850&height=84&lines=No+colecciono+repos%3A+mantengo+sistemas+vivos.;Castel+%C2%B7+DrakesCraft+%C2%B7+CCAACalendar+%C2%B7+StellarDaybook;Backend%2C+automatizacion%2C+ops+y+rollback+cuando+importa." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=D4A24A&center=true&vCenter=true&width=900&height=84&lines=No+colecciono+repos%3A+mantengo+sistemas+vivos.;VeyonScripts+%C2%B7+CCAACalendar+%C2%B7+Castel+%C2%B7+DrakesCraft;Backend%2C+automatizacion%2C+ops+y+rollback+cuando+importa." alt="Typing SVG" />
 
 [![GitHub](https://img.shields.io/badge/GitHub-JackStar6677--1-181717?style=for-the-badge&logo=github)](https://github.com/JackStar6677-1)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Pablo%20Elias-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/pablo-el%C3%ADas-avenda%C3%B1o-miranda-b4b93b39a/)
@@ -22,9 +22,9 @@
 
 ## Quien soy ahora
 
-Soy **Ingeniero en Informatica titulado por DUOC UC**, tengo **22 años** y naci el **29 de noviembre de 2003**. Trabajo como una mezcla bastante real de arquitecto de software, sysadmin practico y operador de sistemas que no viven solo en local. Me gusta convertir problemas sueltos en herramientas que alguien pueda usar: calendarios, paneles, scripts, automatizaciones, sitios publicos, plugins y utilidades para Windows.
+Soy **Ingeniero en Informatica titulado por DUOC UC**, tengo **22 años** y naci el **29 de noviembre de 2003**. Trabajo como una mezcla bastante real de arquitecto de software, sysadmin practico y operador de sistemas que no viven solo en local. Me gusta convertir problemas sueltos en herramientas que alguien pueda usar: calendarios, paneles, scripts, automatizaciones para laboratorios, sitios publicos, plugins y utilidades para Windows.
 
-Mi forma natural de pensar es sistemica: detectar dependencias, ordenar caos, abstraer el problema y dejar una estructura mantenible. Mi foco actual esta menos en "tener muchos repos" y mas en dejar proyectos con dueño, proposito y continuidad posible. Si algo esta publico aca, idealmente tiene una razon para existir.
+Mi forma natural de pensar es sistemica: detectar dependencias, ordenar caos, abstraer el problema y dejar una estructura mantenible. Mi foco actual esta menos en "tener muchos repos" y mas en dejar proyectos con dueño, proposito y continuidad posible. Si algo esta publico aca, idealmente muestra una linea real de trabajo: infraestructura, automatizacion, producto web, tooling local o exploracion tecnica con futuro.
 
 ## Credenciales base
 
@@ -39,6 +39,7 @@ Mi forma natural de pensar es sistemica: detectar dependencias, ordenar caos, ab
 flowchart LR
   Jack["JackStar"] --> Castel["Castelgandolfo"]
   Jack --> Drakes["DrakesCraft"]
+  Jack --> LabsTI["Labs TI"]
   Jack --> Local["Windows tooling"]
   Jack --> Labs["Experimentos utiles"]
   Jack --> Base["DUOC UC<br/>Ingeniero en Informatica"]
@@ -47,14 +48,19 @@ flowchart LR
   Castel --> CredCam["castel-credcam<br/>credenciales escolares"]
   Castel --> CCAA["CCAACalendar<br/>idea SaaS / agenda academica"]
 
+  LabsTI --> Veyon["VeyonScripts<br/>mapeo, escaneo y diagnostico"]
+
   Drakes --> Web["drakescraft-web"]
   Drakes --> Org["DrakesCraft-Labs"]
   Org --> Plugins["Slimefun / Paper plugins"]
+  Org --> Coronalis["Coronalis<br/>addon astronomico"]
 
   Local --> Daybook["StellarDaybook"]
   Local --> Scripts["PowerShell + Python ops"]
 
   Labs --> Astro["AstroControlSim"]
+  Labs --> Aurexalis["Aurexalis"]
+  Labs --> Omni["omnisky-miner"]
   Labs --> Tools["simulaciones, UI y utilidades"]
 ```
 
@@ -62,6 +68,7 @@ flowchart LR
 
 | Proyecto | Que representa |
 |---|---|
+| [VeyonScripts](https://github.com/JackStar6677-1/VeyonScripts) | Automatizacion y diagnostico para laboratorios con Veyon: mapeo fisico, escaneo de red y herramientas operativas. |
 | [CastelRoomKeeper](https://github.com/JackStar6677-1/CastelRoomKeeper) | Calendario operativo del Castel, nacido desde una web viva con backend real y sincronizacion con produccion. |
 | [CCAACalendar](https://github.com/JackStar6677-1/CCAACalendar) | Evolucion separada: una agenda/calendario mas ambiciosa para reservas, salas y flujos academicos. |
 | [castel-credcam](https://github.com/JackStar6677-1/castel-credcam) | Captura y preparacion de credenciales escolares, pensada para uso practico en terreno. |
@@ -69,6 +76,16 @@ flowchart LR
 | [DrakesCraft-Labs](https://github.com/DrakesCraft-Labs) | Organizacion para plugins, pruebas y herramientas del ecosistema Paper / Slimefun. |
 | [StellarDaybook](https://github.com/JackStar6677-1/StellarDaybook) | Bitacora personal automatizada: commits, rutina y memoria tecnica del dia a dia. |
 | [AstroControlSim](https://github.com/JackStar6677-1/AstroControlSim) | Linea de simulacion/control, una rama mas experimental y de largo plazo. |
+
+## Laboratorio personal
+
+| Repo | Exploracion |
+|---|---|
+| [Aurexalis](https://github.com/JackStar6677-1/Aurexalis) | Arquitectura de navegador personal basada en Gecko/Floorp, Rust y UI reactiva. |
+| [Coronalis](https://github.com/JackStar6677-1/Coronalis) | Addon Slimefun con radiotelescopios, interferometria y descubrimientos con XP. |
+| [omnisky-miner](https://github.com/JackStar6677-1/omnisky-miner) | Observatorio virtual local para mineria SETI/astrofisica con dashboard y base SQLite. |
+| [AureonVault](https://github.com/JackStar6677-1/AureonVault) | Exploracion de file manager local para Windows con UI propia. |
+| [VotV-Points-Editor](https://github.com/JackStar6677-1/VotV-Points-Editor) | Utilidad segura con backups para editar puntos de Voices of the Void. |
 
 ## Stack de batalla
 
@@ -81,6 +98,7 @@ flowchart LR
 ![Paper](https://img.shields.io/badge/Paper%20%2F%20Spigot-5A2D82?style=flat-square)
 ![Slimefun](https://img.shields.io/badge/Slimefun-D4A24A?style=flat-square)
 ![Windows Ops](https://img.shields.io/badge/Windows%20Ops-6D28D9?style=flat-square&logo=windows)
+![Veyon](https://img.shields.io/badge/Veyon%20Labs-2563EB?style=flat-square)
 ![Rollback mindset](https://img.shields.io/badge/rollback%20mindset-111827?style=flat-square)
 ![Produccion real](https://img.shields.io/badge/produccion%20real-22C55E?style=flat-square)
 
@@ -109,11 +127,16 @@ mindmap
       CCAACalendar
       castel-credcam
       web institucional
+    Labs TI
+      VeyonScripts
+      mapeo fisico
+      diagnostico red
     DrakesCraft
       drakescraft-web
       DrakesCraft-Labs
       Paper
       Slimefun
+      Coronalis
     Local
       StellarDaybook
       PowerShell
@@ -121,6 +144,8 @@ mindmap
       diagnostico Windows
     Experimentos
       AstroControlSim
+      Aurexalis
+      omnisky-miner
       herramientas UI
       simulaciones
 ```
@@ -139,12 +164,15 @@ mindmap
 
 | Repo | Estado / foco |
 |---|---|
+| [VeyonScripts](https://github.com/JackStar6677-1/VeyonScripts) | Sistema de administracion y diagnostico para laboratorios con Veyon, Python y herramientas de red. |
 | [CCAACalendar](https://github.com/JackStar6677-1/CCAACalendar) | Calendario academico separado de CastelRoomKeeper, pensado como producto mas amplio. |
 | [CastelRoomKeeper](https://github.com/JackStar6677-1/CastelRoomKeeper) | Snapshot versionable del calendario privado del Castel. |
 | [castel-credcam](https://github.com/JackStar6677-1/castel-credcam) | Herramienta practica para credenciales escolares. |
 | [drakescraft-web](https://github.com/JackStar6677-1/drakescraft-web) | Sitio publico de DrakesCraft. |
+| [Coronalis](https://github.com/JackStar6677-1/Coronalis) | Addon Slimefun experimental con mecanicas astronomicas para DrakesCraft. |
 | [StellarDaybook](https://github.com/JackStar6677-1/StellarDaybook) | Bitacora automatizada y memoria tecnica diaria. |
 | [AstroControlSim](https://github.com/JackStar6677-1/AstroControlSim) | Simulacion/control, exploracion tecnica de largo plazo. |
+| [Aurexalis](https://github.com/JackStar6677-1/Aurexalis) | Exploracion de navegador personal y modulos Rust. |
 
 ## Mas contexto
 

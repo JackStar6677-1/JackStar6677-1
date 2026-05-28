@@ -6,12 +6,13 @@ Este archivo complementa el README principal y reune contexto tecnico mas establ
 
 ## Perfil base
 
-Soy Ingeniero en Informatica titulado por DUOC UC. Tengo 22 años y naci el 29 de noviembre de 2003. Mi trabajo se mueve entre arquitectura de software, infraestructura digital, administracion de sistemas, automatizacion y resolucion de problemas complejos en entornos reales.
+Soy Ingeniero en Informatica titulado por DUOC UC. Tengo 22 años y naci el 29 de noviembre de 2003. Mi trabajo se mueve entre arquitectura de software, infraestructura digital, administracion de sistemas, automatizacion para laboratorios y resolucion de problemas complejos en entornos reales.
 
 Tiendo a pensar como arquitecto de sistemas: entiendo dependencias, detecto patrones rapido, separo capas, documento lo necesario y busco continuidad operacional. Me interesa menos acumular tecnologia y mas construir cosas que tengan sentido, dueño, mantenimiento y rollback.
 
 ## Cómo puedo ayudarte
 - Diagnóstico rápido para nuevos flujos en laboratorios, aulas o infraestructura pequeña/mediana.
+- Automatización con Veyon, inventario de equipos, mapeo físico de salas y herramientas de soporte TI.
 - Automatización de despliegues, respaldos y scripts de TI.
 - Documentación y mentoría para equipos que parten en web, scripting o procesos reproducibles.
 - Auditorías ligeras de pipelines y automatizaciones existentes.
@@ -39,6 +40,7 @@ Soy dueño y administrador de mc.drakescraft.net. Gestiono servidores Java (Spig
 ## Logros rápidos
 - Scripts internos usados por más de 100 personas en laboratorios.
 - Automatizaciones de respaldos y despliegues corriendo en producción dentro de TI.
+- Herramientas propias para diagnostico de red, mapeo de equipos, bitacoras tecnicas y continuidad operacional.
 
 ## Filosofía de desarrollo
 - Hago código práctico, no adornado para tutoriales.  
@@ -55,9 +57,11 @@ Soy dueño y administrador de mc.drakescraft.net. Gestiono servidores Java (Spig
 - Administración de servidores Minecraft (DrakesCraft) cubriendo plugins, VPS, firewall, proxys y equipos de staff.
 
 ## Lineas de trabajo actuales
+- Automatizacion y diagnostico para laboratorios con Veyon, Python, PowerShell y escaneo de red.
 - Sistemas de calendario, reservas y gestion operativa para entornos academicos.
 - Herramientas locales para bitacora, diagnostico, automatizacion y respaldo.
-- Ecosistema DrakesCraft: web, plugins, organizacion tecnica y continuidad del servidor.
+- Ecosistema DrakesCraft: web, plugins, organizacion tecnica, Slimefun y continuidad del servidor.
+- Exploraciones tecnicas propias: navegador personal, observatorio virtual, simulacion/control y herramientas Windows.
 - Exploracion aplicada de IA como copiloto de investigacion, prototipado y mantenimiento.
 
 ## Estadísticas extendidas
@@ -69,7 +73,7 @@ Soy dueño y administrador de mc.drakescraft.net. Gestiono servidores Java (Spig
 ![Streak](https://streak-stats.demolab.com/?user=JackStar6677-1&theme=tokyonight&hide_border=true&locale=es&mode=weekly)
 
 ## Ultimas tecnologias que estoy probando
-`ComfyUI Web Texture Generator` · `IA local y modelos de Hugging Face` · `LLMs` · `Python para IA` · `SQL avanzado` · `Linux hardening` · `Ciberseguridad` · `Automatización con scripts`
+`Veyon` · `Python para soporte TI` · `PowerShell avanzado` · `ComfyUI Web Texture Generator` · `IA local y modelos de Hugging Face` · `LLMs` · `SQL avanzado` · `Linux hardening` · `Ciberseguridad` · `Automatización con scripts`
 
 ## Extras ampliadas
 - Me interesa la física cuántica, la filosofía y la exploración de ideas.  
