@@ -36,32 +36,48 @@ Mi forma natural de pensar es sistemica: detectar dependencias, ordenar caos, ab
 ## Mapa operativo
 
 ```mermaid
-flowchart LR
-  Jack["JackStar"] --> Castel["Castelgandolfo"]
-  Jack --> Drakes["DrakesCraft"]
-  Jack --> LabsTI["Labs TI"]
-  Jack --> Local["Windows tooling"]
-  Jack --> Labs["Experimentos utiles"]
-  Jack --> Base["DUOC UC<br/>Ingeniero en Informatica"]
+%%{init: {"theme": "base", "themeVariables": {"background": "transparent", "primaryColor": "#2B0E4E", "primaryTextColor": "#FFFFFF", "primaryBorderColor": "#D4A24A", "lineColor": "#D4A24A", "secondaryColor": "#111827", "tertiaryColor": "#1F2937", "fontFamily": "Fira Code, Segoe UI, sans-serif"}}}%%
+flowchart TB
+  Jack["JackStar<br/>arquitectura + ops + automatizacion"]:::core
 
-  Castel --> CRK["CastelRoomKeeper<br/>calendario y reservas"]
-  Castel --> CredCam["castel-credcam<br/>credenciales escolares"]
-  Castel --> CCAA["CCAACalendar<br/>idea SaaS / agenda academica"]
+  subgraph Real["Sistemas reales"]
+    direction LR
+    Veyon["VeyonScripts<br/>labs, red, soporte TI"]:::ops
+    Castel["Castel<br/>calendarios, reservas, credenciales"]:::product
+    Drakes["DrakesCraft<br/>web, servidor, plugins"]:::game
+  end
 
-  LabsTI --> Veyon["VeyonScripts<br/>mapeo, escaneo y diagnostico"]
+  subgraph Build["Como construyo"]
+    direction LR
+    Backend["Backend<br/>PHP, Python, Java, C#"]:::build
+    Infra["Infraestructura<br/>Windows, Linux, redes"]:::ops
+    Data["Datos<br/>PostgreSQL, MySQL, SQLite"]:::data
+    Docs["Docs + rollback<br/>continuidad operativa"]:::safe
+  end
 
-  Drakes --> Web["drakescraft-web"]
-  Drakes --> Org["DrakesCraft-Labs"]
-  Org --> Plugins["Slimefun / Paper plugins"]
-  Org --> Coronalis["Coronalis<br/>addon astronomico"]
+  subgraph Lab["Laboratorio personal"]
+    direction LR
+    Browser["Aurexalis<br/>browser architecture"]:::lab
+    Astro["AstroControlSim<br/>simulacion/control"]:::lab
+    Omni["omnisky-miner<br/>observatorio local"]:::lab
+    Tools["AureonVault<br/>VotV editor<br/>utilidades Windows"]:::lab
+  end
 
-  Local --> Daybook["StellarDaybook"]
-  Local --> Scripts["PowerShell + Python ops"]
+  Jack --> Real
+  Jack --> Build
+  Jack --> Lab
+  Real --> Build
+  Build --> Docs
+  Docs --> Real
 
-  Labs --> Astro["AstroControlSim"]
-  Labs --> Aurexalis["Aurexalis"]
-  Labs --> Omni["omnisky-miner"]
-  Labs --> Tools["simulaciones, UI y utilidades"]
+  classDef core fill:#2B0E4E,stroke:#D4A24A,stroke-width:3px,color:#FFFFFF;
+  classDef ops fill:#1E3A8A,stroke:#93C5FD,stroke-width:2px,color:#FFFFFF;
+  classDef product fill:#065F46,stroke:#6EE7B7,stroke-width:2px,color:#FFFFFF;
+  classDef game fill:#581C87,stroke:#C084FC,stroke-width:2px,color:#FFFFFF;
+  classDef build fill:#111827,stroke:#FDE68A,stroke-width:2px,color:#FFFFFF;
+  classDef data fill:#7C2D12,stroke:#FDBA74,stroke-width:2px,color:#FFFFFF;
+  classDef safe fill:#365314,stroke:#BEF264,stroke-width:2px,color:#FFFFFF;
+  classDef lab fill:#312E81,stroke:#A5B4FC,stroke-width:2px,color:#FFFFFF;
 ```
 
 ## Proyectos vivos
@@ -117,37 +133,78 @@ flowchart LR
   <img src="./assets/terminal-workloop.gif" width="360" alt="Terminal de trabajo" />
 </p>
 
-## Constelacion actual
+## Circuito de trabajo
 
 ```mermaid
-mindmap
-  root((JackStar))
-    Castel
-      CastelRoomKeeper
-      CCAACalendar
-      castel-credcam
-      web institucional
-    Labs TI
-      VeyonScripts
-      mapeo fisico
-      diagnostico red
-    DrakesCraft
-      drakescraft-web
-      DrakesCraft-Labs
-      Paper
-      Slimefun
-      Coronalis
-    Local
-      StellarDaybook
-      PowerShell
-      backups
-      diagnostico Windows
-    Experimentos
-      AstroControlSim
-      Aurexalis
-      omnisky-miner
-      herramientas UI
-      simulaciones
+%%{init: {"theme": "base", "themeVariables": {"background": "transparent", "primaryColor": "#111827", "primaryTextColor": "#FFFFFF", "primaryBorderColor": "#D4A24A", "lineColor": "#8B5CF6", "fontFamily": "Fira Code, Segoe UI, sans-serif"}}}%%
+flowchart LR
+  A["Problema real<br/>sala, servidor, web o flujo manual"]:::start
+  B["Diagnostico<br/>logs, red, codigo, usuarios"]:::step
+  C["Modelo mental<br/>dependencias + riesgo"]:::step
+  D["Automatizacion<br/>Python, PowerShell, backend"]:::build
+  E["Verificacion<br/>prueba local + rollback"]:::safe
+  F["Entrega<br/>README, scripts, continuidad"]:::done
+
+  A --> B --> C --> D --> E --> F
+  E -.->|si algo falla| B
+  F -.->|mantenimiento| A
+
+  classDef start fill:#2B0E4E,stroke:#D4A24A,stroke-width:3px,color:#FFFFFF;
+  classDef step fill:#1F2937,stroke:#93C5FD,stroke-width:2px,color:#FFFFFF;
+  classDef build fill:#064E3B,stroke:#6EE7B7,stroke-width:2px,color:#FFFFFF;
+  classDef safe fill:#7C2D12,stroke:#FDBA74,stroke-width:2px,color:#FFFFFF;
+  classDef done fill:#365314,stroke:#BEF264,stroke-width:2px,color:#FFFFFF;
+```
+
+## Radar de proyectos
+
+```mermaid
+%%{init: {"theme": "base", "themeVariables": {"background": "transparent", "primaryColor": "#111827", "primaryTextColor": "#FFFFFF", "primaryBorderColor": "#D4A24A", "lineColor": "#D4A24A", "fontFamily": "Fira Code, Segoe UI, sans-serif"}}}%%
+flowchart TB
+  subgraph Top["Operativo / publico"]
+    direction LR
+    subgraph Q1["Operacion viva"]
+      direction TB
+      Veyon["VeyonScripts<br/>laboratorios + red"]:::ops
+      DrakesWeb["drakescraft-web<br/>sitio publico"]:::product
+      Room["CastelRoomKeeper<br/>calendario privado"]:::product
+    end
+
+    subgraph Q2["Producto en crecimiento"]
+      direction TB
+      CCAA["CCAACalendar<br/>agenda academica"]:::product
+      CredCam["castel-credcam<br/>credenciales"]:::ops
+      Coronalis["Coronalis<br/>Slimefun astronomico"]:::game
+    end
+  end
+
+  subgraph Bottom["Local / personal"]
+    direction LR
+    subgraph Q3["Tooling personal"]
+      direction TB
+      Daybook["StellarDaybook<br/>bitacora tecnica"]:::local
+      VotV["VotV-Points-Editor<br/>utilidad segura"]:::local
+      Vault["AureonVault<br/>file manager"]:::local
+    end
+
+    subgraph Q4["Laboratorio tecnico"]
+      direction TB
+      Astro["AstroControlSim<br/>simulacion/control"]:::lab
+      Aurex["Aurexalis<br/>browser architecture"]:::lab
+      Omni["omnisky-miner<br/>observatorio local"]:::lab
+    end
+  end
+
+  Q3 -. exploracion .-> Q4
+  Q4 -. prototipo solido .-> Q2
+  Q2 -. uso real .-> Q1
+  Q1 -. mantenimiento .-> Q3
+
+  classDef ops fill:#1E3A8A,stroke:#93C5FD,stroke-width:2px,color:#FFFFFF;
+  classDef product fill:#065F46,stroke:#6EE7B7,stroke-width:2px,color:#FFFFFF;
+  classDef game fill:#581C87,stroke:#C084FC,stroke-width:2px,color:#FFFFFF;
+  classDef local fill:#7C2D12,stroke:#FDBA74,stroke-width:2px,color:#FFFFFF;
+  classDef lab fill:#312E81,stroke:#A5B4FC,stroke-width:2px,color:#FFFFFF;
 ```
 
 ## GitHub
