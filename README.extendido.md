@@ -1,100 +1,229 @@
 # README extendido
 
-Este archivo complementa el README principal y reune contexto tecnico mas estable sobre mi forma de trabajar, infraestructura y proyectos paralelos. No busca ser curriculum completo ni expediente academico: es una ficha ampliada de criterio, experiencia y areas de dominio.
+Este archivo complementa el README principal. Reune contexto tecnico mas estable sobre mi forma de trabajar, infraestructura, proyectos paralelos y areas de dominio.
+
+No busca ser biografia completa. Es una ficha ampliada de criterio tecnico, experiencia practica y lineas de trabajo.
 
 ---
 
 ## Perfil base
 
-Soy Ingeniero en Informatica titulado por DUOC UC. Tengo 22 años y naci el 29 de noviembre de 2003. Mi trabajo se mueve entre arquitectura de software, infraestructura digital, administracion de sistemas, automatizacion para laboratorios y resolucion de problemas complejos en entornos reales.
+Soy **Ingeniero en Informatica titulado por DUOC UC**. Trabajo entre desarrollo de software, infraestructura digital, administracion de sistemas, automatizacion para laboratorios, soporte TI y herramientas internas.
 
-Tiendo a pensar como arquitecto de sistemas: entiendo dependencias, detecto patrones rapido, separo capas, documento lo necesario y busco continuidad operacional. Me interesa menos acumular tecnologia y mas construir cosas que tengan sentido, dueño, mantenimiento y rollback.
+Mi forma natural de trabajar es sistemica: entiendo dependencias, separo capas, mido riesgo, documento lo necesario y busco continuidad operacional. Me interesa menos acumular tecnologia y mas construir cosas que puedan vivir, mantenerse y recuperarse si algo falla.
 
-## Cómo puedo ayudarte
-- Diagnóstico rápido para nuevos flujos en laboratorios, aulas o infraestructura pequeña/mediana.
-- Automatización con Veyon, inventario de equipos, mapeo físico de salas y herramientas de soporte TI.
-- Automatización de despliegues, respaldos y scripts de TI.
-- Documentación y mentoría para equipos que parten en web, scripting o procesos reproducibles.
-- Auditorías ligeras de pipelines y automatizaciones existentes.
-- Soporte para equipos que necesitan guías reproducibles y procesos claros.
+## Areas donde puedo operar
 
-## Setup detallado
-- **PC principal (IA y proyectos pesados):** Ryzen 5 5500 · RTX 4060 8GB · 32GB DDR4 · SSD NVMe 2TB + HDD 1TB. Uso: modelos ligeros, backend, entornos Docker, compilaciones, audio/vídeo, servidores locales y VMs.  
-- **Laptop de trabajo:** Intel Core i7-1165G7 · NVIDIA MX450 · 16GB DDR4 · SSD 1TB. Uso: desarrollo web, scripting, administración TI, emuladores, reuniones y trabajo remoto.  
-- **IDE:** VS Code + PyCharm  
-- **OS:** Windows + WSL2 (Ubuntu)  
-- **Audio:** Setup casero para pruebas de DSP y voces con IA
+| Area | Ejemplos concretos |
+|---|---|
+| Desarrollo web | Sitios, landings, paneles, APIs, formularios, dashboards y sistemas internos. |
+| Backend y datos | Python, FastAPI, PHP, Java, PostgreSQL, MySQL, SQLite, migraciones y validaciones. |
+| Infraestructura | Linux, Docker, Cloudflare Tunnel, Tailscale, systemd, UFW, fail2ban, backups y monitoreo. |
+| Soporte TI | Equipos, laboratorios, red, cableado, salas, proyectores, continuidad operativa y diagnostico. |
+| Automatizacion | Python, PowerShell, Bash, reportes, scripts reproducibles e integraciones de APIs. |
+| Minecraft tecnico | Paper, Spigot, Slimefun, plugins, rendimiento, mantenimiento y ecosistema DrakesCraft. |
+| Documentacion | README utiles, runbooks, rollback, procedimientos y guias para continuidad. |
 
-## Redes y entornos TI
-Manejo intermedio de redes: IP estatica/dinamica, DHCP, DNS, NAT, VLAN basicas, resolucion de conflictos y ruteo simple. Identifico, monitoreo y controlo dispositivos via MAC, con escaneo y mantenimiento de red local usando herramientas de diagnostico como tracert, nslookup, ipconfig y netstat. Me adapto rapido a cualquier infraestructura si tengo acceso y contexto del entorno.
+## Infraestructura actual: star
 
-## Infraestructura y hardware
-Experiencia con racks, patch panels, switches y distribución de red para laboratorios y salas de computación. Manejo de mantenimiento, montaje y recuperación de equipos, clonado masivo con Clonezilla y despliegues Windows automatizados.
+`star` es mi servidor de produccion. No lo trato como experimento desordenado: esta pensado para servicios vivos, con exposicion controlada y operaciones basicas de mantenimiento.
 
-## Hosting y backend
-Configuración de aplicaciones con Django, DRF, React y PostgreSQL. Administración de servidores Linux/WSL2, crons, systemd y servicios web. Manejo de dominios, DNS avanzado, certificados SSL, reverse proxies y configuraciones iniciales para producción.
+### Componentes generales
 
-## Servidores Minecraft (DrakesCraft)
-Soy dueño y administrador de mc.drakescraft.net. Gestiono servidores Java (Spigot, Paper, Purpur), optimización de TPS, timings, flags y mundos. Construyo sistemas personalizados para staff, automatizaciones y backups. Administro VPS, firewall, puertos, subdominios y proxys (Waterfall/BungeeCord), además de moderar equipos y resolver cuellos de botella en plugins.
+- Ubuntu 26.04 LTS.
+- Docker para servicios productivos.
+- Cloudflare Tunnel para dominios publicos.
+- Tailscale para paneles internos y administracion.
+- UFW con politica restrictiva.
+- fail2ban para SSH.
+- Rotacion de logs Docker.
+- Healthcheck local con timer systemd.
+- Backups Restic con prueba de restore.
+- Vault/Nextcloud con backup separado.
 
-## Logros rápidos
-- Scripts internos usados por más de 100 personas en laboratorios.
-- Automatizaciones de respaldos y despliegues corriendo en producción dentro de TI.
-- Herramientas propias para diagnostico de red, mapeo de equipos, bitacoras tecnicas y continuidad operacional.
+### Servicios publicos
 
-## Filosofía de desarrollo
-- Hago código práctico, no adornado para tutoriales.  
-- Prefiero automatizar diez veces antes que repetir un clic.  
-- Todo lo que construyo nace de una necesidad real.
-- Si nadie ordena un sistema, el sistema se degrada; por eso priorizo estructura, continuidad y mantenimiento.
+| Servicio | Rol |
+|---|---|
+| `calendar.drakescraft.cl` | CCAACalendar, calendario multicentro con reservas e integracion Google Calendar. |
+| `web.drakescraft.cl` | Portal publico del ecosistema DrakesCraft. |
+| `jack.drakescraft.cl` | Portal profesional publico con backend liviano y API. |
+| `vault.drakescraft.cl` | Vault/Nextcloud privado con acceso web controlado. |
 
-## Cómo trabajo
-- Repos limpios, issues claras y ramas ordenadas.  
-- Scripts reproducibles para desarrollo y despliegue.  
-- Documentación breve y funcional para que cualquiera continúe el trabajo.  
-- Experiencia en redes (DHCP, DNS, NAT, VLAN basicas, monitoreo y diagnostico) y en hardware de laboratorios (racks, patch panels, Clonezilla, despliegues Windows).
-- Configuración de hosting con Django/DRF/React/PostgreSQL, servidores Linux/WSL2, crons, systemd, dominios, SSL y reverse proxies.  
-- Administración de servidores Minecraft (DrakesCraft) cubriendo plugins, VPS, firewall, proxys y equipos de staff.
+### Servicios internos protegidos
+
+Uso paneles de administracion y monitoreo, pero no publico sus rutas privadas ni los expongo como servicios abiertos. La idea es separar el plano publico del plano administrativo.
+
+- Webmin.
+- Portainer.
+- Uptime Kuma.
+- Administracion por Tailscale.
+
+## Proyectos productivos
+
+### CCAACalendar
+
+Plataforma multicentro para calendarios institucionales, reservas, centros, permisos e integracion con Google Calendar. El foco es coordinacion real de espacios y visibilidad por centro.
+
+Tecnologias y criterios:
+
+- Backend Python/FastAPI.
+- PostgreSQL.
+- Docker.
+- Migraciones Alembic.
+- Integracion Google Calendar.
+- Healthcheck publico.
+- Control de acceso y separacion por centro.
+
+### jack-portal
+
+Portal profesional publico en `jack.drakescraft.cl`.
+
+Caracteristicas:
+
+- Landing oscura/premium orientada a servicios tecnicos.
+- Backend liviano con Python stdlib.
+- Endpoints publicos seguros:
+  - `/api/health`
+  - `/api/profile`
+  - `/api/services`
+  - `/api/projects`
+  - `/api/contact`
+- Formulario con validacion, honeypot y rate limit simple.
+- Docker en `127.0.0.1:8082`.
+
+### DrakesCraft Web
+
+Portal publico del ecosistema DrakesCraft. Sirve como punto de entrada a comunidad, tienda/informacion y presencia del proyecto.
+
+### Vault / Nextcloud
+
+Servicio privado para almacenamiento y continuidad personal/operativa. Se mantiene separado del resto de servicios y con foco en backup, salud y exposicion controlada.
+
+## Automatizacion y soporte TI
+
+### VeyonScripts
+
+Herramientas de diagnostico y automatizacion para laboratorios con Veyon.
+
+Casos de uso:
+
+- Escaneo de red.
+- Mapeo de equipos.
+- Diagnostico por sala.
+- Operacion masiva de laboratorios.
+- Soporte reproducible para entornos Windows.
+
+### Soporte en terreno
+
+Experiencia con:
+
+- Equipos de laboratorio.
+- Proyectores.
+- Cableado.
+- Switches.
+- Patch panels.
+- Clonado con Clonezilla.
+- Despliegues Windows.
+- Diagnostico de conectividad.
+
+## Redes y sistemas
+
+Manejo intermedio/practico de:
+
+- IP estatica/dinamica.
+- DHCP.
+- DNS.
+- NAT.
+- VLAN basicas.
+- Resolucion de conflictos de red.
+- Identificacion por MAC.
+- Herramientas como `tracert`, `nslookup`, `ipconfig`, `netstat`, `ss`, `curl` y logs de sistema.
+
+Me adapto rapido a infraestructura nueva si tengo acceso, contexto y restricciones claras.
+
+## Servidores Minecraft y DrakesCraft
+
+Administro el ecosistema DrakesCraft desde un enfoque tecnico, no solo comunitario.
+
+Areas:
+
+- Paper / Spigot / Purpur.
+- Slimefun.
+- Plugins propios o adaptados.
+- Rendimiento, TPS, timings y cuellos de botella.
+- Backups y mantenimiento.
+- Staff tooling.
+- Arquitectura de mundos, ranks, crates y sistemas modulares.
+- Organizacion [DrakesCraft-Labs](https://github.com/DrakesCraft-Labs).
+
+## Laboratorio personal
+
+Algunas lineas son exploratorias. Las mantengo porque prueban ideas de arquitectura, simulacion, tooling local o automatizacion.
+
+- **Aurexalis:** navegador personal, Gecko/Floorp, Rust y UI reactiva.
+- **AstroControlSim:** simulacion/control de sistemas.
+- **omnisky-miner:** observatorio virtual local con dashboard y SQLite.
+- **Coronalis:** addon Slimefun con conceptos astronomicos.
+- **AureonVault:** exploracion de file manager local para Windows.
+- **VotV-Points-Editor:** utilidad local con enfoque seguro y backups.
+- **StellarDaybook:** bitacora automatizada y memoria tecnica diaria.
+
+## Setup de trabajo
+
+- **PC principal:** Ryzen 5 5500, RTX 4060 8GB, 32GB RAM, almacenamiento NVMe/HDD. Uso para backend, Docker, IA local ligera, compilaciones, multimedia, VMs y servidores locales.
+- **Laptop de trabajo:** Intel Core i7, NVIDIA MX450, 16GB RAM, SSD. Uso para desarrollo, scripting, administracion TI y trabajo remoto.
+- **Sistemas:** Fedora, Windows, WSL2/Ubuntu y servidores Linux.
+- **IDE:** VS Code, PyCharm y herramientas de consola.
+
+## Filosofia de desarrollo
+
+- Hago codigo practico, no adornado para tutoriales.
+- Prefiero automatizar antes que repetir procesos manuales.
+- Todo lo que construyo debe responder a una necesidad real o aprendizaje tecnico claro.
+- Si nadie ordena un sistema, el sistema se degrada.
+- La documentacion corta y accionable vale mas que una explicacion enorme imposible de mantener.
+- Produccion sin backup, monitoreo o rollback no esta realmente lista.
+
+## Como trabajo
+
+1. Diagnostico el problema y sus restricciones.
+2. Identifico dependencias, datos, usuarios y riesgos.
+3. Propongo una ruta tecnica realista.
+4. Implemento por etapas.
+5. Valido con casos reales.
+6. Documento lo necesario.
+7. Dejo una forma de mantener, respaldar o revertir.
 
 ## Lineas de trabajo actuales
-- Automatizacion y diagnostico para laboratorios con Veyon, Python, PowerShell y escaneo de red.
-- Sistemas de calendario, reservas y gestion operativa para entornos academicos.
-- Herramientas locales para bitacora, diagnostico, automatizacion y respaldo.
-- Ecosistema DrakesCraft: web, plugins, organizacion tecnica, Slimefun y continuidad del servidor.
-- Exploraciones tecnicas propias: navegador personal, observatorio virtual, simulacion/control y herramientas Windows.
+
+- Sistemas de calendario, reservas y coordinacion institucional.
+- Portales web publicos con backend ligero.
+- Infraestructura personal/profesional en `star`.
+- Automatizacion y diagnostico para laboratorios.
+- Ecosistema DrakesCraft y plugins/servidores Minecraft.
+- Herramientas locales para soporte, bitacora, diagnostico y respaldo.
 - Exploracion aplicada de IA como copiloto de investigacion, prototipado y mantenimiento.
 
-## Estadísticas extendidas
+## Certificaciones DUOC UC
+
+- Titulo profesional: Ingeniero en Informatica.
+- Curriculum completo de la carrera.
+- Arquitectura de Software.
+- Programacion de Software.
+- Analisis y Desarrollo de Modelos de Datos.
+- Gestion de Proyectos Informaticos.
+- Inteligencia de Negocios (BI).
+- Calidad de Software.
+- Analisis y Planificacion de Requerimientos Informaticos.
+- Ingles Internacional - Nivel Intermedio Alto.
+
+Estas certificaciones estan otorgadas por el Instituto Profesional DUOC UC segun las disposiciones reglamentarias vigentes.
+
+## Estadisticas extendidas
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=JackStar6677-1&show_icons=true&hide_border=true&theme=tokyonight)
 
 ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JackStar6677-1&layout=compact&hide_border=true&theme=tokyonight)
 
 ![Streak](https://streak-stats.demolab.com/?user=JackStar6677-1&theme=tokyonight&hide_border=true&locale=es&mode=weekly)
-
-## Ultimas tecnologias que estoy probando
-`Veyon` · `Python para soporte TI` · `PowerShell avanzado` · `ComfyUI Web Texture Generator` · `IA local y modelos de Hugging Face` · `LLMs` · `SQL avanzado` · `Linux hardening` · `Ciberseguridad` · `Automatización con scripts`
-
-## Extras ampliadas
-- Me interesa la física cuántica, la filosofía y la exploración de ideas.  
-- Hago streams cuando puedo (juegos, dev, música).  
-- Experimento con audio, frecuencias y producción con IA.  
-- Sueño con crear herramientas que ayuden a personas, comunidades y equipos TI.
-- Especialización en HTML5, CSS3, JavaScript, Django, React, Tailwind y PWAs.  
-- Fuerte capacidad para analizar entornos nuevos, entender la infraestructura y proponer mejoras reales.
-- Tambien escribo, creo conceptos narrativos, desarrollo personajes y exploro atmosferas inmersivas, simbolismo y modelos conceptuales entre tecnologia, psicologia, filosofia y sistemas.
-
-## Certificaciones DUOC UC
-- Titulo profesional: Ingeniero en Informatica.
-- Curriculum completo de la carrera.
-- Arquitectura de Software  
-- Programación de Software  
-- Análisis y Desarrollo de Modelos de Datos  
-- Gestión de Proyectos Informáticos  
-- Inteligencia de Negocios (BI)  
-- Calidad de Software  
-- Análisis y Planificación de Requerimientos Informáticos  
-- Inglés Internacional – Nivel Intermedio Alto  
-
-Estas certificaciones están otorgadas por el Instituto Profesional DUOC UC (Sede Maipú) según las disposiciones reglamentarias vigentes.
-
