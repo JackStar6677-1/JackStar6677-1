@@ -39,7 +39,6 @@ Mi forma natural de trabajar es sistemica: entiendo dependencias, separo capas, 
 - Rotacion de logs Docker.
 - Healthcheck local con timer systemd.
 - Backups Restic con prueba de restore.
-- Vault/Nextcloud con backup separado.
 
 ### Servicios publicos
 
@@ -48,7 +47,6 @@ Mi forma natural de trabajar es sistemica: entiendo dependencias, separo capas, 
 | `calendar.drakescraft.cl` | CCAACalendar, calendario multicentro con reservas e integracion Google Calendar. |
 | `web.drakescraft.cl` | Portal publico del ecosistema DrakesCraft. |
 | `jack.drakescraft.cl` | Portal profesional publico con backend liviano y API. |
-| `vault.drakescraft.cl` | Vault/Nextcloud privado con acceso web controlado. |
 
 ### Servicios internos protegidos
 
@@ -95,10 +93,6 @@ Caracteristicas:
 ### DrakesCraft Web
 
 Portal publico del ecosistema DrakesCraft. Sirve como punto de entrada a comunidad, tienda/informacion y presencia del proyecto.
-
-### Vault / Nextcloud
-
-Servicio privado para almacenamiento y continuidad personal/operativa. Se mantiene separado del resto de servicios y con foco en backup, salud y exposicion controlada.
 
 ## Automatizacion y soporte TI
 

@@ -48,7 +48,6 @@ flowchart TB
     Calendar["CCAACalendar<br/>multicentro · reservas · Google Calendar"]:::product
     Portal["jack.drakescraft.cl<br/>portal profesional + API"]:::product
     Web["DrakesCraft Web<br/>portal publico"]:::product
-    Vault["Vault / Nextcloud<br/>almacenamiento privado"]:::safe
   end
 
   subgraph Ops["Operacion y soporte"]
@@ -92,7 +91,6 @@ flowchart TB
   Star --> Calendar
   Star --> Portal
   Star --> Web
-  Star --> Vault
 
   classDef core fill:#2B0E4E,stroke:#F5C542,stroke-width:3px,color:#F8F7FF;
   classDef infra fill:#111827,stroke:#22D3EE,stroke-width:2px,color:#F8F7FF;
@@ -114,7 +112,6 @@ Mantengo `star`, un servidor Ubuntu usado para servicios reales. La parte public
 | **CCAACalendar** | [calendar.drakescraft.cl](https://calendar.drakescraft.cl) | Calendario multicentro con reservas, centros, autenticacion e integracion Google Calendar. |
 | **Jack Portal** | [jack.drakescraft.cl](https://jack.drakescraft.cl) | Portal profesional con backend liviano, API publica y formulario validado. |
 | **DrakesCraft Web** | [web.drakescraft.cl](https://web.drakescraft.cl) | Portal publico del ecosistema DrakesCraft. |
-| **Vault / Nextcloud** | [vault.drakescraft.cl](https://vault.drakescraft.cl) | Almacenamiento privado, expuesto solo como servicio publico controlado. |
 | **Observabilidad** | Tailscale interno | Healthchecks, Uptime Kuma, Portainer y Webmin protegidos. |
 | **Continuidad** | servidor `star` | Restic backups, timers systemd, UFW, fail2ban y rotacion de logs Docker. |
 
