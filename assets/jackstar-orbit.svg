@@ -1,6 +1,6 @@
 <svg width="1400" height="480" viewBox="0 0 1400 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">JackStar profile banner</title>
-  <desc id="desc">Animated dark violet and gold systems banner for JackStar, showing operational platforms, automation, infrastructure and personal labs.</desc>
+  <desc id="desc">Animated obsidian, violet and gold systems banner for JackStar, showing production engineering, automation, infrastructure and live operations.</desc>
 
   <defs>
     <linearGradient id="space" x1="0" y1="0" x2="1400" y2="480" gradientUnits="userSpaceOnUse">
@@ -119,30 +119,30 @@
 
   <g text-anchor="middle" filter="url(#textGlow)">
     <text class="sans" x="700" y="210" fill="#FFF7D6" font-size="86" font-weight="900" letter-spacing="0">JackStar</text>
-    <text class="mono" x="700" y="252" fill="#FDE68A" font-size="18" font-weight="800">systems that survive contact with reality</text>
-    <text class="mono" x="700" y="284" fill="#D8B4FE" font-size="15" font-weight="700">VeyonScripts · CCAACalendar · Castel · DrakesCraft · labs</text>
+    <text class="mono" x="700" y="252" fill="#FDE68A" font-size="18" font-weight="800">production systems that survive contact with reality</text>
+    <text class="mono" x="700" y="284" fill="#D8B4FE" font-size="15" font-weight="700">Java · Linux · automation · infrastructure · live operations</text>
   </g>
 
   <g class="float">
     <g transform="translate(150 156)" filter="url(#nodeGlow)">
       <rect x="-70" y="-24" width="140" height="48" rx="16" fill="#0B1235" fill-opacity="0.9" stroke="#93C5FD" stroke-width="1.2"/>
-      <text class="mono" text-anchor="middle" y="-3" fill="#DBEAFE" font-size="12" font-weight="800">Veyon</text>
-      <text class="mono" text-anchor="middle" y="15" fill="#93C5FD" font-size="10">labs + red</text>
+      <text class="mono" text-anchor="middle" y="-3" fill="#DBEAFE" font-size="12" font-weight="800">Automation</text>
+      <text class="mono" text-anchor="middle" y="15" fill="#93C5FD" font-size="10">agents + recovery</text>
     </g>
     <g transform="translate(1244 158)" filter="url(#nodeGlow)">
       <rect x="-78" y="-24" width="156" height="48" rx="16" fill="#1E102F" fill-opacity="0.9" stroke="#C084FC" stroke-width="1.2"/>
       <text class="mono" text-anchor="middle" y="-3" fill="#F5D0FE" font-size="12" font-weight="800">DrakesCraft</text>
-      <text class="mono" text-anchor="middle" y="15" fill="#C084FC" font-size="10">web + plugins</text>
+      <text class="mono" text-anchor="middle" y="15" fill="#C084FC" font-size="10">network + ecosystem</text>
     </g>
     <g transform="translate(210 330)" filter="url(#nodeGlow)">
       <rect x="-82" y="-24" width="164" height="48" rx="16" fill="#06281E" fill-opacity="0.9" stroke="#6EE7B7" stroke-width="1.2"/>
-      <text class="mono" text-anchor="middle" y="-3" fill="#D1FAE5" font-size="12" font-weight="800">Castel</text>
-      <text class="mono" text-anchor="middle" y="15" fill="#6EE7B7" font-size="10">reservas + credenciales</text>
+      <text class="mono" text-anchor="middle" y="-3" fill="#D1FAE5" font-size="12" font-weight="800">Education</text>
+      <text class="mono" text-anchor="middle" y="15" fill="#6EE7B7" font-size="10">labs + operations</text>
     </g>
     <g transform="translate(1198 328)" filter="url(#nodeGlow)">
       <rect x="-82" y="-24" width="164" height="48" rx="16" fill="#29140B" fill-opacity="0.9" stroke="#FDBA74" stroke-width="1.2"/>
-      <text class="mono" text-anchor="middle" y="-3" fill="#FFEDD5" font-size="12" font-weight="800">Personal Labs</text>
-      <text class="mono" text-anchor="middle" y="15" fill="#FDBA74" font-size="10">browser + astro + tools</text>
+      <text class="mono" text-anchor="middle" y="-3" fill="#FFEDD5" font-size="12" font-weight="800">Systems Lab</text>
+      <text class="mono" text-anchor="middle" y="15" fill="#FDBA74" font-size="10">Rust + Java + tools</text>
     </g>
   </g>
 
