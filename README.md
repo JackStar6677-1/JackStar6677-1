@@ -27,7 +27,7 @@ My work sits where software meets reality: live users, high-frequency transactio
 ### 🏰 DrakesCraft & DrakesCraft Labs
 A massive, long-running Minecraft network (Purpur 1.21.11 / Java 21 & Bedrock) running 5 distinct game modes (Survival, OneBlock, SkyBlock, Classic Vanilla, Laboratory) and an ecosystem of over **100+ maintained plugins and Slimefun expansions**.
 * **Solo Core Architecture & Engineering:** I lead and execute the core backend architecture, Java 21 modernizations, custom forks, database migrations, security patches, and deployment pipelines.
-* **Collaborative Development:** Built and evolved with valuable collaboration from **Shaggy** across core server mechanics, and supported by a community staff team handling player moderation and social operations.
+* **Collaborative Development:** Built and evolved with valuable collaboration from **Chagui** across core server mechanics, and supported by a community staff team handling player moderation and social operations.
 * **Original Engines:** Creator of **Odysseia Core Engine** (transactional commerce, kit tiers, inventory cross-modality guards), **DiosesDrakes** (divine pantheon), **ArcanaDrakes** (elemental magic), **DrakesBosses** (instanced arenas), **DrakesNanotech**, banking, and dynamic economies.
 * **Hardened Forks:** Engineering custom resilient forks including **BentoBox-Drake** (Data Components zero-item-loss) and **InvSwitcher-Drake** (5-modality airtight inventory isolation).
 
