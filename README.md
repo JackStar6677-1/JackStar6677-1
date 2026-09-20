@@ -54,6 +54,8 @@ Alongside gaming infrastructure, I work actively in **educational IT engineering
 | [**BentoBox-Drake**](https://github.com/DrakesCraft-Labs/BentoBox-Drake) | Downstream island engine fork with native Paper 1.21.11 Data Components zero-item-loss deserialization. |
 | [**InvSwitcher-Drake**](https://github.com/DrakesCraft-Labs/InvSwitcher-Drake) | Hardened 5-modality inventory, EnderChest, and XP isolation engine. |
 | [**DiosesDrakes**](https://github.com/DrakesCraft-Labs/DiosesDrakes) · [**ArcanaDrakes**](https://github.com/DrakesCraft-Labs/ArcanaDrakes) | Mythological divine pantheon and 6-path elemental arcane codex. |
+| [**DrakesRankup**](https://github.com/DrakesCraft-Labs/DrakesRankup) | 50-tier anime progression engine: abilities, transformations, upkeep/decay, LuckPerms reconciliation and an uncapped ascent pouch. |
+| [**Drakes-Suites**](https://github.com/DrakesCraft-Labs/Drakes-Suites) | Maven monorepo consolidating 160+ addons into 8 mega-suites with a centralized ticker (in progress). |
 | [**VeyonScripts**](https://github.com/JackStar6677-1/VeyonScripts) | Computer laboratory management and administrative automation for educational environments. |
 
 ---
