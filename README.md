@@ -1,98 +1,119 @@
 <p align="center">
-  <img src="./assets/jackstar-orbit.svg" width="100%" alt="JackStar — production systems, automation and engineering" />
+  <img src="./assets/jackstar-orbit.svg" width="100%" alt="JackStar — software, infraestructura y productos comunitarios" />
 </p>
 
 <div align="center">
 
 # JackStar
 
-### Systems Engineer · Infrastructure Operator · Full-Stack Builder & Architect
+### Desarrollo de software · infraestructura · productos comunitarios
 
-[![DrakesCraft Labs](https://img.shields.io/badge/DrakesCraft_Labs-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DrakesCraft-Labs)
-[![DrakesCraft](https://img.shields.io/badge/DrakesCraft-Production-22C55E?style=for-the-badge&logo=minecraft&logoColor=white)](https://github.com/DrakesCraft-Labs)
-[![SAORI OS](https://img.shields.io/badge/SAORI-Autonomous_SRE-EC4899?style=for-the-badge&logo=discord&logoColor=white)](https://github.com/JackStar6677-1/saori)
-[![Java 21](https://img.shields.io/badge/Java-21-F59E0B?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/projects/jdk/21/)
-[![Linux Operations](https://img.shields.io/badge/Linux-Operations-38BDF8?style=for-the-badge&logo=linux&logoColor=white)](https://www.kernel.org/)
+[![DrakesCraft Labs](https://img.shields.io/badge/DrakesCraft_Labs-organización-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DrakesCraft-Labs)
+[![SAORI](https://img.shields.io/badge/SAORI-orquestación_operativa-EC4899?style=for-the-badge&logo=discord&logoColor=white)](https://github.com/JackStar6677-1/saori)
+[![Java](https://img.shields.io/badge/Java-21-F59E0B?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/projects/jdk/21/)
+[![Linux](https://img.shields.io/badge/Linux-operación-38BDF8?style=for-the-badge&logo=linux&logoColor=white)](https://www.kernel.org/)
+
+Construyo y mantengo software que tiene que funcionar fuera del repositorio:
+servicios, automatizaciones, aplicaciones web, herramientas para comunidades y
+sistemas que cuidan sus propios datos.
+
+[DrakesCraft Labs](https://github.com/DrakesCraft-Labs) ·
+[Proyectos](https://github.com/JackStar6677-1?tab=repositories) ·
+[DrakesCraft](https://web.drakescraft.cl)
 
 </div>
 
-I am a systems engineer, full-stack developer and infrastructure operator. I build, maintain and harden high-concurrency production networks, institutional web platforms, educational infrastructure, Linux servers and autonomous AI operations.
-
-My work sits where software meets reality: live users, high-frequency transactions, persistent databases, physical server clusters (**Star, Nexus, Nova**), and complex multi-layer architectures.
-
 ---
 
-## 🏛️ What I Build & Operate
+## En qué trabajo
 
-### 🏰 DrakesCraft & DrakesCraft Labs
-A massive, long-running Minecraft network (Purpur 1.21.11 / Java 21 & Bedrock) running 5 distinct game modes (Survival, OneBlock, SkyBlock, Classic Vanilla, Laboratory) and an ecosystem of over **100+ maintained plugins and Slimefun expansions**.
-* **Solo Core Architecture & Engineering:** I lead and execute the core backend architecture, Java 21 modernizations, custom forks, database migrations, security patches, and deployment pipelines.
-* **Collaborative Development:** Built and evolved with valuable collaboration from **Chagui** across core server mechanics, and supported by a community staff team handling player moderation and social operations.
-* **Original Engines:** Creator of **Odysseia Core Engine** (transactional commerce, kit tiers, inventory cross-modality guards), **DiosesDrakes** (divine pantheon), **ArcanaDrakes** (elemental magic), **DrakesBosses** (instanced arenas), **DrakesNanotech**, banking, and dynamic economies.
-* **Hardened Forks:** Engineering custom resilient forks including **BentoBox-Drake** (Data Components zero-item-loss) and **InvSwitcher-Drake** (5-modality airtight inventory isolation).
+### DrakesCraft Labs: una organización, no sólo un servidor
 
-### 🤖 Autonomous AI & SRE Operations (SAORI Core & Discord Mastery)
-* **[SAORI](https://github.com/JackStar6677-1/saori)** (*Server Autonomous Orchestrator for Resilient Infrastructure*): A distributed tri-agent SRE operating system coordinating autonomous agents (Google Antigravity, Claude Code, OpenAI Codex) over an SQLite WAL state machine with fine-grained concurrency leases.
-* **Omnichannel Discord & WhatsApp Mastery:** Production Discord.js v14 & Baileys engines with interactive Discord Modals for structured ticket intake, multi-layer anti-abuse security shields (anti-phishing, rate limiting, anti-raid), Small Caps Unicode unconfuser, and live real-time Minecraft player socket bridges.
-* **Self-Healing & Nightly Resilience:** Automated log ingestion, memory synchronization (`Star Memory`), and nightly multi-tier backup pipelines syncing to GitHub and Google Drive.
+[DrakesCraft Labs](https://github.com/DrakesCraft-Labs) es una organización de
+desarrollo que mantiene plugins, mods, herramientas, automatizaciones,
+infraestructura y prototipos. [DrakesCraft](https://web.drakescraft.cl) es su
+producto comunitario principal y el entorno donde muchas ideas se prueban de
+verdad, pero no define todo el laboratorio.
 
-### 🏫 Educational Technology & Institutional Infrastructure
-Alongside gaming infrastructure, I work actively in **educational IT engineering and technical support** across institutional campus environments:
-* **Campus IT & Network Systems:** Full-stack maintenance and administration of school-wide networking, routing, server rooms, workstation fleets, and peripheral labs.
-* **Web Platforms & Internal Portals:** Designing, deploying and maintaining institutional websites, custom booking systems, student/staff portals, and digital administrative workflows.
-* **Lab Automation & Classroom Tooling:** Custom diagnostic scripts, Veyon classroom monitoring automation, secure credential workflows, and user-friendly documentation for non-technical educators.
+Dentro de la organización conviven proyectos de Minecraft, IA, voz, multimedia,
+red e investigación. Cada repositorio debe dejar claro si está en producción,
+en mantenimiento/compatibilidad o en etapa experimental.
 
----
+### Operación e infraestructura
 
-## 🛠️ Selected Engineering
+Me interesa el trabajo que une código y operación: despliegues reproducibles,
+observabilidad, copias de seguridad, documentación y recuperación ante fallos.
+El objetivo no es automatizar por automatizar, sino reducir trabajo repetitivo
+sin perder control humano ni trazabilidad.
 
-| System | Focus |
-| :--- | :--- |
-| [**DrakesCraft Labs**](https://github.com/DrakesCraft-Labs) | Sovereign engineering organization: 100+ plugins, custom gameplay engines, and server tooling. |
-| [**SAORI Core**](https://github.com/JackStar6677-1/saori) | Autonomous SRE multi-agent orchestrator, Discord.js v14 bot mastery, SQLite WAL lock engine, and in-game cyber-deity. |
-| [**Odysseia**](https://github.com/DrakesCraft-Labs/Odysseia) | Transactional Tebex gateway, kit hierarchy, cross-modality inventory isolation, and maintenance engine. |
-| [**BentoBox-Drake**](https://github.com/DrakesCraft-Labs/BentoBox-Drake) | Downstream island engine fork with native Paper 1.21.11 Data Components zero-item-loss deserialization. |
-| [**InvSwitcher-Drake**](https://github.com/DrakesCraft-Labs/InvSwitcher-Drake) | Hardened 5-modality inventory, EnderChest, and XP isolation engine. |
-| [**DiosesDrakes**](https://github.com/DrakesCraft-Labs/DiosesDrakes) · [**ArcanaDrakes**](https://github.com/DrakesCraft-Labs/ArcanaDrakes) | Mythological divine pantheon and 6-path elemental arcane codex. |
-| [**DrakesRankup**](https://github.com/DrakesCraft-Labs/DrakesRankup) | 50-tier anime progression engine: abilities, transformations, upkeep/decay, LuckPerms reconciliation and an uncapped ascent pouch. |
-| [**Drakes-Suites**](https://github.com/DrakesCraft-Labs/Drakes-Suites) | Maven monorepo consolidating 160+ addons into 8 mega-suites with a centralized ticker (in progress). |
-| [**VeyonScripts**](https://github.com/JackStar6677-1/VeyonScripts) | Computer laboratory management and administrative automation for educational environments. |
+- **[SAORI](https://github.com/JackStar6677-1/saori)** — orquestación y asistencia
+  operativa para revisar eventos, coordinar tareas y conservar evidencia antes de
+  modificar producción.
+- **[DrakesCraft Labs](https://github.com/DrakesCraft-Labs)** — ecosistema de
+  plugins, motores y herramientas que se mantienen por separado para poder
+  probar y desplegar con orden.
+- Servicios web, Docker, Linux, bases de datos y automatizaciones que respaldan
+  comunidades y flujos internos.
 
----
+### Tecnología educativa y herramientas locales
 
-## ⚙️ Engineering Philosophy
+También desarrollo y mantengo soluciones para entornos educativos: gestión de
+salas, soporte de laboratorios, tareas de administración y utilidades que hacen
+más claro el trabajo diario de docentes, estudiantes y equipos técnicos.
+
+- **[CastelRoomKeeper](https://github.com/JackStar6677-1/CastelRoomKeeper)** —
+  reservas de salas con flujos de aprobación y notificaciones.
+- **[VeyonScripts](https://github.com/JackStar6677-1/VeyonScripts)** —
+  automatización de administración para laboratorios.
+- **[CampusCare-Monitoring](https://github.com/JackStar6677-1/CampusCare-Monitoring)** —
+  monitoreo y apoyo de mantenimiento para espacios de computación.
+- **[castel-credcam](https://github.com/JackStar6677-1/castel-credcam)** —
+  herramienta local para flujos de credenciales.
+
+### Exploración personal
+
+Dejo espacio para proyectos que no están conectados a DrakesCraft: simulación,
+astroinformática, herramientas de escritorio, juegos, interfaces y prototipos.
+No todo está terminado; los repositorios experimentales existen precisamente
+para aprender, documentar y decidir qué vale la pena convertir en producto.
+
+## Proyectos seleccionados
+
+| Proyecto | Enfoque |
+|---|---|
+| [DrakesCraft Labs](https://github.com/DrakesCraft-Labs) | Organización de plugins, mods, herramientas, IA, medios e infraestructura. |
+| [SAORI](https://github.com/JackStar6677-1/saori) | Orquestación operativa y memoria auditable para una flota de asistentes. |
+| [CastelRoomKeeper](https://github.com/JackStar6677-1/CastelRoomKeeper) | Reservas de salas para entornos educativos. |
+| [omnisky-miner](https://github.com/JackStar6677-1/omnisky-miner) | Observatorio local para explorar datos públicos de radioastronomía. |
+| [AstroControlSim](https://github.com/JackStar6677-1/AstroControlSim) | Simulación de control, telemetría y operación de un observatorio. |
+| [Aurexalis](https://github.com/JackStar6677-1/Aurexalis) | Exploración de arquitectura de navegador e interfaz de escritorio. |
+
+## Forma de trabajar
 
 ```text
-observe → correlate evidence → reproduce → protect data → patch → verify → stage → deploy → watch
+entender el problema → reunir evidencia → proteger datos → cambiar poco →
+probar → documentar → desplegar → observar → tener cómo volver atrás
 ```
 
-* **Data Integrity is Non-Negotiable:** Player inventories, databases, and user ledgers always outrank speculative performance gains.
-* **Evidence-Based Changes:** Every production update requires reproducible diagnostic evidence, an exact backup, and a verified rollback path.
-* **Maintain Stability & Responsibility:** Decouple monolithic complexity into modular, resilient engines with clear boundaries.
-* **Pragmatic Automation:** Automate routine toil and self-healing without ever sacrificing human accountability.
+- **Datos primero.** Inventarios, compras, configuraciones, respaldos y trabajo
+  de otras personas no son daño colateral aceptable.
+- **Cambios explicables.** Una mejora debe poder revisarse: qué cambió, por qué,
+  cómo se probó y cómo se revierte.
+- **Tecnología con propósito.** Uso Java, Rust, Python, TypeScript, web, Docker,
+  Linux y bases de datos según el problema, no por hacer una lista de herramientas.
+- **Espacio para experimentar.** Producción y prototipo no se confunden: cada uno
+  tiene expectativas distintas.
 
----
-
-## 💻 Working Stack
+## Stack frecuente
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=java,rust,py,ts,js,nodejs,postgres,sqlite,redis,html,css,powershell,bash,linux,docker,git,github,cloudflare&perline=9" alt="Java, Rust, Python, TypeScript, JavaScript, Node.js, databases, Redis, web, PowerShell, Linux, Docker, Git, GitHub and Cloudflare" />
+  <img src="https://skillicons.dev/icons?i=java,rust,py,ts,js,nodejs,postgres,sqlite,redis,html,css,bash,linux,docker,git,github,cloudflare&perline=8" alt="Java, Rust, Python, TypeScript, JavaScript, Node.js, PostgreSQL, SQLite, Redis, web, Linux, Docker, Git, GitHub y Cloudflare" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/terminal-workloop.gif" width="360" alt="Maintain systems — backups, documentation and deployments" />
+  <img src="./assets/terminal-workloop.gif" width="360" alt="Ciclo de mantenimiento: respaldar, observar y mejorar" />
   <br />
-  <sub><code>maintenance window: coffee optional, rollback mandatory</code></sub>
-</div>
-
----
-
-<div align="center">
-
-### Ambitious is good. Recoverable is better.
-
-**Build it beautifully. Explain its state. Keep the rollback close.**
-
+  <sub><code>hacerlo útil · dejarlo entendible · mantener una salida segura</code></sub>
 </div>
