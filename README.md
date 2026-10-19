@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/jackstar-orbit.svg" width="100%" alt="JackStar — producción, infraestructura y arquitectura de software" />
+  <img src="./assets/jackstar-orbit.svg" width="100%" alt="JackStar — production, infrastructure, and software architecture" />
 </p>
 
 <div align="center">
@@ -10,7 +10,7 @@
 
 [![OmniAST](https://img.shields.io/badge/OmniAST-Graph_Kernel-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JackStar6677-1/omniast)
 [![StarSuites](https://img.shields.io/badge/StarSuites-Monorepo_LTS-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SlimefunNewHorizons/Drakes-Suites)
-[![DrakesCraft](https://img.shields.io/badge/DrakesCraft-Producción-22C55E?style=for-the-badge&logo=minecraft&logoColor=white)](https://web.drakescraft.cl)
+[![DrakesCraft](https://img.shields.io/badge/DrakesCraft-Production-22C55E?style=for-the-badge&logo=minecraft&logoColor=white)](https://web.drakescraft.cl)
 [![SAORI Core](https://img.shields.io/badge/SAORI-SRE_Swarm-8B5CF6?style=for-the-badge)](https://github.com/JackStar6677-1/saori)
 [![Java 21/25](https://img.shields.io/badge/Java-21_·_25_LTS-F59E0B?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![Rust](https://img.shields.io/badge/Rust-Off--Heap_SIMD-DEA584?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
@@ -19,57 +19,60 @@
 [OmniAST](https://github.com/JackStar6677-1/omniast) ·
 [Slimefun: New Horizons](https://github.com/SlimefunNewHorizons) ·
 [DrakesCraft](https://web.drakescraft.cl) ·
-[Proyectos](https://github.com/JackStar6677-1?tab=repositories)
+[Projects](https://github.com/JackStar6677-1?tab=repositories)
 
 </div>
 
 ---
 
-Construyo, administro y blindo infraestructura donde el software convive con la realidad: alta concurrencia, bases de datos transaccionales, entornos educativos, clústeres bare-metal (**Star, Nexus, Nova**), compiladores intermedios de grafos para IAs y agentes autónomos multi-modelo.
+> [!NOTE]
+> **Language Note:** My native language is Spanish, but I write and maintain this profile and my core technical repositories in English as the global standard for international software engineering, compiler design, and open-source collaboration.
 
-Mi trabajo se estructura alrededor de **tres pilares independientes y estrictamente delimitados**:
+I engineer, operate, and secure mission-critical infrastructure where software meets operational reality: high-throughput event loops, transactional ACID databases, institutional educational environments, bare-metal server clusters (**Star, Nexus, Nova**), intermediate graph compilers for autonomous AI swarms, and multi-model agent systems.
 
----
-
-## 🏛️ Los Tres Pilares de Trabajo
-
-### 1. 🌌 Compiladores, Grafos & Ecosistemas de IA Autónoma
-Mi enfoque principal en la vanguardia de la inteligencia artificial agéntica y la optimización de código:
-* **[OmniAST / GraphLang](https://github.com/JackStar6677-1/omniast):** Kernel soberano y lenguaje intermedio basado en grafos para agentes de IA autónomos (Google Antigravity, OpenAI Codex, Claude, DeepSeek, Grok). Compilación determinista a JVM (Java 21+ Paper), Native Rust (Panama FFI), Python Asyncio, TypeScript (Node.js/OpenClaw) y WebAssembly (WASM). Reduce en un **85% el consumo de tokens** y erradica el colapso de contexto en codebases masivas (+100.000 archivos).
-* **[SAORI Framework](https://github.com/JackStar6677-1/saori) & SRE Swarm:** Framework SRE omnicanal que coordina modelos concurrentes con pools multicuenta (cuentas primarias y secundarias de failover), circuit breakers en tiempo real y memoria compartida auditable (SQLite WAL + Graphify Knowledge Memory).
-* **Integración OpenClaw & Hermes:** Formulación de herramientas en formato JSON Schema de Nous Hermes y gateway unificado multicanal para Discord, WhatsApp, In-Game RCON y Web Dashboard.
-
-### 2. 🐉 Infraestructura de Alta Concurrencia & Servidores de Juegos
-Ingeniería de sistemas para plataformas multijugador masivas en producción:
-* **StarSuites Engine ([`Drakes-Suites`](https://github.com/SlimefunNewHorizons/Drakes-Suites)):** Consolidación monorepo multi-módulo que moderniza y absorbe más de 190 micro-addons en mega-suites desacopladas sobre Paper/Purpur 26.x (JDK 25) con persistencia SQLite WAL y configuración granular hot-reload (`modules/*.yml`).
-  > ℹ️ **Reconocimiento Canónico Upstream:** Slimefun es una obra de código abierto creada originalmente por **TheBusyBiscuit** y la comunidad. Mi rol es el de **arquitecto de modernización y rescate**: portabilidad a Paper 1.21.11+ / Purpur 26.x, erradicación de cuellos de botella de tickers, memoria off-heap en Rust y unificación modular.
-* **[Slimefun-Rust](https://github.com/SlimefunNewHorizons/Slimefun-Rust) & Odysseia-Rust:** Motores de aceleración off-heap en Rust (Project Panama / FFM) para cálculo SIMD de tickers y balance de redes industriales sin pausas de Garbage Collector.
-* **Red [DrakesCraft](https://web.drakescraft.cl) (Dallas, TX):** Red multijugador masiva con 5 modalidades aisladas (Survival, OneBlock, SkyBlock, Classic Vanilla, Laboratorio), verificación idempotente de compras Tebex, economía macroeconómica blindada y forks endurecidos ([**BentoBox-Drake**](https://github.com/SlimefunNewHorizons/BentoBox-Drake), [**CrazyAuctions-Drake**](https://github.com/SlimefunNewHorizons/CrazyAuctions-Drake), [**InvSwitcher-Drake**](https://github.com/SlimefunNewHorizons/InvSwitcher-Drake)).
-* **Suite Multiverse (por Chagui68):** Integración oficial de la Suite Multiverse (`drakes-multiverse.jar`), reconociendo la autoría y diseño soberano de mi colaborador **Chagui68** ([`MultiverseCreatures`](https://github.com/SlimefunNewHorizons/MultiverseCreatures) y [`MultiverseNets`](https://github.com/SlimefunNewHorizons/MultiverseNets)).
-
-### 3. 🏫 Tecnología Educativa e Infraestructura Institucional
-Mi ejercicio profesional en el mundo real dedicado a la **ingeniería de TI educativa y administración de campus**:
-* **Redes y Administración de Campus:** Gestión integral de redes institucionales, salas de servidores, laboratorios de computación y flotas de estaciones de trabajo.
-* **Plataformas y Portales Web:** Diseño y despliegue de sistemas internos de reservas de salas ([**CastelRoomKeeper**](https://github.com/JackStar6677-1/CastelRoomKeeper)), portales administrativos y herramientas de apoyo institucional.
-* **Automatización de Aulas y Diagnóstico:** Scripts de administración remota ([**VeyonScripts**](https://github.com/JackStar6677-1/VeyonScripts)), monitoreo preventivo ([**CampusCare-Monitoring**](https://github.com/JackStar6677-1/CampusCare-Monitoring)) y flujos locales de credenciales.
+My engineering portfolio is organized into **three distinct, strictly isolated operational pillars**:
 
 ---
 
-## 🛠️ Proyectos Seleccionados
+## 🏛️ The Three Pillars of Engineering
 
-| Proyecto | Enfoque y Rol |
+### 1. 🌌 Compilers, Graphs & Autonomous AI Ecosystems
+My primary focus at the frontier of agentic artificial intelligence and token-efficient software design:
+* **[OmniAST / GraphLang](https://github.com/JackStar6677-1/omniast):** Sovereign intermediate graph language and compiler kernel engineered for autonomous AI models (Google Antigravity, OpenAI Codex, Claude, DeepSeek, Grok). Provides deterministic transpilation to JVM (Java 21+ Paper), Native Rust (Panama FFI), Python Asyncio, TypeScript (Node.js/OpenClaw), and WebAssembly (WASM). Delivers an **85% reduction in token consumption** and eliminates context window collapse in massive enterprise codebases (100k+ files).
+* **[SAORI Framework](https://github.com/JackStar6677-1/saori) & SRE Swarm:** Omnichannel Site Reliability Engineering (SRE) framework coordinating concurrent model pools (primary accounts with automatic secondary failovers), real-time circuit breakers, and auditable shared memory (SQLite WAL + Graphify Knowledge Memory).
+* **OpenClaw & Hermes Integration:** Native Nous Hermes JSON schema tool generation, TypeScript omnichannel daemon gateway, and unified routing across Discord, WhatsApp, In-Game RCON, and live web dashboards.
+
+### 2. 🐉 High-Concurrency Infrastructure & Game Engine Platforms
+Systems engineering for distributed, high-throughput multiplayer game networks in production:
+* **StarSuites Engine ([`Drakes-Suites`](https://github.com/SlimefunNewHorizons/Drakes-Suites)):** Large-scale modular monorepo modernizing and consolidating 190+ micro-addons into decoupled suites running on Paper/Purpur 26.x (JDK 25) with SQLite WAL persistence and hot-reloading modular configurations (`modules/*.yml`).
+  > ℹ️ **Canonical Upstream Attribution:** Slimefun is an open-source work originally created by **TheBusyBiscuit** and the open-source community. My role is that of a **modernization and rescue systems architect**: porting to Paper 1.21.11+ / Purpur 26.x, eliminating ticker bottlenecks, implementing off-heap memory in Rust, and modular monorepo unification.
+* **[Slimefun-Rust](https://github.com/SlimefunNewHorizons/Slimefun-Rust) & Odysseia-Rust:** Off-heap Rust acceleration engines using Project Panama (FFM API) for SIMD ticker computations and zero-garbage-collector industrial power grid balancing.
+* **[DrakesCraft Network](https://web.drakescraft.cl) (Dallas, TX):** Distributed multiplayer network spanning 5 isolated game modes (Survival, OneBlock, SkyBlock, Classic Vanilla, Laboratory), featuring idempotent Tebex transaction verification, macro-economic integrity gates, and hardened forks ([**BentoBox-Drake**](https://github.com/SlimefunNewHorizons/BentoBox-Drake), [**CrazyAuctions-Drake**](https://github.com/SlimefunNewHorizons/CrazyAuctions-Drake), [**InvSwitcher-Drake**](https://github.com/SlimefunNewHorizons/InvSwitcher-Drake)).
+* **Multiverse Suite (by Chagui68):** Official production integration of the Multiverse Suite (`drakes-multiverse.jar`), acknowledging the design and authorship of my collaborator **Chagui68** ([`MultiverseCreatures`](https://github.com/SlimefunNewHorizons/MultiverseCreatures) and [`MultiverseNets`](https://github.com/SlimefunNewHorizons/MultiverseNets)).
+
+### 3. 🏫 Educational Technology & Institutional Infrastructure
+Professional IT systems engineering and institutional campus administration:
+* **Campus Networking & Infrastructure:** End-to-end administration of institutional networks, server rooms, hardware virtualization, computer laboratories, and workstation fleets.
+* **Platforms & Web Portals:** Design, deployment, and maintenance of internal room reservation systems ([**CastelRoomKeeper**](https://github.com/JackStar6677-1/CastelRoomKeeper)), administrative portals, and institutional workflow automation.
+* **Lab Automation & Preventative Monitoring:** Automated remote management scripts ([**VeyonScripts**](https://github.com/JackStar6677-1/VeyonScripts)), preventative infrastructure health monitors ([**CampusCare-Monitoring**](https://github.com/JackStar6677-1/CampusCare-Monitoring)), and credential workflows.
+
+---
+
+## 🛠️ Selected Projects
+
+| Project | Focus & Engineering Role |
 |---|---|
-| [**OmniAST / GraphLang**](https://github.com/JackStar6677-1/omniast) | Kernel de grafos universal para IAs autónomas, transpilación JVM/Rust/TS/WASM y reducción de tokens (85%). |
-| [**StarSuites**](https://github.com/SlimefunNewHorizons/Drakes-Suites) | Consolidación y modernización modular de 190+ addons sobre Purpur 26.x con SQLite WAL y Rust FFM. |
-| [**SAORI Core & SRE Swarm**](https://github.com/JackStar6677-1/saori) | Orquestador SRE autónomo con pools multicuenta, failover automático y Tríada de IA (Antigravity/Codex/Claude). |
-| [**Slimefun: New Horizons**](https://github.com/SlimefunNewHorizons) | Ecosistema de modernización y rescate de 190+ repositorios de Slimefun adaptados a Paper moderno. |
-| [**Slimefun-Rust**](https://github.com/SlimefunNewHorizons/Slimefun-Rust) | Motor de aceleración off-heap en Rust (Project Panama / FFM) para cálculo SIMD sin pausas de GC. |
-| [**CastelRoomKeeper**](https://github.com/JackStar6677-1/CastelRoomKeeper) | Sistema de reservas de salas y gestión institucional para entornos educativos. |
-| [**BentoBox-Drake**](https://github.com/SlimefunNewHorizons/BentoBox-Drake) | Fork soberano con deserialización segura de Paper Data Components (Incidente #276). |
-| [**VeyonScripts**](https://github.com/JackStar6677-1/VeyonScripts) | Automatización y administración remota para laboratorios de computación institucionales. |
+| [**OmniAST / GraphLang**](https://github.com/JackStar6677-1/omniast) | Universal graph-native kernel for AI agents, multi-target transpilation (JVM, Rust, TS, WASM), and 85% token reduction. |
+| [**StarSuites**](https://github.com/SlimefunNewHorizons/Drakes-Suites) | Modular consolidation and modernization of 190+ addons for Purpur 26.x with SQLite WAL and Rust FFM. |
+| [**SAORI Core & SRE Swarm**](https://github.com/JackStar6677-1/saori) | Autonomous SRE orchestrator with multi-account pools, automated failover, and multi-model AI triad (Antigravity / Codex / Claude). |
+| [**Slimefun: New Horizons**](https://github.com/SlimefunNewHorizons) | Modernization ecosystem rescuing 190+ Slimefun repositories ported to modern Paper/Purpur architectures. |
+| [**Slimefun-Rust**](https://github.com/SlimefunNewHorizons/Slimefun-Rust) | Off-heap Rust acceleration engine (Project Panama / FFM) for SIMD calculations with zero GC pauses. |
+| [**CastelRoomKeeper**](https://github.com/JackStar6677-1/CastelRoomKeeper) | Institutional room booking and facilities management platform for educational campuses. |
+| [**BentoBox-Drake**](https://github.com/SlimefunNewHorizons/BentoBox-Drake) | Hardened fork featuring safe Paper Data Component deserialization (Incident #276 fix). |
+| [**VeyonScripts**](https://github.com/JackStar6677-1/VeyonScripts) | Remote management and automation suite for institutional computer laboratories. |
 
 ---
 
-## ⚙️ Filosofía de Trabajo
+## ⚙️ Engineering Philosophy
 
-Me interesa el software que resiste en el tiempo: despliegues reproducibles, observabilidad rigurosa, integridad de datos, documentación clara y trazabilidad absoluta. La tecnología debe simplificar la vida real, no complicarla.
+I value software engineered to endure: reproducible deployments, rigorous observability, transactional data integrity, crystalline documentation, and end-to-end traceability. Technology exists to simplify reality, not complicate it.
