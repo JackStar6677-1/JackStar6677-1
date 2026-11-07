@@ -8,196 +8,71 @@ No busca ser biografia completa. Es una ficha ampliada de criterio tecnico, expe
 
 ## Perfil base
 
-Soy **Ingeniero en Informatica titulado por DUOC UC**. Trabajo entre desarrollo de software, infraestructura digital, administracion de sistemas, automatizacion para laboratorios, soporte TI y herramientas internas.
+Soy **Ingeniero en Informatica titulado por DUOC UC**. Trabajo entre arquitectura de motores y sistemas de alta concurrencia (Java 25 + Rust Panama FFM), desarrollo de software full-stack, infraestructura Linux/Windows, automatizacion para laboratorios, soporte TI institucional y orquestacion de agentes de IA.
 
-Mi forma natural de trabajar es sistemica: entiendo dependencias, separo capas, mido riesgo, documento lo necesario y busco continuidad operacional. Me interesa menos acumular tecnologia y mas construir cosas que puedan vivir, mantenerse y recuperarse si algo falla.
+Mi forma natural de trabajar es sistemica: entiendo dependencias, separo capas, mido riesgo con datos reales, documento lo necesario y busco continuidad operacional. Me interesa menos acumular tecnologia de moda y mas construir sistemas que puedan vivir en produccion, mantenerse y recuperarse limpiamente si algo falla.
 
 ## Areas donde puedo operar
 
 | Area | Ejemplos concretos |
 |---|---|
-| Desarrollo web | Sitios, landings, paneles, APIs, formularios, dashboards y sistemas internos. |
-| Backend y datos | Python, FastAPI, PHP, Java, PostgreSQL, MySQL, SQLite, migraciones y validaciones. |
-| Infraestructura | Linux, Docker, Cloudflare Tunnel, Tailscale, systemd, UFW, fail2ban, backups y monitoreo. |
-| Soporte TI | Equipos, laboratorios, red, cableado, salas, proyectores, continuidad operativa y diagnostico. |
-| Automatizacion | Python, PowerShell, Bash, reportes, scripts reproducibles e integraciones de APIs. |
-| Minecraft tecnico | Paper, Spigot, Slimefun, plugins, rendimiento, mantenimiento y ecosistema DrakesCraft. |
-| Documentacion | README utiles, runbooks, rollback, procedimientos y guias para continuidad. |
+| Motores y Sistemas (Java × Rust) | `DrakesPurpur 26.2` (Java 25 + Rust Panama FFM), `DrakeStar-Launcher` (Tauri 2 + Rust + Svelte 5), `Slimefun-Rust`, optimizacion de chunks y protocolos binarios (`horizon:lod` v1, SLP `0x00`). |
+| Compiladores, Grafos e IA | `OmniAST / GraphLang`, `graphify`, `SAORI 3.0` (Antigravity, Codex, Claude, NVIDIA Cloud NIM), MCP `ai_hub_memory`, observabilidad y reduccion de tokens. |
+| Desarrollo web y escritorio | Sitios, landings, paneles, APIs, Tauri 2, Svelte 5, TypeScript, dashboards y sistemas internos. |
+| Backend y datos | Python, FastAPI, Rust, Java 21/25, PHP, PostgreSQL, MySQL, SQLite WAL, migraciones y validaciones transaccionales. |
+| Infraestructura | Linux (Ubuntu/Debian/Fedora/Kubuntu), Docker, Cloudflare Tunnel, Tailscale, systemd, UFW, fail2ban, backups Restic/7z y monitoreo. |
+| Soporte TI e Instituciones | Equipos, laboratorios, servidores fisicos (`ccg-fisico`), red, cableado, salas, proyectores, continuidad operativa y diagnostico. |
+| Ecosistema Open-Source | Mas de 200 repositorios en [`SlimefunNewHorizons` (DrakesCraft Labs)](https://github.com/SlimefunNewHorizons): suites autonomas (`Multiverse` junto a Chagui68), forks open-source endurecidos (`BentoBox-Drake`, `PlayerVaultZ-Drake`, `CrazyAuctions`, `WorldwideChat`), `StarSuites` y division Linux/HUDs (junto a DrgX89). |
 
-## Infraestructura actual: star
+## Infraestructura actual: Star, Nexus y Clúster Distribuido
 
-`star` es mi servidor de produccion. No lo trato como experimento desordenado: esta pensado para servicios vivos, con exposicion controlada y operaciones basicas de mantenimiento.
+Opero una topologia coordinada por Tailscale y SSH entre la nube y estaciones locales:
 
-### Componentes generales
+- **`star` (VPS 24/7 en produccion):**
+  - Ubuntu LTS + Docker para servicios productivos (`SAORI`, `ai_hub_memory` MCP en `:8077`, portales web, calendarios, monitoreo).
+  - Cloudflare Tunnel para dominios publicos (`web.drakescraft.cl`, `calendar.drakescraft.cl`, `jack.drakescraft.cl`).
+  - Tailscale para plano administrativo interno (Webmin, Portainer, Uptime Kuma, MCP).
+  - UFW restrictivo, fail2ban, rotacion de logs, healthchecks por timers systemd y backups Restic con prueba de restauracion.
+- **`nexus` (Estacion de Ingenieria Local):**
+  - Windows 11 + WSL2 Ubuntu + JDK 21 & JDK 25 Temurin + Rust 1.94+ + Node 24 + RTX 4060.
+  - Espejo sincronizado de los **241+ repositorios** (organizacion y personales) con grafos AST locales (`graphify` + `omniast`) para compilacion pesada, benchmarks JFR y pruebas de integracion de **Project Purple**.
 
-- Ubuntu 26.04 LTS.
-- Docker para servicios productivos.
-- Cloudflare Tunnel para dominios publicos.
-- Tailscale para paneles internos y administracion.
-- UFW con politica restrictiva.
-- fail2ban para SSH.
-- Rotacion de logs Docker.
-- Healthcheck local con timer systemd.
-- Backups Restic con prueba de restore.
+## Project Purple y Organización DrakesCraft Labs (`SlimefunNewHorizons`)
 
-### Servicios publicos
+La organizacion **[Slimefun: New Horizons · DrakesCraft Labs](https://github.com/SlimefunNewHorizons)** abarca mucho mas que solo Slimefun:
 
-| Servicio | Rol |
-|---|---|
-| `calendar.drakescraft.cl` | CCAACalendar, calendario multicentro con reservas e integracion Google Calendar. |
-| `web.drakescraft.cl` | Portal publico del ecosistema DrakesCraft. |
-| `jack.drakescraft.cl` | Portal profesional publico con backend liviano y API. |
+1. **Project Purple (`DrakesPurpur` + `DrakeStar-Launcher`):**
+   - **[`DrakesPurpur`](https://github.com/SlimefunNewHorizons/DrakesPurpur):** Motor de servidor hibrido en Java 25 + Rust (`native/drakes-hybrid` via Panama FFM) con paridad bit a bit verificada en NBT y ruido, prefetch direccional de chunks en dos niveles (`P-promovido`), codec y cache LRU $O(1)$ de terreno lejano (`HorizonLodProtocol` / `HorizonLodCache`), Crash Guard y aislamiento de 6 modalidades.
+   - **[`DrakeStar-Launcher`](https://github.com/SlimefunNewHorizons/DrakeStar-Launcher):** Launcher hibrido de escritorio en Tauri 2 + Rust + Svelte 5 para gestionar clientes, servidores locales (`Local Forge` con consola en vivo, instalador de preset Slimefun y backups de mundos) y estado online (`mc_status_ping` SLP `0x00`), con 51/51 tests en Rust pasando en Windows y Linux.
+2. **Suite Multiverse y Pumpkin-Launcher (por [Chagui68](https://github.com/Chagui68)):**
+   - Plugins 100% autonomos (`MultiverseNets`, `MultiverseCreatures`, `MultiverseTinker`, `MultiverseProgramming`, `MultiverseGambling`) que funcionan sin depender de Slimefun, junto con [`Pumpkin-launcher`](https://github.com/Chagui68/Pumpkin-launcher).
+3. **Forks Open-Source Endurecidos (Independientes de Slimefun):**
+   - Mantenimiento oficial de forks open-source para Paper 1.21.11 y Purpur 26.2: `BentoBox-Drake`, `InvSwitcher-Drake`, `PlayerVaultZ-Drake`, `CrazyAuctions`, `sbank`, `LevelledMobs-Drake`, `WorldwideChat` e `InteractiveChat-DiscordSRV-Addon`.
+4. **División de Escritorio Linux, Temas Cyberpunk y HUDs (junto a [DrgX89 / Nixcobt](https://github.com/DrgX89)):**
+   - Integracion de proyectos de personalizacion avanzada de Linux en QML y Python (`Blackwall-Kubuntu`, bootloaders GRUB y `Hud-Linux`).
+5. **`StarSuites` (`Drakes-Suites`) y `Slimefun4-Drake`:**
+   - Consolidacion modular en 8 Mega-Suites para Paper/Purpur 26.2 (JDK 25) y matriz automatizada en 8 shards para 112 addons.
 
-### Servicios internos protegidos
+## Proyectos Institucionales y Soporte TI
 
-Uso paneles de administracion y monitoreo, pero no publico sus rutas privadas ni los expongo como servicios abiertos. La idea es separar el plano publico del plano administrativo.
+### CastelRoomKeeper / CCAACalendar
+Plataforma multicentro para calendarios institucionales, reservas, centros, permisos e integracion con Google Calendar (FastAPI, PostgreSQL, Docker, Alembic).
 
-- Webmin.
-- Portainer.
-- Uptime Kuma.
-- Administracion por Tailscale.
+### VeyonScripts y Automatización de Laboratorios
+Herramientas de diagnostico, escaneo de red, mapeo de equipos y operacion masiva para laboratorios de computacion con Veyon, junto con soporte en terreno (cableado, switches, patch panels, proyectores y clonado con Clonezilla).
 
-## Proyectos productivos
+## Laboratorio Personal
 
-### CCAACalendar
-
-Plataforma multicentro para calendarios institucionales, reservas, centros, permisos e integracion con Google Calendar. El foco es coordinacion real de espacios y visibilidad por centro.
-
-Tecnologias y criterios:
-
-- Backend Python/FastAPI.
-- PostgreSQL.
-- Docker.
-- Migraciones Alembic.
-- Integracion Google Calendar.
-- Healthcheck publico.
-- Control de acceso y separacion por centro.
-
-### jack-portal
-
-Portal profesional publico en `jack.drakescraft.cl`.
-
-Caracteristicas:
-
-- Landing oscura/premium orientada a servicios tecnicos.
-- Backend liviano con Python stdlib.
-- Endpoints publicos seguros:
-  - `/api/health`
-  - `/api/profile`
-  - `/api/services`
-  - `/api/projects`
-  - `/api/contact`
-- Formulario con validacion, honeypot y rate limit simple.
-- Docker en `127.0.0.1:8082`.
-
-### DrakesCraft Web
-
-Portal publico del ecosistema DrakesCraft. Sirve como punto de entrada a comunidad, tienda/informacion y presencia del proyecto.
-
-## Automatizacion y soporte TI
-
-### VeyonScripts
-
-Herramientas de diagnostico y automatizacion para laboratorios con Veyon.
-
-Casos de uso:
-
-- Escaneo de red.
-- Mapeo de equipos.
-- Diagnostico por sala.
-- Operacion masiva de laboratorios.
-- Soporte reproducible para entornos Windows.
-
-### Soporte en terreno
-
-Experiencia con:
-
-- Equipos de laboratorio.
-- Proyectores.
-- Cableado.
-- Switches.
-- Patch panels.
-- Clonado con Clonezilla.
-- Despliegues Windows.
-- Diagnostico de conectividad.
-
-## Redes y sistemas
-
-Manejo intermedio/practico de:
-
-- IP estatica/dinamica.
-- DHCP.
-- DNS.
-- NAT.
-- VLAN basicas.
-- Resolucion de conflictos de red.
-- Identificacion por MAC.
-- Herramientas como `tracert`, `nslookup`, `ipconfig`, `netstat`, `ss`, `curl` y logs de sistema.
-
-Me adapto rapido a infraestructura nueva si tengo acceso, contexto y restricciones claras.
-
-## Servidores Minecraft y DrakesCraft
-
-Administro el ecosistema DrakesCraft desde un enfoque tecnico, no solo comunitario.
-
-Areas:
-
-- Paper / Spigot / Purpur.
-- Slimefun.
-- Plugins propios o adaptados.
-- Rendimiento, TPS, timings y cuellos de botella.
-- Backups y mantenimiento.
-- Staff tooling.
-- Arquitectura de mundos, ranks, crates y sistemas modulares.
-- Organizacion [DrakesCraft-Labs](https://github.com/DrakesCraft-Labs).
-
-## Laboratorio personal
-
-Algunas lineas son exploratorias. Las mantengo porque prueban ideas de arquitectura, simulacion, tooling local o automatizacion.
-
-- **Aurexalis:** navegador personal, Gecko/Floorp, Rust y UI reactiva.
-- **AstroControlSim:** simulacion/control de sistemas.
-- **omnisky-miner:** observatorio virtual local con dashboard y SQLite.
-- **Coronalis:** addon Slimefun con conceptos astronomicos.
-- **AureonVault:** exploracion de file manager local para Windows.
-- **VotV-Points-Editor:** utilidad local con enfoque seguro y backups.
-- **StellarDaybook:** bitacora automatizada y memoria tecnica diaria.
+- **OmniAST / GraphLang:** kernel de grafos intermedios para agentes de IA y transpilacion multi-objetivo.
+- **Aurexalis:** navegador personal basado en Gecko/Floorp, Rust y UI reactiva.
+- **AstroControlSim & omnisky-miner:** simulacion de control y observatorio virtual local con SQLite.
+- **AureonVault & StellarDaybook:** explorador local seguro para Windows y bitacora tecnica automatizada.
 
 ## Setup de trabajo
 
-- **PC principal:** Ryzen 5 5500, RTX 4060 8GB, 32GB RAM, almacenamiento NVMe/HDD. Uso para backend, Docker, IA local ligera, compilaciones, multimedia, VMs y servidores locales.
-- **Laptop de trabajo:** Intel Core i7, NVIDIA MX450, 16GB RAM, SSD. Uso para desarrollo, scripting, administracion TI y trabajo remoto.
-- **Sistemas:** Fedora, Windows, WSL2/Ubuntu y servidores Linux.
-- **IDE:** VS Code, PyCharm y herramientas de consola.
-
-## Filosofia de desarrollo
-
-- Hago codigo practico, no adornado para tutoriales.
-- Prefiero automatizar antes que repetir procesos manuales.
-- Todo lo que construyo debe responder a una necesidad real o aprendizaje tecnico claro.
-- Si nadie ordena un sistema, el sistema se degrada.
-- La documentacion corta y accionable vale mas que una explicacion enorme imposible de mantener.
-- Produccion sin backup, monitoreo o rollback no esta realmente lista.
-
-## Como trabajo
-
-1. Diagnostico el problema y sus restricciones.
-2. Identifico dependencias, datos, usuarios y riesgos.
-3. Propongo una ruta tecnica realista.
-4. Implemento por etapas.
-5. Valido con casos reales.
-6. Documento lo necesario.
-7. Dejo una forma de mantener, respaldar o revertir.
-
-## Lineas de trabajo actuales
-
-- Sistemas de calendario, reservas y coordinacion institucional.
-- Portales web publicos con backend ligero.
-- Infraestructura personal/profesional en `star`.
-- Automatizacion y diagnostico para laboratorios.
-- Ecosistema DrakesCraft y plugins/servidores Minecraft.
-- Herramientas locales para soporte, bitacora, diagnostico y respaldo.
-- Exploracion aplicada de IA como copiloto de investigacion, prototipado y mantenimiento.
+- **PC principal (`Nexus`):** Ryzen 5 5500, RTX 4060 8GB, 32GB RAM, almacenamiento NVMe/HDD.
+- **Laptop de trabajo (`Nova`):** Intel Core i7, NVIDIA MX450, 16GB RAM, SSD.
+- **Sistemas:** Fedora / Ubuntu / Kubuntu Linux, Windows 11 y WSL2.
 
 ## Certificaciones DUOC UC
 
@@ -211,8 +86,6 @@ Algunas lineas son exploratorias. Las mantengo porque prueban ideas de arquitect
 - Calidad de Software.
 - Analisis y Planificacion de Requerimientos Informaticos.
 - Ingles Internacional - Nivel Intermedio Alto.
-
-Estas certificaciones estan otorgadas por el Instituto Profesional DUOC UC segun las disposiciones reglamentarias vigentes.
 
 ## Estadisticas extendidas
 
