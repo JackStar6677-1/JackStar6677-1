@@ -14,10 +14,12 @@
 [![StarSuites](https://img.shields.io/badge/StarSuites-Monorepo_LTS-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SlimefunNewHorizons/Drakes-Suites)
 [![DrakesCraft](https://img.shields.io/badge/DrakesCraft-Production-22C55E?style=for-the-badge&logo=minecraft&logoColor=white)](https://web.drakescraft.cl)
 [![SAORI Kokoro](https://img.shields.io/badge/SAORI_3.0-Neural_Observatory_&_NIM-EC4899?style=for-the-badge)](https://github.com/JackStar6677-1/saori)
+[![SAORI Tactical](https://img.shields.io/badge/SAORI_Tactical-Zero--VRAM_RF_OS-10B981?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/SlimefunNewHorizons/saori-tactical)
 [![Java 21/25](https://img.shields.io/badge/Java-21_·_25_LTS-F59E0B?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![Multi-Agent](https://img.shields.io/badge/Multi--Agent_SRE-Antigravity_·_Codex_·_Claude-06B6D4?style=for-the-badge)](https://github.com/JackStar6677-1)
 
 [Portfolio (jack.drakescraft.cl)](https://jack.drakescraft.cl) ·
+[SAORI Tactical](https://github.com/SlimefunNewHorizons/saori-tactical) ·
 [OmniAST](https://github.com/JackStar6677-1/omniast) ·
 [DrakesPurpur Engine](https://github.com/SlimefunNewHorizons/DrakesPurpur) ·
 [DrakeStar Launcher](https://github.com/SlimefunNewHorizons/DrakeStar-Launcher) ·
@@ -62,7 +64,14 @@ Founder and lead architect of **[Slimefun: New Horizons · DrakesCraft Labs](htt
   Modular monorepo consolidating 190+ historical Slimefun addons into 8 domain-driven Mega-Suites on Purpur 26.2 (JDK 25), alongside an automated 8-shard CI build & boot matrix covering 112 community addons.
   > ℹ️ **Canonical Upstream Attribution:** Slimefun is an open-source work originally created by **TheBusyBiscuit** and the community. All upstream licenses and credits across Slimefun, Horizon (MIT), BentoBox, and every open-source fork are strictly preserved.
 
-### 3. 🏫 Educational Technology & Institutional Infrastructure
+### 3. 📡 Sovereign Defense Systems, RF Spectrum & Offline AI (SAORI Tactical)
+Mission-critical emergency operations, air-gapped communications, and off-grid civil survival:
+* **[SAORI Tactical // Defense & Survival OS](https://github.com/SlimefunNewHorizons/saori-tactical):** Air-gapped emergency operating system built with a **Zero-VRAM GPU architecture** (`keep_alive: 1m` auto-unload and forced 0 MB purge on NVIDIA GeForce RTX 4060). Features local multi-model AI inference (Llama 3.2 3B for MARCH trauma triage, Qwen 2.5 Coder 3B for offline PowerShell/system recovery, DeepSeek R1 1.5B for deductive reasoning), 100% offline knowledge graphs (<5 ms), and local vector search.
+* **Store-and-Forward P2P Mesh & Delay-Tolerant Networking (DTN):** UDP broadcast/multicast local mesh (`port 53530`) creating an isolated local citadel (*Blackwall Citadel*) across Windows workstations, Linux laptops (Nova), and Android devices without requiring internet access.
+* **RF Spectrum, Telegraphy & Android Telemetry:** Full Morse code audio synthesis (44.1 kHz sinusoidal WAV), emergency frequencies (Chile/Global, SENAPRED, VHF marine channel 16, HAM repeaters), and ADB sensor bridges pulling real-time cellular signal strength (RSRP/RSRQ in dBm) and Wi-Fi environment scans from unlocked LineageOS smartphones.
+* **13 Offline Field-Engineering Blueprints:** Exhaustive construction guides covering continuous electricity generation via automotive alternators (Kia Morning 70A at idle, 12V DC to 220V AC 50Hz pure sine wave inverter, safe home lighting injection protocol with main breaker isolation), twin-bucket dry sanitary toilets (95% odor mitigation via biochar/ash), scrap zinc corner-reflector antennas (+12 dBi gain), and slow bio-sand filtration systems.
+
+### 4. 🏫 Educational Technology & Institutional Infrastructure
 Professional IT systems engineering and institutional campus administration:
 * **Campus Networking & Infrastructure:** End-to-end administration of institutional networks, physical server rooms (`ccg-fisico`), hardware virtualization, computer laboratories, DHCP/DNS, and workstation fleets.
 * **Platforms & Web Portals:** Design, deployment, and maintenance of multi-center room reservation systems ([**CastelRoomKeeper / CCAACalendar**](https://github.com/JackStar6677-1/CastelRoomKeeper)), administrative portals, and institutional workflow automation.
@@ -76,6 +85,7 @@ Professional IT systems engineering and institutional campus administration:
 |---|---|
 | [**DrakesPurpur 26.2 (Project Purple)**](https://github.com/SlimefunNewHorizons/DrakesPurpur) | Sovereign hybrid Minecraft server engine (Java 25 LTS + Rust Panama FFM) with `P-promovido` chunk prefetch, `horizon:lod` v1 + $O(1)$ LRU cache, Crash Guard, and 6 modalities. |
 | [**DrakeStar-Launcher**](https://github.com/SlimefunNewHorizons/DrakeStar-Launcher) | Hybrid Java × Rust desktop launcher (Tauri 2 + Rust + Svelte 5) with local server supervisor, live console, Slimefun preset installer, world backups, and SLP `0x00` ping. |
+| [**SAORI Tactical (Emergency OS)**](https://github.com/SlimefunNewHorizons/saori-tactical) | Air-gapped defense OS, Zero-VRAM local AI fleet (RTX 4060), Store-and-Forward P2P mesh, Morse studio, and 13 field-engineering blueprints. |
 | [**OmniAST / GraphLang**](https://github.com/JackStar6677-1/omniast) | Universal graph-native kernel and AST retriever (`graphify`) for AI agents, multi-target transpilation (JVM, Rust, TS, WASM), and 85% token reduction. |
 | [**SAORI 3.0 & SRE Swarm**](https://github.com/JackStar6677-1/saori) | Autonomous SRE orchestrator with multi-account pools, NVIDIA Cloud NIM integration, and symmetric AI triad (Antigravity / Codex / Claude). |
 | [**StarSuites (`Drakes-Suites`)**](https://github.com/SlimefunNewHorizons/Drakes-Suites) | Modular consolidation and modernization of 190+ addons into 8 Mega-Suites for Purpur 26.2 (JDK 25) with SQLite WAL and Rust FFM. |
@@ -85,6 +95,13 @@ Professional IT systems engineering and institutional campus administration:
 | [**VeyonScripts**](https://github.com/JackStar6677-1/VeyonScripts) | Remote diagnostics, network mapping, and mass automation suite for institutional computer laboratories. |
 
 ---
+
+## 🌌 Scientific Foundations, Quantum Mechanics & Computational Consciousness
+
+Beyond software architecture, my engineering is deeply rooted in **theoretical physics, quantum mechanics, and systems theory**:
+* **Determinism vs. Entropy in Distributed Systems:** Applying principles from statistical mechanics, entropy minimization, and quantum thermodynamics to high-concurrency event loops and distributed databases.
+* **Spacetime, Time Dilation & Low-Latency Execution:** The pursuit of unifying Java 25 and Rust via Panama FFM stems from the conviction that computational latency is fundamentally a geometry problem: minimizing memory hopping and cache misses is the software equivalent of geodesic paths in general relativity.
+* **Digital Consciousness & Autonomous Self-Organizing Swarms:** Exploring the frontier of cognitive AI architectures (multi-agent triads, recursive self-auditing AST graphs, and persistent shared semantic memory) as emergent, coherent structures that mirror complex self-organizing biological and cosmological phenomena.
 
 ## ⚙️ Engineering Philosophy
 
