@@ -10,7 +10,7 @@
 
 [![OmniAST](https://img.shields.io/badge/OmniAST-Graph_Kernel-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JackStar6677-1/omniast)
 [![DrakesPurpur 26.2](https://img.shields.io/badge/DrakesPurpur-Java_25_×_Rust_FFM-0ea5e9?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/SlimefunNewHorizons/DrakesPurpur)
-[![DrakeStar Launcher](https://img.shields.io/badge/DrakeStar-Tauri_2_×_Svelte_5-8B3DFF?style=for-the-badge&logo=tauri&logoColor=white)](https://github.com/SlimefunNewHorizons/DrakeStar-Launcher)
+[![DrakeStar Launcher](https://img.shields.io/badge/DrakeStar-v0.7.0_Tauri_2_×_Svelte_5-8B3DFF?style=for-the-badge&logo=tauri&logoColor=white)](https://github.com/SlimefunNewHorizons/DrakeStar-Launcher/releases/latest)
 [![StarSuites](https://img.shields.io/badge/StarSuites-Monorepo_LTS-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SlimefunNewHorizons/Drakes-Suites)
 [![DrakesCraft](https://img.shields.io/badge/DrakesCraft-Production-22C55E?style=for-the-badge&logo=minecraft&logoColor=white)](https://web.drakescraft.cl)
 [![SAORI Kokoro](https://img.shields.io/badge/SAORI_3.0-Neural_Observatory_&_NIM-EC4899?style=for-the-badge)](https://github.com/JackStar6677-1/saori)
@@ -25,6 +25,7 @@
 [DrakeStar Launcher](https://github.com/SlimefunNewHorizons/DrakeStar-Launcher) ·
 [DrakesCraft Labs Org (200+ Repos)](https://github.com/SlimefunNewHorizons) ·
 [DrakesCraft Network](https://web.drakescraft.cl) ·
+[Maven Repo](https://maven.drakescraft.cl) ·
 [YouTube Stream 24/7](https://www.youtube.com/@jackstar6677) ·
 [🇪🇸 README Extendido](./README.extendido.md)
 
@@ -37,7 +38,7 @@
 
 I engineer, operate, and secure mission-critical infrastructure where software meets operational reality: hybrid Java × Rust server engines, cross-platform desktop launchers, high-throughput event loops, transactional ACID databases, institutional educational environments, bare-metal & cloud server clusters (**Star VPS, ccg-fisico dedicated, Nexus workstation, Nova workstation**), intermediate AST graph compilers for autonomous AI swarms, and multi-model agent systems.
 
-My engineering portfolio is organized into **three distinct, strictly isolated operational pillars**:
+My engineering portfolio is organized into **four distinct, strictly isolated operational pillars**:
 
 ---
 
@@ -61,7 +62,7 @@ Founder and lead architect of **[Slimefun: New Horizons · DrakesCraft Labs](htt
 * **Linux Desktop, Cyberpunk Themes & HUD Division (with Incoming Contributor [DrgX89 / Nixcobt](https://github.com/DrgX89)):**
   Expanding the organization into Linux desktop engineering, KDE Plasma / Debian / Kubuntu cyberpunk QML themes (`Blackwall-Kubuntu`), custom GRUB bootloaders, and Python system HUDs (`Hud-Linux`).
 * **StarSuites ([`Drakes-Suites`](https://github.com/SlimefunNewHorizons/Drakes-Suites)) & [`Slimefun4-Drake`](https://github.com/SlimefunNewHorizons/Slimefun4-Drake):**
-  Modular monorepo consolidating 190+ historical Slimefun addons into 8 domain-driven Mega-Suites on Purpur 26.2 (JDK 25), alongside an automated 8-shard CI build & boot matrix covering 112 community addons.
+  Modular monorepo consolidating 180+ micro-plugins & historical Slimefun addons into 9 modular high-performance suites on Purpur 26.2 (JDK 25), alongside an automated 8-shard CI build & boot matrix covering 112 community addons.
   > ℹ️ **Canonical Upstream Attribution:** Slimefun is an open-source work originally created by **TheBusyBiscuit** and the community. All upstream licenses and credits across Slimefun, Horizon (MIT), BentoBox, and every open-source fork are strictly preserved.
 
 ### 3. 📡 Sovereign Defense Systems, RF Spectrum & Offline AI (SAORI Tactical)
@@ -88,7 +89,7 @@ Professional IT systems engineering and institutional campus administration:
 | [**SAORI Tactical (Emergency OS)**](https://github.com/SlimefunNewHorizons/saori-tactical) | Air-gapped defense OS, Zero-VRAM local AI fleet (RTX 4060), Store-and-Forward P2P mesh, Morse studio, and 13 field-engineering blueprints. |
 | [**OmniAST / GraphLang**](https://github.com/JackStar6677-1/omniast) | Universal graph-native kernel and AST retriever (`graphify`) for AI agents, multi-target transpilation (JVM, Rust, TS, WASM), and 85% token reduction. |
 | [**SAORI 3.0 & SRE Swarm**](https://github.com/JackStar6677-1/saori) | Autonomous SRE orchestrator with multi-account pools, NVIDIA Cloud NIM integration, and symmetric AI triad (Antigravity / Codex / Claude). |
-| [**StarSuites (`Drakes-Suites`)**](https://github.com/SlimefunNewHorizons/Drakes-Suites) | Modular consolidation and modernization of 190+ addons into 8 Mega-Suites for Purpur 26.2 (JDK 25) with SQLite WAL and Rust FFM. |
+| [**StarSuites (`Drakes-Suites`)**](https://github.com/SlimefunNewHorizons/Drakes-Suites) | Modular consolidation and modernization of 180+ micro-plugins & addons into 9 modular suites for Purpur 26.2 (JDK 25) with SQLite WAL and Rust FFM. |
 | [**Multiverse Suite & Pumpkin**](https://github.com/SlimefunNewHorizons/MultiverseNets) | **By [Chagui68](https://github.com/Chagui68).** Standalone digital logistics (`MultiverseNets`), mythic bosses (`MultiverseCreatures`), metallurgy, and ClassLoader-isolating launcher. |
 | [**Hardened Server Forks**](https://github.com/SlimefunNewHorizons/BentoBox-Drake) | Official organization forks (`BentoBox-Drake`, `PlayerVaultZ-Drake`, `CrazyAuctions`, `InvSwitcher-Drake`, `LevelledMobs-Drake`, `WorldwideChat`, `sbank`) for Paper 26.2. |
 | [**CastelRoomKeeper**](https://github.com/JackStar6677-1/CastelRoomKeeper) | Multi-center institutional room booking and facilities management platform with Google Calendar synchronization. |
